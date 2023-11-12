@@ -1,17 +1,13 @@
 # ✨ Features
 
-{% hint style="info" %}
-**GitBook tip:** A succinct video overview is a great way to introduce folks to your product. Embed a Loom, Vimeo or YouTube video and you're good to go! We love this video from the fine folks at Loom as a perfect example of a succinct feature overview.
-{% endhint %}
+## Kanban board
 
-## Awesome Feature One
+Harmony already implements most of a Kanban style project management's tool such as **Trello**. The entire process on how to create workspaces, boards, lists etc.. is described on the **Documentation** section of the docs.
 
-Get amazing things done with awesome feature one. But remember that awesome feature two and three exist too. In fact, Awesome Product is full of awesome features.
 
-![](https://images.unsplash.com/photo-1555774698-0b77e0d5fac6?crop=entropy\&cs=tinysrgb\&fm=jpg\&ixid=MnwxOTcwMjR8MHwxfHNlYXJjaHwyfHxhcHB8ZW58MHx8fHwxNjYwNTgzMzQz\&ixlib=rb-1.2.1\&q=80)
 
-## Awesome Feature Two
+<figure><img src="../.gitbook/assets/full-board-light.png" alt=""><figcaption><p>Kanban board</p></figcaption></figure>
 
-Get amazing things done with awesome feature two. But remember that awesome feature one and three exist too. In fact, Awesome Product is full of awesome features.
+## Scrum Projects
 
-![](https://images.unsplash.com/photo-1569144157591-c60f3f82f137?crop=entropy\&cs=tinysrgb\&fm=jpg\&ixid=MnwxOTcwMjR8MHwxfHNlYXJjaHwxfHxmZWF0dXJlfGVufDB8fHx8MTY2MDU4MzM1OQ\&ixlib=rb-1.2.1\&q=80)
+This is the second milestone for Harmony project management tool. Scrum projects will be supported as soon as passible so stay tuned! Harmony's goal is to provide most if not all scrum features provided by **Jira**.&#x20;
