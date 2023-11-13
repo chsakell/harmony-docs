@@ -4,6 +4,10 @@ description: The only project management tool you actually need
 
 # 👋 Welcome to Harmony
 
+##
+
+<figure><img src=".gitbook/assets/harmony-logo.jpg" alt=""><figcaption></figcaption></figure>
+
 ## Overview
 
 Harmony is a project management tool to manage your projects.
