@@ -15,7 +15,7 @@
 * [Boards](guide/boards/README.md)
   * [➕ Create](guide/boards/create.md)
   * [👥 Members](guide/boards/members.md)
-  * [Board lists](guide/boards/board-lists.md)
+  * [📊 Board lists](guide/boards/board-lists.md)
 
 ***
 
