@@ -4,8 +4,10 @@
 
 ## Overview
 
-* [💡 What to expect](overview/what-to-expect.md)
 * [✨ Features](overview/features.md)
+* [💡 What to expect](overview/what-to-expect.md)
+* [⚙ Technology](overview/technology.md)
+* [💳 Buy online](overview/buy-online.md)
 
 ## Guide
 
