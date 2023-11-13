@@ -1,12 +1,10 @@
 ---
-description: The only project management tool you actually need
+description: Bring harmony to your teams
 ---
 
 # 👋 Welcome to Harmony
 
-##
-
-<figure><img src=".gitbook/assets/harmony-logo.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/harmony-logo.jpg" alt=""><figcaption><p>Harmony</p></figcaption></figure>
 
 ## Overview
 
