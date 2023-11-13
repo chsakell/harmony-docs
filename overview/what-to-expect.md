@@ -10,7 +10,7 @@ Harmony already implements most of a **Kanban** software tool features, such as 
 
 The second big milestone though is to add support for **Scrum Projects**. This means that you will be able to create a scrum project, create a backlog, sprint iterations and everything related to a scrum oriented project.
 
-Here are some of the features to be implemented soon:
+The main goal is to add most of the features someone can find on Trello & Jira. Here are some of the features to be implemented soon:
 
 * SendGrid integration
 * Email notifications _(**HangFire** & **RabbitMQ** integration via new project for scaling)_&#x20;
