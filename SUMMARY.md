@@ -21,9 +21,8 @@
 
 * [Cards](cards/README.md)
   * [➕ Create](cards/create.md)
-  * [Set description](cards/set-description.md)
-  * [Create check lists](cards/create-check-lists.md)
-  * [Add list item](cards/add-list-item.md)
+  * [👁 View](cards/view.md)
+  * [✅ Check lists](cards/check-lists.md)
   * [👥 Assign members](cards/assign-members.md)
   * [Add labels](cards/add-labels.md)
   * [Set dates](cards/set-dates.md)
