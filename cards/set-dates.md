@@ -10,3 +10,8 @@ Clicking two different days will assign both a start and a due date. If the star
 Dates are assigned after clicking the **Save** button.
 {% endhint %}
 
+#### Read next - Add card attachments
+
+{% content-ref url="attachments.md" %}
+[attachments.md](attachments.md)
+{% endcontent-ref %}

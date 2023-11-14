@@ -30,3 +30,9 @@ Each list has progress to display the total status of its items.
 * Edit a list's title by clicking on the title
 * Delete a check list by clicking the bin icon
 {% endhint %}
+
+#### Read next - assign card members
+
+{% content-ref url="assign-members.md" %}
+[assign-members.md](assign-members.md)
+{% endcontent-ref %}

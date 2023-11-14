@@ -13,3 +13,9 @@ After creating a kanban board, you will be able to add lists to it. An empty boa
 
 
 <figure><img src="../../.gitbook/assets/empty-board-dark.png" alt=""><figcaption><p>Empty board - dark theme</p></figcaption></figure>
+
+#### Read next - Create board lists
+
+{% content-ref url="board-lists.md" %}
+[board-lists.md](board-lists.md)
+{% endcontent-ref %}

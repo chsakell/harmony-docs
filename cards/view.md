@@ -13,3 +13,9 @@ Inside the card's view, just click on the card's title and enter the new title.
 ### Edit card's description
 
 The card's view contains an integrated text editor where you can add custom html using its buttons. The editor also supports copying an image from the web and pasting inside.
+
+#### Read next - Add check lists
+
+{% content-ref url="check-lists.md" %}
+[check-lists.md](check-lists.md)
+{% endcontent-ref %}

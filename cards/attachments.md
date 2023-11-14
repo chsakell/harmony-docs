@@ -8,3 +8,9 @@ Cards may contain image or file attachments to it. In the card's view you can up
 * If an attachment is an **image**, then clicking on it will open an image viewer.
 * If an attachment is a **file**, then clicking on it will open the file for download on a new tab
 {% endhint %}
+
+#### Read next - Archive a card
+
+{% content-ref url="archive.md" %}
+[archive.md](archive.md)
+{% endcontent-ref %}

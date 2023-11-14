@@ -1,5 +1,7 @@
 ---
-description: Bring harmony to your teams
+description: >-
+  Bring harmony to your teams with a simple, yet powerful project management
+  tool
 ---
 
 # 👋 Welcome to Harmony
@@ -14,18 +16,16 @@ It can be used by large organizations to manage projects across their teams or b
 
 > You can create workspaces, boards, lists, cards, add members, labels, check lists/items, due dates and many more.
 
-> The source code is fully available upon purchase and of course you get updates every time a new release is available. This means you can host your own instance of Harmony rather than paying paid services per month.
+> The source code is fully available after purchase and of course you get updates every time a new release is available. This means you can host your own instance of Harmony rather than paying paid services per month.
 
 ## Quick links
 
-
+{% content-ref url="overview/features.md" %}
+[features.md](overview/features.md)
+{% endcontent-ref %}
 
 {% content-ref url="overview/what-to-expect.md" %}
 [what-to-expect.md](overview/what-to-expect.md)
-{% endcontent-ref %}
-
-{% content-ref url="overview/features.md" %}
-[features.md](overview/features.md)
 {% endcontent-ref %}
 
 ## Get Started

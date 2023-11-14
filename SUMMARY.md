@@ -16,8 +16,8 @@
   * [👥 Members](guide/workspaces/members.md)
 * [Boards](guide/boards/README.md)
   * [➕ Create](guide/boards/create.md)
-  * [👥 Members](guide/boards/members.md)
   * [📊 Board lists](guide/boards/board-lists.md)
+  * [👥 Members](guide/boards/members.md)
 
 ***
 
@@ -29,4 +29,4 @@
   * [🏷 Add labels](cards/add-labels.md)
   * [📅 Set dates](cards/set-dates.md)
   * [🗃 Attachments](cards/attachments.md)
-  * [Archive](cards/archive.md)
+  * [🔴 Archive](cards/archive.md)

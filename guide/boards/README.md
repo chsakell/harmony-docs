@@ -1,3 +1,15 @@
 # Boards
 
-Workspaces are containers for boards _(and scrum projects in the future)_. As an admin, it's the first thing you need to create. Members, projects and boards contained to a workspace should be related. For example, if an organization runs projects for both a marketing and an engineering department, then it would make sense to create 2 different workspaces named Marketing & Engineering so that they "host" their related members and projects.
+Boards are containers for your cards. The are a snapshot of your current project's status displaying each card's status based on the list it belongs to.
+
+<figure><img src="../../.gitbook/assets/board-cards-dark.png" alt=""><figcaption><p>Board cards (dark theme)</p></figcaption></figure>
+
+{% hint style="info" %}
+Cards display important information on a boards view, such as the members assigned to them, number of attachments, labels, due date and total progress of a card based on the number of items completed per total items required
+{% endhint %}
+
+#### Read next - Create boards
+
+{% content-ref url="create.md" %}
+[create.md](create.md)
+{% endcontent-ref %}

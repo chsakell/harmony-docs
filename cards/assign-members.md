@@ -9,3 +9,9 @@ In the board's page click the **SHARE BOARD** button on the top bar. A modal wil
 
 
 <figure><img src="../.gitbook/assets/share-board.png" alt=""><figcaption><p>Share board</p></figcaption></figure>
+
+#### Read next - Add card labels
+
+{% content-ref url="add-labels.md" %}
+[add-labels.md](add-labels.md)
+{% endcontent-ref %}

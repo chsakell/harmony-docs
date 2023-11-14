@@ -16,3 +16,9 @@ The main goal is to add most of the features someone can find on Trello & Jira. 
 * Email notifications _(**HangFire** & **RabbitMQ** integration via new project for scaling)_&#x20;
 * Scrum Project support
 * Upgrade to **.NET 8**
+
+#### Read next
+
+{% content-ref url="technology.md" %}
+[technology.md](technology.md)
+{% endcontent-ref %}

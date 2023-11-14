@@ -9,3 +9,8 @@ Cards are the essence of a board, describing:
 
 <figure><img src="../.gitbook/assets/board-cards.png" alt=""><figcaption><p>Board cards (light theme)</p></figcaption></figure>
 
+#### Read next - Create cards
+
+{% content-ref url="create.md" %}
+[create.md](create.md)
+{% endcontent-ref %}
