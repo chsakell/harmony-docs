@@ -17,3 +17,11 @@ Harmony is currently available to buy on [**Envato**](https://codecanyon.net/ite
 Click the following link to buy Harmony.
 
 {% embed url="https://codecanyon.net/item/harmony-project-management-tool/49138488" %}
+Envato market
+{% endembed %}
+
+#### Read next - Guide
+
+{% content-ref url="../guide/workspaces/" %}
+[workspaces](../guide/workspaces/)
+{% endcontent-ref %}
