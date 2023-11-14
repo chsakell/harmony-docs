@@ -6,6 +6,8 @@ Inside a board's view click the **SHARE BOARD** button on right side of the the 
 
 <figure><img src="../../.gitbook/assets/board-share.png" alt=""><figcaption><p>Share board</p></figcaption></figure>
 
+<figure><img src="../../.gitbook/assets/board-members.gif" alt=""><figcaption><p>Board members</p></figcaption></figure>
+
 #### Read next - Cards
 
 {% content-ref url="../cards/" %}

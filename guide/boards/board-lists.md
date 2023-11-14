@@ -24,6 +24,10 @@ Click on a board list's title and the text will automatically change to input. M
 
 <figure><img src="../../.gitbook/assets/rename-list.png" alt=""><figcaption><p>Rename a board list</p></figcaption></figure>
 
+####
+
+<figure><img src="../../.gitbook/assets/create-board-lists.gif" alt=""><figcaption><p>Board lists</p></figcaption></figure>
+
 #### Read next - Add board members
 
 {% content-ref url="members.md" %}
