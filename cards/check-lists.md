@@ -25,3 +25,8 @@ Each list has progress to display the total status of its items.
 {% endhint %}
 
 <figure><img src="../.gitbook/assets/check-list-status.png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="info" %}
+* Edit a list's title by clicking on the title
+* Delete a check list by clicking the bin icon
+{% endhint %}
