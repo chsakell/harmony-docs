@@ -4,7 +4,7 @@ Click **Members** from the left side menu to search and add/remove members to/fr
 
 <figure><img src="../../.gitbook/assets/workspace-members.png" alt=""><figcaption><p>Workspace members</p></figcaption></figure>
 
-
+<figure><img src="../../.gitbook/assets/workspace-members.gif" alt=""><figcaption><p>Adding a workspace member</p></figcaption></figure>
 
 {% hint style="info" %}
 You need to be a workspace **admin** to add or remove members to/from a workspace
