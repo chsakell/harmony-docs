@@ -2,7 +2,7 @@
 description: Bring Harmony to your teams
 ---
 
-# 💡 What to expect
+# 🛣 Roadmap
 
 ## Expect to grow fast
 
@@ -16,8 +16,15 @@ The main goal is to add most of the features someone can find on Trello & Jira. 
 * Email notifications _(**HangFire** & **RabbitMQ** integration via new project for scaling)_&#x20;
 * Scrum Project support
 * Upgrade to **.NET 8**
+* Add reports / charts to display a project's progress through time
 
-#### Read next
+{% hint style="info" %}
+Other than new features, more UX improvements, bug fixes and performance improvements will be always released\
+\
+Expect a release cycle to be about **2-3 weeks**, considering that [Envato](https://codecanyon.net/item/harmony-project-management-tool/49138488) needs a few days to approve the release.
+{% endhint %}
+
+#### Read next - Technology used
 
 {% content-ref url="technology.md" %}
 [technology.md](technology.md)

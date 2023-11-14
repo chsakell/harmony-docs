@@ -1,8 +1,12 @@
+---
+description: A professional, simple yet super powerful project management tool
+---
+
 # 💳 Buy online
 
 Harmony is currently available to buy on [**Envato**](https://codecanyon.net/item/harmony-project-management-tool/49138488) market. After buying the product you will be able to:
 
-* View its full source code
+* View & study its full source code
 * Receive updates every time new features or fixes are being released
 * Host your own instance of Harmony and manage your projects
 

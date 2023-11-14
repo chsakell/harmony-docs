@@ -5,7 +5,7 @@
 ## Overview
 
 * [✨ Features](overview/features.md)
-* [💡 What to expect](overview/what-to-expect.md)
+* [🛣 Roadmap](overview/roadmap.md)
 * [⚙ Technology](overview/technology.md)
 * [💳 Buy online](overview/buy-online.md)
 
