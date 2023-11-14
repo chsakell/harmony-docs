@@ -1,14 +1,12 @@
 # 👥 Assign members
 
-In the board's page click the **SHARE BOARD** button on the top bar. A modal will open where you can:
+In the card's view click the **MEMBERS** button from the right side bar. A modal will open where you can:
 
-* Search for workspace users and add them to the board
-* View board's members
-* Change board members access level
+* Search for workspace users and assign them to the card. This will add them to the workspace/board as well in case they aren't already
+* View card's members
+* Add or remove members from the card
 
-
-
-<figure><img src="../../.gitbook/assets/share-board.png" alt=""><figcaption><p>Share board</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/card-members.png" alt=""><figcaption><p>Card members</p></figcaption></figure>
 
 #### Read next - Add card labels
 
