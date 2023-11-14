@@ -14,6 +14,8 @@ Inside the card's view, just click on the card's title and enter the new title.
 
 The card's view contains an integrated text editor where you can add custom html using its buttons. The editor also supports copying an image from the web and pasting inside.
 
+<figure><img src="../../.gitbook/assets/cards-view.gif" alt=""><figcaption><p>Card's view</p></figcaption></figure>
+
 #### Read next - Add check lists
 
 {% content-ref url="check-lists.md" %}
