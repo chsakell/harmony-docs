@@ -6,6 +6,6 @@ Inside a board's view click the **SHARE BOARD** button on right side of the the 
 
 #### Read next - Cards
 
-{% content-ref url="../../cards/" %}
-[cards](../../cards/)
+{% content-ref url="../cards/" %}
+[cards](../cards/)
 {% endcontent-ref %}

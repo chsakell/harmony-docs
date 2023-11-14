@@ -2,7 +2,7 @@
 
 You can view/open a card by simply clicking on it
 
-<figure><img src="../.gitbook/assets/harmony_view_card_14_light.png" alt=""><figcaption><p>Card's view (light theme)</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/harmony_view_card_14_light.png" alt=""><figcaption><p>Card's view (light theme)</p></figcaption></figure>
 
 Here you can edit card's features like assigning members, adding labels, creating check lists with check list items, setting due dates and upload attachments.
 

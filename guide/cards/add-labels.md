@@ -10,7 +10,7 @@ By default 7 labels will be created for each board. You can edit these labels by
 
 Click the **LABELS** button inside a card's view.
 
-<figure><img src="../.gitbook/assets/card-labels.png" alt=""><figcaption><p>Card labels (light theme)</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/card-labels.png" alt=""><figcaption><p>Card labels (light theme)</p></figcaption></figure>
 
 ### Assign a label
 
