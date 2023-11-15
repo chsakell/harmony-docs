@@ -31,6 +31,8 @@ Each list has progress to display the total status of its items.
 * Delete a check list by clicking the bin icon
 {% endhint %}
 
+<figure><img src="../../.gitbook/assets/card-checklists.gif" alt=""><figcaption><p>Card's checklists / checklist items</p></figcaption></figure>
+
 #### Read next - assign card members
 
 {% content-ref url="assign-members.md" %}

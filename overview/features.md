@@ -8,7 +8,7 @@ Harmony already implements most features if not all, of a Kanban style project m
 
 ## Scrum Projects
 
-This is the second milestone for Harmony project management tool. Scrum projects will be supported as soon as passible so stay tuned! Harmony's goal is to provide most if not all scrum features provided by **Jira**.&#x20;
+This is the second milestone for Harmony project management tool. Scrum projects will be supported as soon as possible so stay tuned! Harmony's goal is to provide most if not all scrum features provided by **Jira**.&#x20;
 
 #### Read next - Roadmap
 
