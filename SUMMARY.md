@@ -6,6 +6,7 @@
 
 * [✨ Features](overview/features.md)
 * [🛣 Roadmap](overview/roadmap.md)
+* [🐛 Issue tracking](overview/issue-tracking.md)
 * [⚙ Technology](overview/technology.md)
 * [💳 Buy online](overview/buy-online.md)
 
