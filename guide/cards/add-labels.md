@@ -20,6 +20,8 @@ Simply check the checkbox next to the label you want to add to your card. The la
 
 On the right side of the modal, select a color, set an optional title for the label and optionally check the checkbox before clicking the save button. If the checkbox was checked then the label will be also applied to your card.
 
+<figure><img src="../../.gitbook/assets/card-labels.gif" alt=""><figcaption><p>Card's labels</p></figcaption></figure>
+
 #### Read next - Set card dates
 
 {% content-ref url="set-dates.md" %}
