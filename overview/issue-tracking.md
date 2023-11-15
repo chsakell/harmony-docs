@@ -1,6 +1,6 @@
 # 🐛 Issue tracking
 
-You can the docs GitHub [repositor](https://github.com/chsakell/harmony-docs/issues)y for creating issues for Harmony.
+You can use Harmony's GitHub [repositor](https://github.com/chsakell/harmony-docs/issues)[y](../) for creating issues for Harmony.
 
 #### When creating an issue make sure to follow the rules:
 
