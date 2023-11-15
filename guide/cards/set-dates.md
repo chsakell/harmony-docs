@@ -10,6 +10,8 @@ Clicking two different days will assign both a start and a due date. If the star
 Dates are assigned after clicking the **Save** button.
 {% endhint %}
 
+<figure><img src="../../.gitbook/assets/card-dates.gif" alt=""><figcaption><p>Card's dates</p></figcaption></figure>
+
 #### Read next - Add card attachments
 
 {% content-ref url="attachments.md" %}
