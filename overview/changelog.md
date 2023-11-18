@@ -16,7 +16,8 @@ This update contains breaking changes so you will have to re-create the database
 * [ ] Start, complete sprints
 * [ ] Move items from sprint to backlog
 * [ ] Move items from backlog to sprints
-* [x] Introduce issue types for cards _(Epic, Bug, Task, Story, Task)_&#x20;
+* [x] Introduce issue types for cards _(Epic, Bug, Task, Story, Task)_
+* [x] Create **Serial Number** to easily identify cards/issues, e.g. HARM-1[^1]
 
 ### \[Version 1.1] - Currently in review from Envato _(will be available soon, during next week)_
 
@@ -45,3 +46,6 @@ This update contains breaking changes so you will have to re-create the database
 * [x] Add check list items to checklists
 * [x] Add start / due date to cards
 * [x] Register some activities\
+
+
+[^1]: First issue for a project named Harmony
