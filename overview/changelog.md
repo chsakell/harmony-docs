@@ -1,0 +1,47 @@
+---
+description: Make sure you read the changelog every time a new update is released on Envato
+---
+
+# 🔃 Changelog
+
+### \[Version 1.2] - Work in progress _(estimate 3 weeks)_
+
+{% hint style="info" %}
+This update contains breaking changes so you will have to re-create the database from start. Just delete the Harmony database and re-run the project. After this update, breaking changes will be rare.
+{% endhint %}
+
+* [ ] Add support for Scrum Projects! :clap: :heart:
+* [x] Create backlog
+* [x] Create sprints
+* [ ] Start, complete sprints
+* [ ] Move items from sprint to backlog
+* [ ] Move items from backlog to sprints
+* [x] Introduce issue types for cards _(Epic, Bug, Task, Story, Task)_&#x20;
+
+### \[Version 1.1] - Currently in review from Envato _(will be available soon, during next week)_
+
+* [x] Add remove button to remove attachments
+* [x] Clear card's dates
+* [x] Update user's profile picture in all user card's components after uploading a picture in account page
+* [x] Update text on **Enter** key pressed on _EditableTextField_ component
+* [x] Display loader when creating cards
+* [x] Scroll to the card's position added when creating a card within a list filled with multiple cards
+
+### \[Version 1] - 14 November 2023 (currently available)
+
+* [x] User registration / login
+* [x] Create workspaces
+* [x] Add users to workspaces
+* [x] Create **KANBAN** boards
+* [x] Add users to boards
+* [x] Add lists to boards
+* [x] Rename & reorder lists
+* [x] Add cards to boards
+* [x] Move cards
+* [x] Assign users to cards
+* [x] Add labels to cards
+* [x] Toggle labels, add custom labels to board/cards
+* [x] Add checklists to cards
+* [x] Add check list items to checklists
+* [x] Add start / due date to cards
+* [x] Register some activities\

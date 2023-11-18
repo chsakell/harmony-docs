@@ -7,6 +7,7 @@
 * [✨ Features](overview/features.md)
 * [🛣 Roadmap](overview/roadmap.md)
 * [🐛 Issue tracking](overview/issue-tracking.md)
+* [🔃 Changelog](overview/changelog.md)
 * [⚙ Technology](overview/technology.md)
 * [💳 Buy online](overview/buy-online.md)
 
