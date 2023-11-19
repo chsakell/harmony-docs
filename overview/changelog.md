@@ -13,11 +13,34 @@ This update contains breaking changes so you will have to re-create the database
 * [ ] Add support for Scrum Projects! :clap: :heart:
 * [x] Create backlog
 * [x] Create sprints
-* [ ] Start, complete sprints
+* [x] Start a sprint
+* [ ] Complete a sprint & move any pending items to backlog or a different sprint
 * [ ] Move items from sprint to backlog
 * [ ] Move items from backlog to sprints
 * [x] Introduce issue types for cards _(Epic, Bug, Task, Story, Task)_
 * [x] Create **Serial Number** to easily identify cards/issues, e.g. HARM-1[^1]
+* [ ] Create board/sprint navigation items _(left menu & breadcrumbs)_
+* [ ] Change backlog items order
+
+Here are some preview images from this iteration :eyes:
+
+<div>
+
+<figure><img src="../.gitbook/assets/v1_2-preview-backlog.png" alt=""><figcaption><p>Backlog</p></figcaption></figure>
+
+ 
+
+<figure><img src="../.gitbook/assets/v1_2-preview-move-backlog-to-sprint.png" alt=""><figcaption><p>Move items from backlog to sprint</p></figcaption></figure>
+
+ 
+
+<figure><img src="../.gitbook/assets/v1_2-preview-sprints.png" alt=""><figcaption><p>Sprints</p></figcaption></figure>
+
+ 
+
+<figure><img src="../.gitbook/assets/v1_2-preview-board.png" alt=""><figcaption><p>Board issue type &#x26; serial number</p></figcaption></figure>
+
+</div>
 
 ### \[Version 1.1] - Currently in review from Envato _(will be available soon, during next week)_
 
