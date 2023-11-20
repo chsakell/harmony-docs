@@ -4,7 +4,7 @@ description: Make sure you read the changelog every time a new update is release
 
 # 🔃 Changelog
 
-### \[Version 1.2] - Work in progress _(estimate 3 weeks)_
+### \[Version 1.2] - Work in progress _(estimate 2 weeks)_
 
 {% hint style="info" %}
 This update contains breaking changes so you will have to re-create the database from start. Just delete the Harmony database and re-run the project. After this update, breaking changes will be rare.
