@@ -16,10 +16,10 @@ This update contains breaking changes so you will have to re-create the database
 * [x] Start a sprint
 * [ ] Complete a sprint & move any pending items to backlog or a different sprint
 * [ ] Move items from sprint to backlog
-* [ ] Move items from backlog to sprints
+* [x] Move items from backlog to sprints
 * [x] Introduce issue types for cards _(Epic, Bug, Task, Story, Task)_
 * [x] Create **Serial Number** to easily identify cards/issues, e.g. HARM-1[^1]
-* [ ] Create board/sprint navigation items _(left menu & breadcrumbs)_
+* [x] Create board/sprint navigation items _(left menu & breadcrumbs)_
 * [ ] Change backlog items order
 
 Here are some preview images from this iteration :eyes:
@@ -39,6 +39,10 @@ Here are some preview images from this iteration :eyes:
  
 
 <figure><img src="../.gitbook/assets/v1_2-preview-board.png" alt=""><figcaption><p>Board issue type &#x26; serial number</p></figcaption></figure>
+
+ 
+
+<figure><img src="../.gitbook/assets/v1_2-nav-menu.png" alt=""><figcaption><p>Nav menu for kanban &#x26; scrum projects</p></figcaption></figure>
 
 </div>
 
