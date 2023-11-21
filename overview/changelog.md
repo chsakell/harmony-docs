@@ -4,6 +4,8 @@ description: Make sure you read the changelog every time a new update is release
 
 # 🔃 Changelog
 
+Change log contains all version updates, old, current and upcoming with all important additions, fixes or improvements. The **unchecked** items of the _work in progress_ version, are the items remained before this build is released.
+
 ### \[Version 1.2] - Work in progress _(estimate 2 weeks)_
 
 {% hint style="info" %}
@@ -15,7 +17,7 @@ This update contains breaking changes so you will have to re-create the database
 * [x] Create sprints
 * [x] Start a sprint
 * [ ] Complete a sprint & move any pending items to backlog or a different sprint
-* [ ] Move items from sprint to backlog
+* [x] Move items from sprint to backlog
 * [x] Move items from backlog to sprints
 * [x] Introduce issue types for cards _(Epic, Bug, Task, Story, Task)_
 * [x] Create **Serial Number** to easily identify cards/issues, e.g. HARM-1[^1]
@@ -46,7 +48,7 @@ Here are some preview images from this iteration :eyes:
 
 </div>
 
-### \[Version 1.1] - Currently in review from Envato _(will be available soon, during next week)_
+### \[Version 1.1] - Currently in review from Envato _(will be available soon, during this week)_
 
 * [x] Add remove button to remove attachments
 * [x] Clear card's dates
