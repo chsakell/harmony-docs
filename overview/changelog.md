@@ -22,7 +22,7 @@ This update contains breaking changes so you will have to re-create the database
 * [x] Introduce issue types for cards _(Epic, Bug, Task, Story, Task)_
 * [x] Create **Serial Number** to easily identify cards/issues, e.g. HARM-1[^1]
 * [x] Create board/sprint navigation items _(left menu & breadcrumbs)_
-* [ ] Change backlog items order
+* [x] Change backlog items order
 
 Here are some preview images from this iteration :eyes:
 
