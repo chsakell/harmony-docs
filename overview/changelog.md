@@ -16,7 +16,8 @@ This update contains breaking changes so you will have to re-create the database
 * [x] Create backlog
 * [x] Create sprints
 * [x] Start a sprint
-* [ ] Complete a sprint & move any pending items to backlog or a different sprint
+* [ ] Edit sprint name & dates
+* [x] Complete a sprint & move any pending items to backlog or a different sprint
 * [x] Move items from sprint to backlog
 * [x] Move items from backlog to sprints
 * [x] Introduce issue types for cards _(Epic, Bug, Task, Story, Task)_
