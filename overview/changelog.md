@@ -6,7 +6,7 @@ description: Make sure you read the changelog every time a new update is release
 
 Change log contains all version updates, old, current and upcoming with all important additions, fixes or improvements. The **unchecked** items of the _work in progress_ version, are the items remained before this build is released.
 
-### \[Version 1.2] - Submitted for review in Envato _(estimate 1 weeks)_
+### \[Version 1.2] - Submitted for review in Envato _(estimate 1 week)_
 
 {% hint style="warning" %}
 This update contains breaking changes so you will have to re-create the database from start. Just delete the Harmony database and re-run the project. After this update, breaking changes will be rare.
