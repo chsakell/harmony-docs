@@ -6,17 +6,16 @@ description: Make sure you read the changelog every time a new update is release
 
 Change log contains all version updates, old, current and upcoming with all important additions, fixes or improvements. The **unchecked** items of the _work in progress_ version, are the items remained before this build is released.
 
-### \[Version 1.2] - Work in progress _(estimate 2 weeks)_
+### \[Version 1.2] - Submitted for review in Envato _(estimate 1 weeks)_
 
-{% hint style="info" %}
+{% hint style="warning" %}
 This update contains breaking changes so you will have to re-create the database from start. Just delete the Harmony database and re-run the project. After this update, breaking changes will be rare.
 {% endhint %}
 
-* [ ] Add support for Scrum Projects! :clap: :heart:
+* [x] Add support for Scrum Projects! :clap: :heart::rocket:
 * [x] Create backlog
 * [x] Create sprints
 * [x] Start a sprint
-* [ ] Edit sprint name & dates
 * [x] Complete a sprint & move any pending items to backlog or a different sprint
 * [x] Move items from sprint to backlog
 * [x] Move items from backlog to sprints
@@ -24,6 +23,15 @@ This update contains breaking changes so you will have to re-create the database
 * [x] Create **Serial Key** to easily identify cards/issues, e.g. HARM-1[^1]
 * [x] Create board/sprint navigation items _(left menu & breadcrumbs)_
 * [x] Change backlog items order
+
+#### Enhancements
+
+* [x] Add remove button to remove attachments
+* [x] Clear card's dates
+* [x] Update user's profile picture in all user card's components after uploading a picture in account page
+* [x] Update text on **Enter** key pressed on _EditableTextField_ component
+* [x] Display loader when creating cards
+* [x] Scroll to the card's position added when creating a card within a list filled with multiple cards
 
 Here are some preview images from this iteration :eyes:
 
@@ -48,15 +56,6 @@ Here are some preview images from this iteration :eyes:
 <figure><img src="../.gitbook/assets/v1_2-nav-menu.png" alt=""><figcaption><p>Nav menu for kanban &#x26; scrum projects</p></figcaption></figure>
 
 </div>
-
-### \[Version 1.1] - Currently in review from Envato _(will be available soon, during this week)_
-
-* [x] Add remove button to remove attachments
-* [x] Clear card's dates
-* [x] Update user's profile picture in all user card's components after uploading a picture in account page
-* [x] Update text on **Enter** key pressed on _EditableTextField_ component
-* [x] Display loader when creating cards
-* [x] Scroll to the card's position added when creating a card within a list filled with multiple cards
 
 ### \[Version 1] - 14 November 2023 (currently available)
 
