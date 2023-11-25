@@ -22,3 +22,9 @@ When a backlog item is ready for work, you need to add it to an available sprint
 {% hint style="info" %}
 If the sprint is **started**, the issues will also be available to the project's board!
 {% endhint %}
+
+#### Read next - Create a sprint
+
+{% content-ref url="sprints.md" %}
+[sprints.md](sprints.md)
+{% endcontent-ref %}

@@ -5,3 +5,9 @@ You can create a **Scrum** project by clicking the upper right drop menu and sel
 <figure><img src="../../.gitbook/assets/create-project.png" alt=""><figcaption><p>Create project selection</p></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/create-scrum-project.png" alt=""><figcaption><p>Create scrum project</p></figcaption></figure>
+
+#### Read next - Start planning by building your backlog
+
+{% content-ref url="backlog.md" %}
+[backlog.md](backlog.md)
+{% endcontent-ref %}
