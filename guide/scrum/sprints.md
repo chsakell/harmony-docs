@@ -23,3 +23,19 @@ If for some reason you want to move some issues from a sprint to the backlog, yo
 {% hint style="warning" %}
 If the sprint that you moved the items from was Active, then the items will also not be visible anymore in the project's board
 {% endhint %}
+
+### Complete a sprint
+
+When it's time to complete a sprint, open the **Sprints** view, find the sprint and click the **COMPLETE** button. There are three options for the pending sprint's issues:
+
+1. Move them to an **existing sprint** - available sprints will be shown in the dropdown list.
+2. Move them to the **backlog**.
+3. Move them to a **new sprint**. The new sprint will be created automatically for you.
+
+<figure><img src="../../.gitbook/assets/complete-sprint.gif" alt=""><figcaption><p>Complete a sprint</p></figcaption></figure>
+
+{% hint style="info" %}
+* You can always edit a sprint's name and date range by clicking the edit icon in the sprints view
+* Issues with **Done** status won't be moved
+{% endhint %}
+
