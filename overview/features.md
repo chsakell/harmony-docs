@@ -8,7 +8,29 @@ Harmony already implements most features if not all, of a Kanban style project m
 
 ## Scrum Projects
 
-This is the second milestone for Harmony project management tool. Scrum projects will be supported as soon as possible so stay tuned! Harmony's goal is to provide most if not all scrum features provided by **Jira**.&#x20;
+Scrum projects allow you to plan your work in a **backlog** and organize cycles of work into **sprints**. It's recommended for large, complex projects. Harmony's goal is to provide most if not all scrum features provided by **Jira**.&#x20;
+
+<div>
+
+<figure><img src="../.gitbook/assets/backlog-create-issue.png" alt=""><figcaption><p>Backlog</p></figcaption></figure>
+
+ 
+
+<figure><img src="../.gitbook/assets/backlog-move-items-to-sprint.png" alt=""><figcaption><p>Backlog to sprint</p></figcaption></figure>
+
+ 
+
+<figure><img src="../.gitbook/assets/sprints.png" alt=""><figcaption><p>Sprints</p></figcaption></figure>
+
+ 
+
+<figure><img src="../.gitbook/assets/scrum-board.png" alt=""><figcaption><p>Scrum project board</p></figcaption></figure>
+
+</div>
+
+{% hint style="info" %}
+All board updates are smoothly synced via WebSocket connection across all connected members
+{% endhint %}
 
 #### Read next - Roadmap
 

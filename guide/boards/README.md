@@ -12,6 +12,6 @@ Cards display important information on a boards view, such as the members assign
 
 #### Read next - Create boards
 
-{% content-ref url="create.md" %}
-[create.md](create.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}

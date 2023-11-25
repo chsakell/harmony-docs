@@ -12,15 +12,15 @@ description: >-
 
 Harmony is a project management tool to manage your projects.
 
-It can be used by large organizations to manage projects across their teams or by developers to manage their own projects&#x20;
+It can be used by large organizations to manage projects across their teams or by developers to manage their own projects.
 
-> You can create workspaces, boards, lists, cards, add members, attachments, labels, check lists/items, due dates and many more.
+You can create workspaces, **Kanban** boards, **Scrum** projects, lists, cards, add members, attachments, labels, check lists/items, due dates and many more.
+
+The source code is fully available after [purchase](overview/buy-online.md) and of course you get updates every time a new release is available!. This means you can host your own instance of **Harmony** rather than paying paid services per month.
 
 {% hint style="info" %}
-All board updates are smoothly synced via WebSocket connection across all connected members
+Docs have been updated to the latest version **v1.2** which contain the support for **Scrum projects** as well**.** The build is currently in review from Envato but will be available soon for download _(estimate: during next week)_.
 {% endhint %}
-
-> The source code is fully available after [purchase](overview/buy-online.md) and of course you get updates every time a new release is available. This means you can host your own instance of **Harmony** rather than paying paid services per month.
 
 ## Quick links
 

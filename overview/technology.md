@@ -2,8 +2,8 @@
 
 The stack, tools, frameworks used in Harmony are the following:
 
-* ASP.NET CORE 7
-* ASP.NET Core SignalR
+* ASP.NET CORE
+* SignalR
 * [Blazor](https://dotnet.microsoft.com/en-us/apps/aspnet/web-apps/blazor)
 * [MudBlazor](https://mudblazor.com/) components
 * Entity Framework

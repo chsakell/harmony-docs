@@ -10,7 +10,7 @@ By default 7 labels will be created for each board. You can edit these labels by
 
 Click the **LABELS** button inside a card's view.
 
-<figure><img src="../../.gitbook/assets/card-labels.png" alt=""><figcaption><p>Card labels</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/card-labels.png" alt=""><figcaption><p>Card labels</p></figcaption></figure>
 
 ### Assign a label
 
@@ -20,10 +20,10 @@ Simply check the checkbox next to the label you want to add to your card. The la
 
 On the right side of the modal, select a color, set an optional title for the label and optionally check the checkbox before clicking the save button. If the checkbox was checked then the label will be also applied to your card.
 
-<figure><img src="../../.gitbook/assets/card-labels.gif" alt=""><figcaption><p>Card's labels</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/card-labels.gif" alt=""><figcaption><p>Card's labels</p></figcaption></figure>
 
 #### Read next - Set card dates
 
-{% content-ref url="set-dates.md" %}
-[set-dates.md](set-dates.md)
+{% content-ref url="add-dates.md" %}
+[add-dates.md](add-dates.md)
 {% endcontent-ref %}
