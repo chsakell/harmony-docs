@@ -14,8 +14,12 @@ You need to be a workspace **admin** to add or remove members to/from a workspac
 You can check/uncheck the Members only checkbox to filter the search results respectively.
 {% endhint %}
 
-### Read next - Boards
+### Read next - Kanban or Scrum projects
 
-{% content-ref url="../boards/" %}
-[boards](../boards/)
+{% content-ref url="../kanban.md" %}
+[kanban.md](../kanban.md)
+{% endcontent-ref %}
+
+{% content-ref url="../scrum/" %}
+[scrum](../scrum/)
 {% endcontent-ref %}

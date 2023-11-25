@@ -1,6 +1,6 @@
 # 🎯 Sprints
 
-Sprints are the core components of a scrum project's board. The board of a scrum project display items that has been added to sprints which are in **Active** status.
+Sprints are the core components of a scrum project's board. The board of a scrum project displays items that has been added to sprints which are in **Active** status.
 
 {% hint style="info" %}
 You can have more than one sprint in **Active** status
