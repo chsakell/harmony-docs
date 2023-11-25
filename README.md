@@ -39,10 +39,6 @@ Docs have been updated to the latest version **v1.2** which contain the support 
 [features.md](overview/features.md)
 {% endcontent-ref %}
 
-{% content-ref url="overview/roadmap.md" %}
-[roadmap.md](overview/roadmap.md)
+{% content-ref url="overview/buy-online.md" %}
+[buy-online.md](overview/buy-online.md)
 {% endcontent-ref %}
-
-## Get Started
-
-We've put together some helpful guides for you to get setup with our product quickly and easily.

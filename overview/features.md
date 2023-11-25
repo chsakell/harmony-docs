@@ -32,6 +32,47 @@ Scrum projects allow you to plan your work in a **backlog** and organize cycles 
 All board updates are smoothly synced via WebSocket connection across all connected members
 {% endhint %}
 
+### Full list of features currently supported
+
+#### Project oriented features
+
+* [x] Create workspaces
+* [x] Create Kanban projects
+* [x] Create Scrum projects
+
+#### Scrum features
+
+* [x] Build backlog
+* [x] Create sprints
+* [x] Move issues between backlog & sprints
+* [x] Start & complete sprints
+
+#### Board features
+
+* [x] Add, rename and re-order board lists _(e.g. TODO, IN PROGRESS, DONE etc..)_
+* [x] Add new issues to board lists - issues are assigned a type _(task, story, bug or epic)_
+* [x] Move issues between board lists or re-order in the same list
+* [x] Edit card's title _(card = issue)_
+* [x] Edit card's description with an integrated **text editor**
+* [x] Add labels to a card - predefined or new custom created
+* [x] Remove labels from card
+* [x] Set due date for an issue
+* [x] Add check lists with items in a card
+* [x] Assign member(s) to an issue
+* [x] Upload attachments to a card
+* [x] Remove attachments from a card
+* [x] Archive a card
+
+#### Member features
+
+* [x] Register a new user
+* [x] Login
+* [x] Add a member to a workspace
+* [x] Share a project _(board)_ with a member
+* [x] Remove members from workspaces & projects
+* [x] Edit user account
+* [x] Upload profile picture
+
 #### Read next - Roadmap
 
 {% content-ref url="roadmap.md" %}
