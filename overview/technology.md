@@ -12,6 +12,10 @@ The stack, tools, frameworks used in Harmony are the following:
 * [AutoMapper](https://automapper.org/)
 * HangFire & RabbitMQ _(coming soon)_
 
+#### Database diagram
+
+<figure><img src="../.gitbook/assets/database-diagram.png" alt=""><figcaption></figcaption></figure>
+
 #### Read next - Buy Harmony online
 
 {% content-ref url="buy-online.md" %}
