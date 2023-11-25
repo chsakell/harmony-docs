@@ -17,7 +17,7 @@ In the backlog's view, click the **CREATE ISSUE** top bar button and add an issu
 
 When a backlog item is ready for work, you need to add it to an available sprint. Select the items you want to move to a sprint, click the **ACTIONS** menu and select **Move to sprint**. Select the sprint you want to be moved to and click Confirm. The items will be available to the sprint.
 
-<figure><img src="../../.gitbook/assets/backlog-move-items-to-sprint (1).png" alt=""><figcaption><p>Move backlog items to sprint</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/backlog-move-to-sprint.gif" alt=""><figcaption><p>Backlog - move issues to sprint</p></figcaption></figure>
 
 {% hint style="info" %}
 If the sprint is **started**, the issues will also be available to the project's board!
