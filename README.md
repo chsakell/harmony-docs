@@ -2,6 +2,17 @@
 description: >-
   Bring harmony to your teams with a simple, yet powerful project management
   tool
+layout:
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
 ---
 
 # 👋 Welcome to Harmony

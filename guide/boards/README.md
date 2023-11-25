@@ -6,12 +6,10 @@ Boards are containers for your cards. The are a snapshot of your current project
 Cards display important information on a boards view, such as the members assigned to them, number of attachments, labels, due date and total progress of a card based on the number of items completed per total items required
 {% endhint %}
 
-
-
 <figure><img src="../../.gitbook/assets/board-cards-dark.png" alt=""><figcaption><p>Board cards (dark theme)</p></figcaption></figure>
 
-#### Read next - Create boards
+#### Read next - Board lists
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+{% content-ref url="board-lists.md" %}
+[board-lists.md](board-lists.md)
 {% endcontent-ref %}
