@@ -12,7 +12,7 @@ Harmony is currently available to buy on [**Envato**](https://codecanyon.net/ite
 
 {% hint style="info" %}
 **Harmony** is huge project written with best practices and it's expected to grow more. The price is expected to rise in the future as more and more functionality will being added.\
-Seize the opportunity to buy Harmony at the low price of **74$** before scrum projects are approved by Envato _(which is going to happen really soon)_. It's very likely that the price will go up after Scrum projects are also available. Remember that whenever you buy Harmony, you will be able to download the new releases for free.
+Seize the opportunity to buy Harmony at the low price of **74$.** Remember that whenever you buy Harmony, you will be able to download the new releases for free.
 {% endhint %}
 
 Click the following link to buy Harmony.
