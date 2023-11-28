@@ -97,10 +97,10 @@ The are currently two issues that you need to **fix** when running the following
 
 1. **Before running the 1st command:** Correct a typo issue which exists in the <mark style="color:blue;">ServiceCollectionExtensions</mark> class of the **Harmony.Server** project. This build error exists only for release profile. Simply remove the <mark style="color:red;">\[</mark> character.\
    var result = JsonSerializer.Serialize(Result.Fail(<mark style="color:orange;">\[</mark>"An unhandled error has occurred."));
-2. **After running the 2nd command**: Create manually a folder named _**Files**_ inside the published folder
+2. **After running the 1nd command**: Create manually a folder named _**Files**_ inside the published folder
 {% endhint %}
 
-Open a terminal and navigate at the root of the **Harmony.Server** project. Run the following command to create the release build:
+**1st command:** Open a terminal and navigate at the root of the **Harmony.Server** project. Run the following command to create the release build:
 
 ```
 dotnet publish -c Release
@@ -108,7 +108,7 @@ dotnet publish -c Release
 
 The produced build will be created inside a _**Harmony\Server\bin\Release\net7.0\publish**_ folder.
 
-Inside that folder you can run the following command to start the project at the port **5000**:
+**2nd command:** Inside the _publish_ folder you can run the following command to start the project at the port **5000**:
 
 ```
 dotnet run Harmony.Server.dll
