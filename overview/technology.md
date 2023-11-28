@@ -16,8 +16,8 @@ The stack, tools, frameworks used in Harmony are the following:
 
 <figure><img src="../.gitbook/assets/database-diagram.png" alt=""><figcaption></figcaption></figure>
 
-#### Read next - Buy Harmony online
+#### Read next - Configure Harmony
 
-{% content-ref url="buy-online.md" %}
-[buy-online.md](buy-online.md)
+{% content-ref url="setup.md" %}
+[setup.md](setup.md)
 {% endcontent-ref %}

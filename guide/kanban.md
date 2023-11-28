@@ -12,8 +12,12 @@ After creating a Kanban board, you will be able to add lists to it. An empty boa
 
 Continue by adding board lists to your board. You can find everything available in the **Boards** section of the documentation.
 
-#### Read next - Create board lists
+#### Read next - Continue with Kanban or check the Scrum projects
 
 {% content-ref url="boards/board-lists.md" %}
 [board-lists.md](boards/board-lists.md)
+{% endcontent-ref %}
+
+{% content-ref url="scrum/" %}
+[scrum](scrum/)
 {% endcontent-ref %}

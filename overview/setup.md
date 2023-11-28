@@ -114,3 +114,9 @@ The produced build will be created inside a _**Harmony\Server\bin\Release\net7.0
 ```
 dotnet run Harmony.Server.dll
 ```
+
+#### Read next - Buy Harmony
+
+{% content-ref url="buy-online.md" %}
+[buy-online.md](buy-online.md)
+{% endcontent-ref %}
