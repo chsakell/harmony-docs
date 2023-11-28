@@ -93,11 +93,11 @@ By default the app will run at [http://localhost:5181/](http://localhost:5181/).
 #### Deploying the app
 
 {% hint style="warning" %}
-The are currently two issues that you need to **fix** before running the following commands. Both issues will be fixed in the next release version.
+The are currently two issues that you need to **fix** when running the following commands. Both issues have been fixed and will be released in the next release version.
 
 1. **Before running the 1st command:** Correct a typo issue which exists in the <mark style="color:blue;">ServiceCollectionExtensions</mark> class of the **Harmony.Server** project. This build error exists only for release profile. Simply remove the <mark style="color:red;">\[</mark> character.\
    var result = JsonSerializer.Serialize(Result.Fail(<mark style="color:orange;">\[</mark>"An unhandled error has occurred."));
-2. **Before running the 2nd command**: Create manually a folder named _**Files**_ inside the published folder
+2. **After running the 2nd command**: Create manually a folder named _**Files**_ inside the published folder
 {% endhint %}
 
 Open a terminal and navigate at the root of the **Harmony.Server** project. Run the following command to create the release build:
