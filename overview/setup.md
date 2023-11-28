@@ -2,7 +2,7 @@
 
 ### Database connection string
 
-Set the SQL Server connection string existing in the <mark style="color:blue;">**appsettings.json**</mark> file at the root of the **Harmony.Server** project to your SQL Server instance.
+Set the **SQL Server** connection string existing in the <mark style="color:blue;">**appsettings.json**</mark> file at the root of the **Harmony.Server** project to your SQL Server instance.
 
 ```json
   "ConnectionStrings": {
@@ -27,10 +27,10 @@ Update-Database -Context HarmonyContext -StartUpProject Harmony.Server -v
 <figure><img src="../.gitbook/assets/visual-studio-migrations-update-database.png" alt=""><figcaption><p>Create database migration through Visual Studio</p></figcaption></figure>
 
 {% hint style="warning" %}
-Migrations command require that you have previously setup your database connection string properly
+Migrations command require that you have previously setup your database connection string properly.
 {% endhint %}
 
-In case you decide to create a new migration, you follow the same procedure by replacing the command with the following:
+In case you decide to create a new migration, follow the same procedure by replacing the command with the following:
 
 ```powershell
 Add-Migration MyCustomMigrationName -Context HarmonyContext -StartUpProject Harmony.Server -v// Some code
@@ -44,7 +44,7 @@ You can run database migrations from a command line as well. First make sure you
 dotnet tool install --global dotnet-ef
 ```
 
-1. Open a terminal and navigate to the root of the **Harmony.Persistence** project, where the <mark style="color:blue;">HarmonyContext</mark> database context class exists.
+1. Open a terminal and navigate at the root of the **Harmony.Persistence** project, where the <mark style="color:blue;">HarmonyContext</mark> database context class exists.
 2. Run the **dotnet ef** command to create the database
 
 ```powershell
@@ -54,13 +54,13 @@ dotnet ef database update --context HarmonyContext --startup-project "../../Web/
 <figure><img src="../.gitbook/assets/command-line-update-database.png" alt=""><figcaption><p>Create database migration through command line</p></figcaption></figure>
 
 {% hint style="info" %}
-Just a reminder here: It's **optional** to run the migrations by yourself because they will run by default at startup. At a later release, this will be active only when debugging the application.
+Just a reminder here: It's **optional** to run the migrations by yourself because they will run by default at startup. At a later release, this will be active only in **debug** mode.
 {% endhint %}
 
 To disable the automatic migrations remove the following line from the <mark style="color:blue;">ApplicationBuilderExtensions</mark> class.
 
 ```csharp
-harmonyContext.Database.Migrate();// Some code
+harmonyContext.Database.Migrate();
 ```
 
 ### Running the app through Visual Studio
@@ -75,7 +75,7 @@ In order to run Harmony through command line, open a terminal and navigate at th
 dotnet run
 ```
 
-By default the app will run at [http://localhost:5181/](http://localhost:5181/). In case you want to change this change **5181** to what port you want at the launchSettings.json file for the http profile. The following example set the port to **5000**.
+By default the app will run at [http://localhost:5181/](http://localhost:5181/). In case you want to change this change **5181** to what port you want at the **launchSettings.json** file for the http profile. The following example set the port to **5000**.
 
 ```json
       "http": {
