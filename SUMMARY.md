@@ -8,7 +8,8 @@
 * [🛣 Roadmap](overview/roadmap.md)
 * [🐛 Issue tracking](overview/issue-tracking.md)
 * [🔃 Changelog](overview/changelog.md)
-* [⚙ Technology](overview/technology.md)
+* [🔥 Technology](overview/technology.md)
+* [⚙ Setup](overview/setup.md)
 * [💳 Buy online](overview/buy-online.md)
 
 ## Guide

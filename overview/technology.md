@@ -1,4 +1,4 @@
-# ⚙ Technology
+# 🔥 Technology
 
 The stack, tools, frameworks used in Harmony are the following:
 
