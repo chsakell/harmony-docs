@@ -7,7 +7,7 @@ Set the **SQL Server** connection string existing in the <mark style="color:blue
 ```json
   "ConnectionStrings": {
     "DefaultConnection": "Server=.;Database=Harmony;Integrated Security=True;TrustServerCertificate=True"
-  },// Some code
+  }
 ```
 
 ### Database migrations
