@@ -2,7 +2,7 @@
 
 ### Database connection string
 
-Set the **SQL Server** connection string existing in the <mark style="color:blue;">**appsettings.json**</mark> file at the root of the **Harmony.Server** project to your SQL Server instance.
+Harmony requires an instance of SQL Server. Configure the connection string existing in the <mark style="color:blue;">**appsettings.json**</mark> file at the root of the **Harmony.Server** project to point to your SQL Server instance.
 
 ```json
   "ConnectionStrings": {
@@ -30,13 +30,13 @@ Update-Database -Context HarmonyContext -StartUpProject Harmony.Server -v
 Migrations command require that you have previously setup your database connection string properly.
 {% endhint %}
 
-In case you decide to create a new migration, follow the same procedure by replacing the command with the following:
+In case you decide to **create** a new migration, follow the same procedure by replacing the command with the following:
 
 ```powershell
 Add-Migration MyCustomMigrationName -Context HarmonyContext -StartUpProject Harmony.Server -v// Some code
 ```
 
-#### Run migrations outside <mark style="color:blue;">Visual Studio</mark> - command line
+#### Run migrations outside <mark style="color:blue;">Visual Studio</mark> using a command line
 
 You can run database migrations from a command line as well. First make sure you have installed [EF Core tools](https://learn.microsoft.com/en-us/ef/core/cli/dotnet).
 
@@ -98,7 +98,7 @@ The are currently two issues that you need to **fix** when running the following
 1. **Before running the 1st command:** Correct a typo issue which exists in the <mark style="color:blue;">ServiceCollectionExtensions</mark> class of the **Harmony.Server** project. This build error exists only for release profile. Simply remove the <mark style="color:red;">\[</mark> character from the following line:\
    \
    `var result = JsonSerializer.Serialize(Result.Fail(`<mark style="color:orange;">`[`</mark>`"An unhandled error has occurred."));`
-2. **After running the 1nd command**: Create manually a folder named _**Files**_ inside the published folder
+2. **Before running the 2nd command**: Create manually a folder named _**Files**_ inside the published folder
 {% endhint %}
 
 **1st command:** Open a terminal and navigate at the root of the **Harmony.Server** project. Run the following command to create the release build:
