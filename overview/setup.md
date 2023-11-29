@@ -95,7 +95,7 @@ By default the app will run at [http://localhost:5181/](http://localhost:5181/).
 ### Publishing the app
 
 {% hint style="warning" %}
-The are currently two issues that you need to **fix** when running the following commands. Both issues have been fixed and will be released in the next release version.
+There are currently two issues that you need to **fix** when running the following commands. `Both issues have been fixed and will be released in the next release version.`
 
 1. **Before running the 1st command:** Correct a typo issue which exists in the <mark style="color:blue;">ServiceCollectionExtensions</mark> class of the **Harmony.Server** project. This build error exists only for release profile. Simply remove the <mark style="color:red;">\[</mark> character from the following line:\
    \
