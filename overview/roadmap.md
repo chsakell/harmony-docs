@@ -16,7 +16,7 @@ Remember that whenever you buy Harmony, you will be able to download the new rel
 
 The main goal is to add most if not all of the basic features someone can find on Trello & Jira. Here are some of the features to be implemented soon:
 
-* Email notifications using SendGrid or Gmail. This has currently the **highest priority**. Example: You will be receiving email notifications when an issue's status changes or due date expires.
+* Email notifications using Gmail and an optional email service provider such as Brevo. This has currently the **highest priority**. Example: You will be receiving email notifications when an issue's status changes or due date expires.
 * Add reports / charts to display a project's progress through time
 * Upgrade to **.NET 8**
 

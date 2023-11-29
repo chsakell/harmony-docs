@@ -11,12 +11,12 @@ Change log contains all version updates, old, current and upcoming with all impo
 {% hint style="info" %}
 This version's goal is to **add email notifications** via SendGrid or Gmail configuration. For best practices and scaling capabilities, a new project will be created, responsible to send the emails. The entire setup will be based on **RabbitMQ** messaging & **HangFire**.
 
-Other than that, there will be an amazing UI improvement on the board level and specifically when moving cards. It will be more responsive while it will also sync the board status across all connected members
+Other than that, there will be an amazing UX improvement on the board level and specifically when moving cards. It will be more responsive while it will also sync the board status across all connected members
 {% endhint %}
 
 * [ ] **RabbitMQ** messaging integration
-* [ ] New web application with **HangFire** integration
-* [ ] Email client setup - **SendGrid** or **Gmail** support
+* [x] New web application with **HangFire** integration
+* [ ] Email client setup - **Gmail** support plus an optional email service provider such as Brevo
 * [ ] Send email templates for the most important operations
 * [ ] UX board improvements
 
