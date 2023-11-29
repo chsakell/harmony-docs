@@ -1,8 +1,10 @@
 # ⚙ Setup
 
+Harmony is a web application built with **.NET Core** which means it's cross platform and can be deployed anywhere _(Windows, Linux, Mac)_. It also requires an **SQL Server** database which can be installed on Windows or [Linux](https://learn.microsoft.com/en-us/sql/linux/sql-server-linux-setup?view=sql-server-ver16#supportedplatforms).&#x20;
+
 ### Database connection string
 
-Harmony requires an instance of SQL Server. Configure the connection string existing in the <mark style="color:blue;">**appsettings.json**</mark> file at the root of the **Harmony.Server** project to point to your SQL Server instance.
+Configure the SQL Server's connection string existing in the <mark style="color:blue;">**appsettings.json**</mark> file at the root of the **Harmony.Server** project to point to your SQL Server instance.
 
 ```json
   "ConnectionStrings": {
