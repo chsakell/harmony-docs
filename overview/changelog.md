@@ -6,6 +6,20 @@ description: Make sure you read the changelog every time a new update is release
 
 Change log contains all version updates, old, current and upcoming with all important additions, fixes or improvements. The **unchecked** items of the _work in progress_ version, are the items remained before this build is released.
 
+### \[Version 1.3] - In Progress
+
+{% hint style="info" %}
+This version's goal is to **add email notifications** via SendGrid or Gmail configuration. For best practices and scaling capabilities, a new project will be created, responsible to send the emails. The entire setup will be based on **RabbitMQ** messaging & **HangFire**.
+
+Other than that, there will be an amazing UI improvement on the board level and specifically when moving cards. It will be more responsive while it will also sync the board status across all connected members
+{% endhint %}
+
+* [ ] **RabbitMQ** messaging integration
+* [ ] New web application with **HangFire** integration
+* [ ] Email client setup - **SendGrid** or **Gmail** support
+* [ ] Send email templates for the most important operations
+* [ ] UX board improvements
+
 ### \[Version 1.2] - (currently available)
 
 {% hint style="warning" %}
@@ -32,30 +46,6 @@ This update contains breaking changes so you will have to re-create the database
 * [x] Update text on **Enter** key pressed on _EditableTextField_ component
 * [x] Display loader when creating cards
 * [x] Scroll to the card's position added when creating a card within a list filled with multiple cards
-
-Here are some preview images from this iteration :eyes:
-
-<div>
-
-<figure><img src="../.gitbook/assets/v1_2-preview-backlog.png" alt=""><figcaption><p>Backlog</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/v1_2-preview-move-backlog-to-sprint.png" alt=""><figcaption><p>Move items from backlog to sprint</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/v1_2-preview-sprints.png" alt=""><figcaption><p>Sprints</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/v1_2-preview-board.png" alt=""><figcaption><p>Board issue type &#x26; serial number</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/v1_2-nav-menu.png" alt=""><figcaption><p>Nav menu for kanban &#x26; scrum projects</p></figcaption></figure>
-
-</div>
 
 ### \[Version 1] - 14 November 2023
 
