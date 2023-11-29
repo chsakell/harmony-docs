@@ -92,7 +92,7 @@ By default the app will run at [http://localhost:5181/](http://localhost:5181/).
       },
 ```
 
-#### Deploying the app
+#### Publishing the app
 
 {% hint style="warning" %}
 The are currently two issues that you need to **fix** when running the following commands. Both issues have been fixed and will be released in the next release version.
@@ -116,6 +116,10 @@ The produced build will be created inside a _**Harmony\Server\bin\Release\net7.0
 ```
 dotnet run Harmony.Server.dll
 ```
+
+#### Hosting Harmony
+
+There are many options to deploy a .NET Core web application in production. Please advice Microsoft's [documentation](https://learn.microsoft.com/en-us/aspnet/core/host-and-deploy/?view=aspnetcore-7.0) for thorough details on hosting and deployment.
 
 #### Read next - Buy Harmony
 
