@@ -9,18 +9,19 @@ Change log contains all version updates, old, current and upcoming with all impo
 ### \[Version 1.3] - In Progress
 
 {% hint style="info" %}
-This version's goal is to **add email notifications** via SendGrid or Gmail configuration. For best practices and scaling capabilities, a new project will be created, responsible to send the emails. The entire setup will be based on **RabbitMQ** messaging & **HangFire**.
+This version's goal is to **add email notifications** using Gmail configuration and optional email service provider such as Brevo. For best practices and scaling capabilities, a new project will be created, responsible to send the notifications. The entire setup will be based on **RabbitMQ** messaging & **HangFire**.
 
 Other than that, there will be an amazing UX improvement on the board level and specifically when moving cards. It will be more responsive while it will also sync the board status across all connected members
 {% endhint %}
 
 * [ ] **RabbitMQ** messaging integration
 * [x] New web application with **HangFire** integration
-* [ ] Email client setup - **Gmail** support plus an optional email service provider such as Brevo
-* [ ] Send email templates for the most important operations
+* [x] Add **Gmail** integration for email notifications
+* [ ] &#x20;Add [Brevo](https://www.brevo.com/products/transactional-email/) integration for email notifications
+* [ ] Send notifications for the most important operations
 * [ ] UX board improvements
 
-### \[Version 1.2] - available on Envato
+### \[Version 1.2] - available on [Envato](https://codecanyon.net/item/harmony-project-management-tool/49138488)
 
 * [x] Add support for Scrum Projects! :clap: :heart::rocket:
 * [x] Create backlog
