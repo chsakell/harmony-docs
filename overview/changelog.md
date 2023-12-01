@@ -20,11 +20,7 @@ Other than that, there will be an amazing UX improvement on the board level and 
 * [ ] Send email templates for the most important operations
 * [ ] UX board improvements
 
-### \[Version 1.2] - (currently available)
-
-{% hint style="warning" %}
-This update contains breaking changes so you will have to re-create the database from start. Just delete the Harmony database and re-run the project. After this update, breaking changes will be rare.
-{% endhint %}
+### \[Version 1.2] - available on Envato
 
 * [x] Add support for Scrum Projects! :clap: :heart::rocket:
 * [x] Create backlog
