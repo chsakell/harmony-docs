@@ -18,7 +18,10 @@ Other than that, there will be an amazing UX improvement on the board level and 
 * [x] New web application with **HangFire** integration
 * [x] Add **Gmail** integration for email notifications
 * [ ] &#x20;Add [Brevo](https://www.brevo.com/products/transactional-email/) integration for email notifications
-* [ ] Send notifications for the most important operations
+* [x] Send notification when card is completed
+* [x] Send reminder notification before due date
+* [ ] Add **due date reminder field** on card's date edit view _(e.g. 1 day before, 1 hour before, etc..)_
+* [ ] Add user options for enabling/disabling notifications
 * [ ] UX board improvements
 
 ### \[Version 1.2] - available on [Envato](https://codecanyon.net/item/harmony-project-management-tool/49138488)
