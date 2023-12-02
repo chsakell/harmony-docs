@@ -14,15 +14,29 @@ This version's goal is to **add email notifications** using Gmail configuration 
 Other than that, there will be an amazing UX improvement on the board level and specifically when moving cards. It will be more responsive while it will also sync the board status across all connected members
 {% endhint %}
 
-* [ ] **RabbitMQ** messaging integration
-* [x] New web application with **HangFire** integration
+* [x] **RabbitMQ** messaging integration
+* [x] New **Harmony.Notifications** web application with **HangFire** integration for background jobs
 * [x] Add **Gmail** integration for email notifications
-* [ ] &#x20;Add [Brevo](https://www.brevo.com/products/transactional-email/) integration for email notifications
-* [x] Send notification when card is completed
-* [x] Send reminder notification before due date
-* [ ] Add **due date reminder field** on card's date edit view _(e.g. 1 day before, 1 hour before, etc..)_
+* [x] &#x20;Add [Brevo](https://www.brevo.com/products/transactional-email/) integration for email notifications
+
+#### UI changes
+
+* [x] Add **due date reminder field** on card's date edit view _(e.g. 1 day before, 1 hour before, etc..)_
+* [x] 3 default board lists are added for Kanban projects as well
 * [ ] Add user options for enabling/disabling notifications
 * [ ] UX board improvements
+
+#### Notifications implemented so far
+
+* [x] Issue completed
+* [x] Due date based on due date reminder type
+* [x] Member assigned to card
+* [x] Member has given access to board
+
+#### Fixes
+
+* [x] Fix typo error when building in **Release** mode
+* [x] Ensure _Files_ folder exists inside the published folder when publishing **Harmony.Server** web app
 
 ### \[Version 1.2] - available on [Envato](https://codecanyon.net/item/harmony-project-management-tool/49138488)
 
