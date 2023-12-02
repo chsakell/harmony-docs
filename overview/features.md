@@ -10,6 +10,8 @@ Harmony already implements most features if not all, of a Kanban style project m
 
 Scrum projects allow you to plan your work in a **backlog** and organize cycles of work into **sprints**. It's recommended for large, complex projects. Harmony's goal is to provide most if not all scrum features provided by **Jira**.&#x20;
 
+<figure><img src="../.gitbook/assets/board-dark.png" alt=""><figcaption><p>Scrum project board</p></figcaption></figure>
+
 <div>
 
 <figure><img src="../.gitbook/assets/backlog-create-issue.png" alt=""><figcaption><p>Backlog</p></figcaption></figure>
@@ -21,10 +23,6 @@ Scrum projects allow you to plan your work in a **backlog** and organize cycles 
  
 
 <figure><img src="../.gitbook/assets/sprints.png" alt=""><figcaption><p>Sprints</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/scrum-board.png" alt=""><figcaption><p>Scrum project board</p></figcaption></figure>
 
 </div>
 
@@ -39,6 +37,7 @@ All board updates are smoothly synced via WebSocket connection across all connec
 * [x] Create workspaces
 * [x] Create Kanban projects
 * [x] Create Scrum projects
+* [x] Dark & light theme included
 
 #### Scrum features
 
