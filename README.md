@@ -30,7 +30,7 @@ You can create workspaces, **Kanban** boards, **Scrum** projects, lists, cards, 
 The source code is fully available after [purchase](overview/buy-online.md) and of course you get updates every time a new release is available! :tada: This means you can host your own instance of **Harmony** rather than paying paid services.
 
 {% hint style="info" %}
-Docs have been updated to the latest version **v1.2** which contain the support for **Scrum projects** as well.
+Docs have been updated to the latest version **v1.2** which contains the support for **Scrum projects** as well.
 {% endhint %}
 
 ## Quick links

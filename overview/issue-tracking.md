@@ -24,3 +24,9 @@ You can use Harmony's GitHub [repositor](https://github.com/chsakell/harmony-doc
 > `<url>` - a link to the reduced test case
 >
 > Any other information you want to share that is relevant to the issue being reported. This might include the lines of code that you have identified as causing the bug, and potential solutions (and your opinions on their merits).
+
+#### Read next - Change log
+
+{% content-ref url="changelog.md" %}
+[changelog.md](changelog.md)
+{% endcontent-ref %}

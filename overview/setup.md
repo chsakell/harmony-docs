@@ -121,7 +121,7 @@ dotnet run Harmony.Server.dll
 
 There are many options to deploy a .NET Core web application in production. Please advice Microsoft's [documentation](https://learn.microsoft.com/en-us/aspnet/core/host-and-deploy/?view=aspnetcore-7.0) for thorough details on hosting and deployment.
 
-#### Read next - Buy Harmony
+#### Read next - Make Harmony yours - Buy once, get updates for ever :rocket:
 
 {% content-ref url="buy-online.md" %}
 [buy-online.md](buy-online.md)

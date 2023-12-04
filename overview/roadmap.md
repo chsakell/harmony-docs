@@ -26,7 +26,11 @@ Other than new features, more UX improvements, bug fixes and performance improve
 Expect a release cycle to be about **2-3 weeks**, considering that [Envato](https://codecanyon.net/item/harmony-project-management-tool/49138488) needs a few days to approve the release.
 {% endhint %}
 
-#### Read next - Technology used
+#### Read next - Changelog & Technology used
+
+{% content-ref url="changelog.md" %}
+[changelog.md](changelog.md)
+{% endcontent-ref %}
 
 {% content-ref url="technology.md" %}
 [technology.md](technology.md)
