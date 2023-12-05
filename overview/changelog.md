@@ -11,7 +11,7 @@ Change log contains all version updates, old, current and upcoming with all impo
 {% hint style="info" %}
 This version's goal is to **add email notifications** using Gmail configuration and optional email service provider such as Brevo. For best practices and scaling capabilities, a new project will be created, responsible to send the notifications. The entire setup will be based on **RabbitMQ** messaging & **HangFire**.
 
-Other than that, there will be an amazing UX improvement on the board level and specifically when moving cards. It will be more responsive while it will also sync the board status across all connected members
+Other than that, there will be **fixes** and an amazing UX improvement on the board level and specifically when **moving cards**. It will be more responsive while it will also sync the board status across all connected members _(check preview gif below)_
 {% endhint %}
 
 * [x] **RabbitMQ** messaging integration
