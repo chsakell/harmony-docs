@@ -28,7 +28,11 @@ Other than that, there will be an amazing UX improvement on the board level and 
 
 #### Notifications implemented so far
 
-* [x] Issue completed
+* [x] Member added to a workspace
+* [x] Workspace access revoked from member
+* [x] Member added to a board
+* [x] Board access revoked from member
+* [x] Issue completed _(moved to a list marked as DONE)_
 * [x] Due date based on due date reminder type
 * [x] Member assigned to card
 * [x] Member has given access to board
