@@ -23,7 +23,7 @@ Other than that, there will be an amazing UX improvement on the board level and 
 
 * [x] Add **due date reminder field** on card's date edit view _(e.g. 1 day before, 1 hour before, etc..)_
 * [x] 3 default board lists are added for Kanban projects as well
-* [ ] Add user options for enabling/disabling notifications
+* [x] Add user options for enabling/disabling notifications
 * [ ] UX board improvements
 
 #### Notifications implemented so far
@@ -32,6 +32,7 @@ Other than that, there will be an amazing UX improvement on the board level and 
 * [x] Due date based on due date reminder type
 * [x] Member assigned to card
 * [x] Member has given access to board
+* [x] Board access revoked
 
 #### Fixes
 
