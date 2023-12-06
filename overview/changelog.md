@@ -6,7 +6,7 @@ description: Make sure you read the changelog every time a new update is release
 
 Change log contains all version updates, old, current and upcoming with all important additions, fixes or improvements. The **unchecked** items of the _work in progress_ version, are the items remained before this build is released.
 
-### \[Version 1.3] - In Progress
+### \[Version 1.3] - In Progress , pending testing & documentation
 
 {% hint style="info" %}
 This version's goal is to **add email notifications** using Gmail configuration and optional email service provider such as Brevo. For best practices and scaling capabilities, a new project will be created, responsible to send the notifications. The entire setup will be based on **RabbitMQ** messaging & **HangFire**.
@@ -24,7 +24,7 @@ Other than that, there will be **fixes** and an amazing UX improvement on the bo
 * [x] Add **due date reminder field** on card's date edit view _(e.g. 1 day before, 1 hour before, etc..)_
 * [x] 3 default board lists are added for Kanban projects as well
 * [x] Add user options for enabling/disabling notifications
-* [ ] UX board improvements
+* [x] UX board improvements
 
 #### Notifications implemented so far
 
