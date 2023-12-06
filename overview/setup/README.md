@@ -26,7 +26,7 @@ Run the following command to create the database:
 Update-Database -Context HarmonyContext -StartUpProject Harmony.Server -v
 ```
 
-<figure><img src="../.gitbook/assets/visual-studio-migrations-update-database.png" alt=""><figcaption><p>Create database migration through Visual Studio</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/visual-studio-migrations-update-database.png" alt=""><figcaption><p>Create database migration through Visual Studio</p></figcaption></figure>
 
 {% hint style="warning" %}
 Migrations command require that you have previously setup your database connection string properly.
@@ -53,7 +53,7 @@ dotnet tool install --global dotnet-ef
 dotnet ef database update --context HarmonyContext --startup-project "../../Web/Harmony/Server/Harmony.Server.csproj"
 ```
 
-<figure><img src="../.gitbook/assets/command-line-update-database.png" alt=""><figcaption><p>Create database migration through command line</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/command-line-update-database.png" alt=""><figcaption><p>Create database migration through command line</p></figcaption></figure>
 
 {% hint style="info" %}
 Just a reminder here: It's **optional** to run the migrations by yourself because they will run by default at startup. At a later release, this will be active only in **debug** mode.
@@ -94,15 +94,6 @@ By default the app will run at [http://localhost:5181/](http://localhost:5181/).
 
 ### Publishing the app
 
-{% hint style="warning" %}
-There are currently two issues that you need to **fix** when running the following commands. `Both issues have been fixed and will be released in the next release version.`
-
-1. **Before running the 1st command:** Correct a typo issue which exists in the <mark style="color:blue;">ServiceCollectionExtensions</mark> class of the **Harmony.Server** project. This build error exists only for release profile. Simply remove the <mark style="color:red;">\[</mark> character from the following line:\
-   \
-   `var result = JsonSerializer.Serialize(Result.Fail(`<mark style="color:orange;">`[`</mark>`"An unhandled error has occurred."));`
-2. **Before running the 2nd command**: Create manually a folder named _**Files**_ inside the published folder
-{% endhint %}
-
 **1st command:** Open a terminal and navigate at the root of the **Harmony.Server** project. Run the following command to create the release build:
 
 ```
@@ -123,6 +114,6 @@ There are many options to deploy a .NET Core web application in production. Plea
 
 #### Read next - Make Harmony yours - Buy once, get updates for ever :rocket:
 
-{% content-ref url="buy-online.md" %}
-[buy-online.md](buy-online.md)
+{% content-ref url="../buy-online.md" %}
+[buy-online.md](../buy-online.md)
 {% endcontent-ref %}

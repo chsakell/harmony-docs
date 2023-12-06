@@ -18,6 +18,6 @@ The stack, tools, frameworks used in Harmony are the following:
 
 #### Read next - Configure Harmony
 
-{% content-ref url="setup.md" %}
-[setup.md](setup.md)
+{% content-ref url="setup/" %}
+[setup](setup/)
 {% endcontent-ref %}
