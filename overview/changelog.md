@@ -6,7 +6,7 @@ description: Make sure you read the changelog every time a new update is release
 
 Change log contains all version updates, old, current and upcoming with all important additions, fixes or improvements. The **unchecked** items of the _work in progress_ version, are the items remained before this build is released.
 
-### \[Version 1.3] - In Progress , pending testing & documentation
+### \[Version 1.3] - Submitted for review in Envato _(estimate 1-2 weeks)_
 
 {% hint style="info" %}
 This version's goal is to **add email notifications** using Gmail configuration and optional email service provider such as Brevo. For best practices and scaling capabilities, a new project will be created, responsible to send the notifications. The entire setup will be based on **RabbitMQ** messaging & **HangFire**.
