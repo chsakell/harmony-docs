@@ -1,10 +1,12 @@
 # 🏃♂ Debugging
 
-### Running the app through Visual Studio
+### Running the apps through Visual Studio
 
-In case you want to run or debug the application from Visual Studio, make sure to set the **Harmony.Server** project as the startup or simply right click to it and select **Debug -> Start new instance**.
+In case you want to run or debug both <mark style="color:blue;">**Harmony**</mark> & <mark style="color:blue;">**Harmony.Notifications**</mark> applications from Visual Studio, set the projects as the startup projects by right clicking the solution and selecting **Configure Startup Projects..**
 
-### Running the app through command line
+<figure><img src="../../.gitbook/assets/startup-projects.png" alt=""><figcaption></figcaption></figure>
+
+### Running the apps through command line
 
 In order to run Harmony through command line, open a terminal and navigate at the root of the **Harmony.Server** project. Make sure you have the [dotnet runtime](https://dotnet.microsoft.com/en-us/download) or SDK installed _(currently .NET 7.0 is required but .NET 8.0 should work as well)_ and run the following command:
 
@@ -27,3 +29,4 @@ By default the app will run at [http://localhost:5181/](http://localhost:5181/).
       },
 ```
 
+Do the same for <mark style="color:blue;">**Harmony.Notifications**</mark>. The app will start by default at [http://localhost:5094/](http://localhost:5094/).
