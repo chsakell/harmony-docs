@@ -24,7 +24,7 @@ Its dependencies are:
 [deployment.md](deployment.md)
 {% endcontent-ref %}
 
-#### Read next - Make Harmony yours - Buy once, get updates for ever :rocket:
+#### Make Harmony yours - Buy once, get updates for ever :rocket:
 
 {% content-ref url="../buy-online.md" %}
 [buy-online.md](../buy-online.md)
