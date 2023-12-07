@@ -61,3 +61,9 @@ Last thing you need to do is to register the Brevo service provider in code. Mak
 ```csharp
 builder.Services.AddSingleton<IEmailService, BrevoEmailService>();
 ```
+
+#### Read next - Deploy Harmony
+
+{% content-ref url="deployment.md" %}
+[deployment.md](deployment.md)
+{% endcontent-ref %}

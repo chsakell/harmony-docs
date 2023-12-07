@@ -44,16 +44,39 @@ Normally a RabbitMQ configuration would require a **username** and a **password*
         "VirtualHost": ""
       },
     ```
-3.  In the <mark style="color:blue;">NotificationsConsumerHostedService</mark> & the <mark style="color:blue;">RabbitMQNotificationPublisher</mark> classes set the new properties added in the <mark style="color:blue;">ConnectionFactory</mark>.
 
-    ```csharp
-    var factory = new ConnectionFactory
-    {
-        HostName = _brokerConfiguration.Host,
-        Port = _brokerConfiguration.Port,
-        AutomaticRecoveryEnabled = true,
-        UserName = _brokerConfiguration.Username,
-        Password = _brokerConfiguration.Password,
-        VirtualHost = _brokerConfiguration.VirtualHost
-    };
-    ```
+Example configuration for a _harmony_ user created on localhost & virtual host /:
+
+```json
+  "BrokerConfiguration": {
+    "Host": "localhost",
+    "Port": 5672,
+    "Username": "harmony",
+    "Password": "my_super_password",
+    "VirtualHost": "/"
+  },
+```
+
+3. In the <mark style="color:blue;">NotificationsConsumerHostedService</mark> & the <mark style="color:blue;">RabbitMQNotificationPublisher</mark> classes set the new properties added in the <mark style="color:blue;">ConnectionFactory</mark>.
+
+```csharp
+var factory = new ConnectionFactory
+{
+    HostName = _brokerConfiguration.Host,
+    Port = _brokerConfiguration.Port,
+    AutomaticRecoveryEnabled = true,
+    UserName = _brokerConfiguration.Username, // add this
+    Password = _brokerConfiguration.Password, // add this
+    VirtualHost = _brokerConfiguration.VirtualHost // add this
+};
+```
+
+#### Read next: Configuring the email service provider
+
+{% content-ref url="email-provider.md" %}
+[email-provider.md](email-provider.md)
+{% endcontent-ref %}
+
+{% content-ref url="deployment.md" %}
+[deployment.md](deployment.md)
+{% endcontent-ref %}

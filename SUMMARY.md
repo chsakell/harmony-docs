@@ -13,8 +13,8 @@
   * [💾 Databases](overview/setup/databases.md)
   * [🏃♂ Debugging](overview/setup/debugging.md)
   * [📬 RabbitMQ](overview/setup/rabbitmq.md)
-  * [🚀 Deployment](overview/setup/deployment.md)
   * [📧 Email provider](overview/setup/email-provider.md)
+  * [🚀 Deployment](overview/setup/deployment.md)
 * [💳 Buy online](overview/buy-online.md)
 
 ## Guide
