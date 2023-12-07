@@ -73,8 +73,20 @@ All board updates are smoothly synced via WebSocket connection across all connec
 * [x] Edit user account
 * [x] Upload profile picture
 
+#### Harmony VS other popular project management tools
+
+* [x] **One time** small purchase rather than monthly or yearly payments :credit\_card::date:
+* [x] There are no limitations or premium features! :clap: - Everything that becomes available on each release becomes available to use for everyone.
+* [x] Full source code available _(thousands of lines..)_ :tada: :muscle: - Harmony is built using best code practices and patterns.
+* [x] Host your own instance - scale on demand based on your requirements.
+* [x] Beautiful, simple and easy to use UI.
+
 #### Read next - Roadmap
 
 {% content-ref url="roadmap.md" %}
 [roadmap.md](roadmap.md)
+{% endcontent-ref %}
+
+{% content-ref url="buy-online.md" %}
+[buy-online.md](buy-online.md)
 {% endcontent-ref %}

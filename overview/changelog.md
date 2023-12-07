@@ -88,7 +88,12 @@ Other than that, there were **fixes** and an amazing UX improvement on the board
 * [x] Add checklists to cards
 * [x] Add check list items to checklists
 * [x] Add start / due date to cards
-* [x] Register some activities\
+* [x] Register some activities
 
+#### Read next - Technology
+
+{% content-ref url="technology.md" %}
+[technology.md](technology.md)
+{% endcontent-ref %}
 
 [^1]: First issue for a project named Harmony
