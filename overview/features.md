@@ -30,6 +30,8 @@ Scrum projects allow you to plan your work in a **backlog** and organize cycles 
 All board updates are smoothly synced via WebSocket connection across all connected members
 {% endhint %}
 
+<figure><img src="../.gitbook/assets/card-move-opt-sync.gif" alt=""><figcaption><p>Syncing board across different connections</p></figcaption></figure>
+
 ### Full list of features currently supported
 
 #### Project oriented features
