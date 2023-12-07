@@ -65,9 +65,12 @@ var factory = new ConnectionFactory
     HostName = _brokerConfiguration.Host,
     Port = _brokerConfiguration.Port,
     AutomaticRecoveryEnabled = true,
-    UserName = _brokerConfiguration.Username, // add this
-    Password = _brokerConfiguration.Password, // add this
-    VirtualHost = _brokerConfiguration.VirtualHost // add this
+    UserName = string.IsNullOrEmpty(_brokerConfiguration.Username) 
+        ? ConnectionFactory.DefaultUser : _brokerConfiguration.Username, // add this
+    Password = string.IsNullOrEmpty(_brokerConfiguration.Password) 
+        ? ConnectionFactory.DefaultPass : _brokerConfiguration.Password, // add this
+    VirtualHost = string.IsNullOrEmpty(_brokerConfiguration.VirtualHost) ?
+        ConnectionFactory.DefaultVHost : _brokerConfiguration.VirtualHost,// add this
 };
 ```
 
