@@ -10,7 +10,8 @@ The stack, tools, frameworks used in Harmony are the following:
 * Dapper
 * CQRS MediatR
 * [AutoMapper](https://automapper.org/)
-* HangFire & RabbitMQ _(coming soon)_
+* [HangFire](https://www.hangfire.io/)
+* [RabbitMQ](https://rabbitmq.com/)
 
 #### Database diagram
 
