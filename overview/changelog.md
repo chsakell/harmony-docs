@@ -6,12 +6,23 @@ description: Make sure you read the changelog every time a new update is release
 
 Change log contains all version updates, old, current and upcoming with all important additions, fixes or improvements. The **unchecked** items of the _work in progress_ version, are the items remained before this build is released.
 
+### \[Version 1.4] -  Work in progress
+
+{% hint style="info" %}
+This version goal is to add the first **charts** for monitoring a project's progress :tada:. \
+Also support for **adding comments** in cards will be added :speaking\_head:, plus plain text email notifications will be replaced by beautiful templates :heartbeat:
+{% endhint %}
+
+* [ ] Add charts for boards
+* [ ] Implement adding comments to cards
+* [ ] Use new templates for email notifications
+
 ### \[Version 1.3] -  available on [Envato](https://codecanyon.net/item/harmony-project-management-tool/49138488)
 
 {% hint style="info" %}
 This version's goal was to **add email notifications** using Gmail configuration and optional email service provider such as Brevo. For best practices and scaling capabilities, a new project was created, responsible to send the notifications. The entire setup will be based on **RabbitMQ** messaging & **HangFire**.
 
-Other than that, there were **fixes** and an amazing UX improvement on the board level and specifically when **moving cards**. It became more responsive while it also syncs the board status across all connected members _(check preview gif below)_
+Other than that, there were **fixes** and an amazing UX improvement on the board level and specifically when **moving cards**. It became more responsive while it also syncs the board status across all connected members
 {% endhint %}
 
 * [x] **RabbitMQ** messaging integration
@@ -45,8 +56,6 @@ Other than that, there were **fixes** and an amazing UX improvement on the board
 * [x] Ensure _Files_ folder exists inside the published folder when publishing **Harmony.Server** web app
 
 <figure><img src="../.gitbook/assets/card-move-opt-sync.gif" alt=""><figcaption><p>Sync card movement across all connections</p></figcaption></figure>
-
-<figure><img src="../.gitbook/assets/card-move-opt.gif" alt=""><figcaption><p>Card movement fixes / UX enhancements</p></figcaption></figure>
 
 ### \[Version 1.2] - 24 November 2023
 
