@@ -10,12 +10,17 @@ Change log contains all version updates, old, current and upcoming with all impo
 
 {% hint style="info" %}
 This version goal is to add the first **charts** for monitoring a project's progress :tada:. \
-Also support for **adding comments** in cards will be added :speaking\_head:, plus plain text email notifications will be replaced by beautiful templates :heartbeat:
+Also support for **adding comments** in cards will be added :speaking\_head:
 {% endhint %}
 
-* [ ] Add charts for boards
-* [ ] Implement adding comments to cards
-* [ ] Use new templates for email notifications
+* [x] Create comment&#x20;
+* [x] Edit comment
+* [x] Delete comment
+* [ ] Implement story points for issues
+* [ ] Add charts for scrum boards
+* [x] View card in **Fullscreen** :clap: :100:
+
+<figure><img src="../.gitbook/assets/card-comments.gif" alt=""><figcaption><p>Comments &#x26; Fullscreen preview</p></figcaption></figure>
 
 ### \[Version 1.3] -  available on [Envato](https://codecanyon.net/item/harmony-project-management-tool/49138488)
 
@@ -54,8 +59,6 @@ Other than that, there were **fixes** and an amazing UX improvement on the board
 * [x] Fixes for card movement in the board, especially with positioning
 * [x] Fix typo error when building in **Release** mode
 * [x] Ensure _Files_ folder exists inside the published folder when publishing **Harmony.Server** web app
-
-<figure><img src="../.gitbook/assets/card-move-opt-sync.gif" alt=""><figcaption><p>Sync card movement across all connections</p></figcaption></figure>
 
 ### \[Version 1.2] - 24 November 2023
 
