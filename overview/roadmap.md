@@ -18,7 +18,6 @@ The main goal is to add most if not all of the basic features someone can find o
 
 * Add reports / charts to display a project's progress through time
 * Use beautiful email templates for the email notifications
-* Upgrade to **.NET 8**
 
 {% hint style="info" %}
 Other than new features, more UX improvements, bug fixes and performance improvements will be always released\
