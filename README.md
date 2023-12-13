@@ -29,7 +29,7 @@ Just for a **few days**, Harmony will be available for purchase with [**30%** di
 
 ## Overview
 
-Harmony is a project management tool to manage your projects.
+<mark style="color:blue;">**Harmony**</mark> is a project management tool to manage your projects.
 
 It can be used by large organizations to manage projects across their teams or by developers to manage their own projects.
 
