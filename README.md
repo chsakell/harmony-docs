@@ -23,6 +23,10 @@ layout:
 Harmony
 {% endembed %}
 
+### :tada: :clap: Discount Alert <mark style="color:orange;">30%</mark> :tada: :clap:
+
+Just for a **few days**, Harmony will be available for purchase with [**30%** discount](#user-content-fn-1)[^1]!!!
+
 ## Overview
 
 Harmony is a project management tool to manage your projects.
@@ -46,3 +50,5 @@ Docs have been updated to the latest version **v1.3** which contains the support
 {% content-ref url="overview/buy-online.md" %}
 [buy-online.md](overview/buy-online.md)
 {% endcontent-ref %}
+
+[^1]: <mark style="color:green;">51$</mark> instead of <mark style="color:red;">74$</mark>
