@@ -27,6 +27,8 @@ Harmony
 
 Just for a **few days**, Harmony will be available for purchase with [**30%** discount](#user-content-fn-1)[^1]!!!
 
+Make a Christmas :christmas\_tree: gift to your team or yourself and let Harmony be your favorite project management tool :rocket:&#x20;
+
 ## Overview
 
 <mark style="color:blue;">**Harmony**</mark> is a project management tool to manage your projects.
