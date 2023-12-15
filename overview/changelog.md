@@ -6,19 +6,27 @@ description: Make sure you read the changelog every time a new update is release
 
 Change log contains all version updates, old, current and upcoming with all important additions, fixes or improvements. The **unchecked** items of the _work in progress_ version, are the items remained before this build is released.
 
-### \[Version 1.4] -  Work in progress
+### \[Version 1.4] -  Work in progress (testing..)
 
 {% hint style="info" %}
-This version goal is to add the first **charts** for monitoring a project's progress :tada:. \
+This version goal is to add the first **charts** for monitoring a scrum project's progress :tada:. \
 Also support for **adding comments** in cards will be added :speaking\_head:
 {% endhint %}
 
-* [x] Create comment&#x20;
-* [x] Edit comment
-* [x] Delete comment
-* [ ] Implement story points for issues
-* [ ] Add charts for scrum boards
+#### Features
+
+* [x] Create, edit, delete comments :writing\_hand::pencil:
+* [x] Implement **story points** for issues
+* [x] Add burndown chart report for scrum sprints :chart\_with\_upwards\_trend:
 * [x] View card in **Fullscreen** :clap: :100:
+* [x] Display number of comments on board
+* [x] Update backlog item inline :muscle::clap:
+
+#### Fixes
+
+* [x] Fix RabbitMQ configuration _(add username, password, virtual host)_
+* [x] Fix validation issue on edit sprint modal
+* [x] Load board query fixes for scrum projects
 
 <figure><img src="../.gitbook/assets/card-comments.gif" alt=""><figcaption><p>Comments &#x26; Fullscreen preview</p></figcaption></figure>
 
