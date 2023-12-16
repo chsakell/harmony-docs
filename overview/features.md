@@ -63,6 +63,7 @@ All board updates are smoothly synced via WebSocket connection across all connec
 * [x] Assign member(s) to an issue
 * [x] Upload attachments to a card
 * [x] Remove attachments from a card
+* [x] Add, edit and remove comments to a card
 * [x] Archive a card
 
 #### Member features
@@ -82,6 +83,10 @@ All board updates are smoothly synced via WebSocket connection across all connec
 * [x] Full source code available _(thousands of lines..)_ :tada: :muscle: - Harmony is built using best code practices and patterns.
 * [x] Host your own instance - scale on demand based on your requirements.
 * [x] Beautiful, simple and easy to use UI.
+
+{% hint style="info" %}
+For a complete list of features, fixes, enhanced being added to Harmony on every release, you can always check the [changelog](changelog.md) :bulb:
+{% endhint %}
 
 #### Read next - Roadmap
 

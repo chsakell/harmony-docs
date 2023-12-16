@@ -21,6 +21,7 @@ Also support for **adding comments** in cards will be added :speaking\_head:
 * [x] View card in **Fullscreen** :clap: :100:
 * [x] Display number of comments on board
 * [x] Update backlog item inline :muscle::clap:
+* [x] Update sprint item inline :tada:
 
 #### Fixes
 
