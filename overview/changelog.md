@@ -6,7 +6,7 @@ description: Make sure you read the changelog every time a new update is release
 
 Change log contains all version updates, old, current and upcoming with all important additions, fixes or improvements. The **unchecked** items of the _work in progress_ version, are the items remained before this build is released.
 
-### \[Version 1.4] -  Work in progress (testing..)
+### \[Version 1.4] -  Submitted for review in Envato
 
 {% hint style="info" %}
 This version goal is to add the first **charts** for monitoring a scrum project's progress :tada:. \
@@ -29,7 +29,29 @@ Also support for **adding comments** in cards will be added :speaking\_head:
 * [x] Fix validation issue on edit sprint modal
 * [x] Load board query fixes for scrum projects
 
+<figure><img src="../.gitbook/assets/burndown-report-dark.png" alt=""><figcaption></figcaption></figure>
+
+<div>
+
 <figure><img src="../.gitbook/assets/card-comments.gif" alt=""><figcaption><p>Comments &#x26; Fullscreen preview</p></figcaption></figure>
+
+ 
+
+<figure><img src="../.gitbook/assets/burndown-report-light.png" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src="../.gitbook/assets/issues-overview-light.png" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src="../.gitbook/assets/issues-overview-dark.png" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src="../.gitbook/assets/sprint-table.png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 ### \[Version 1.3] -  available on [Envato](https://codecanyon.net/item/harmony-project-management-tool/49138488)
 
