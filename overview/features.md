@@ -48,6 +48,7 @@ All board updates are smoothly synced via WebSocket connection across all connec
 * [x] Create sprints
 * [x] Move issues between backlog & sprints
 * [x] Start & complete sprints
+* [x] Display **burndown** chart (new) :rocket: :chart\_with\_upwards\_trend:
 
 #### Board features
 
@@ -63,7 +64,7 @@ All board updates are smoothly synced via WebSocket connection across all connec
 * [x] Assign member(s) to an issue
 * [x] Upload attachments to a card
 * [x] Remove attachments from a card
-* [x] Add, edit and remove comments to a card
+* [x] Add, edit and remove comments to a card  (new) :rocket:
 * [x] Archive a card
 
 #### Member features

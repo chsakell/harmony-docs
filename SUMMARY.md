@@ -37,5 +37,6 @@
     * [🏷 Add labels](guide/boards/cards/add-labels.md)
     * [📅 Add dates](guide/boards/cards/add-dates.md)
     * [🗃 Attachments](guide/boards/cards/attachments.md)
+    * [🗣 Comments](guide/boards/cards/comments.md)
     * [🔴 Archive](guide/boards/cards/archive.md)
   * [👥 Members](guide/boards/members.md)
