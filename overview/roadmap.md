@@ -14,10 +14,7 @@ Harmony already implements most of a **Kanban** software tool features, such as 
 Remember that whenever you buy Harmony, you will be able to download the new releases for free.
 {% endhint %}
 
-The main goal is to add most if not all of the basic features someone can find on Trello & Jira. Here are some of the features to be implemented soon:
-
-* Add reports / charts to display a project's progress through time
-* Use beautiful email templates for the email notifications
+The main goal is to add most if not all of the basic features someone can find on Trello & Jira.&#x20;
 
 {% hint style="info" %}
 Other than new features, more UX improvements, bug fixes and performance improvements will be always released\
