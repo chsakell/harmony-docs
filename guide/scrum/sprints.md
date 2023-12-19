@@ -6,7 +6,7 @@ Sprints are the core components of a scrum project's board. The board of a scrum
 You can have more than one sprint in **Active** status
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/sprints.png" alt=""><figcaption><p>Sprints</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/sprint-table.png" alt=""><figcaption><p>Sprints</p></figcaption></figure>
 
 ### Create a sprint
 
@@ -23,6 +23,25 @@ If for some reason you want to move some issues from a sprint to the backlog, yo
 {% hint style="warning" %}
 If the sprint that you moved the items from was Active, then the items will also not be visible anymore in the project's board
 {% endhint %}
+
+### Sprint Reports - Burndown chart
+
+At any time during the sprint, click the **REPORTS** button to view the burndown chart. You can see the total story points committed to the sprint and the story points remained as well.&#x20;
+
+{% hint style="info" %}
+A **burndown chart** shows the amount of work that has been completed in an epic or sprint, and the total work remaining.
+{% endhint %}
+
+<figure><img src="../../.gitbook/assets/burndown-report-dark.png" alt=""><figcaption><p>Burndown chart</p></figcaption></figure>
+
+{% hint style="warning" %}
+* If you notice that the team consistently finishes work early _(**pink** line will be under the <mark style="color:blue;">blue</mark> one)_, this might be a sign that they aren't committing to enough work during sprint planning.&#x20;
+* If they consistently miss their forecast _(**pink** line above the <mark style="color:blue;">blue</mark> one and remaining story points > 0)_, this might be a sign that they've committed to too much work.
+{% endhint %}
+
+An overview of the sprint issue types worked on the sprint is also available by clicking the **ISSUES OVERVIEW** tab.
+
+<figure><img src="../../.gitbook/assets/issues-overview-light.png" alt=""><figcaption></figcaption></figure>
 
 ### Complete a sprint
 
