@@ -6,10 +6,37 @@ description: Make sure you read the changelog every time a new update is release
 
 Change log contains all version updates, old, current and upcoming with all important additions, fixes or improvements. The **unchecked** items of the _work in progress_ version, are the items remained before this build is released.
 
-### \[Version 1.4] -  Submitted for review in Envato
+### \[Version 1.5] - Work in progress
+
+> _We are searching for some kind of **harmony** between two intangibles: a form which we have not yet designed and a context which we cannot properly describe._\
+> \
+> [_**Christopher Alexander**_](#user-content-fn-1)[^1]
 
 {% hint style="info" %}
-This version goal is to add the first **charts** for monitoring a scrum project's progress :tada:. \
+This version's goal is to add a **powerful Search textbox** at the top bar :mag\_right: .  \
+Here are some of the features to be implemented in this release:
+{% endhint %}
+
+#### Features
+
+* [ ] Integrate [Angolia](https://www.algolia.com/) search engine for super fast indexing & searching capabilities. Angolia is totally [free](https://www.algolia.com/pricing/) to use for **10000** requests per month  :muscle: and probably the easiest search engine to configure, existing at the moment
+* [ ] Implement a database fallback search service in case there's no search engine integration configuration
+
+{% hint style="info" %}
+**Why Angolia & not Elastic Search?**\
+
+
+* Algolia search is [faster](https://www.algolia.com/blog/engineering/full-text-search-in-your-database-algolia-versus-elasticsearch/), more relevant, and easier to use than Elasticsearch for searching simple database data. Algolia's focus is on getting exceptional results with minimal configuration.&#x20;
+* Elasticsearch is more flexible for searching complex data and can be used for a wider range of search applications.
+
+\
+<mark style="color:orange;">Who said Harmony won't add Elastic Search support in the future?</mark> :sunglasses:\ <mark style="color:orange;">Hamony is here to stay. Elastic Search support will be added as soon as possible.</mark>
+{% endhint %}
+
+### \[Version 1.4] -   available on [Envato](https://codecanyon.net/item/harmony-project-management-tool/49138488)
+
+{% hint style="info" %}
+This version's goal is to add the first **charts** for monitoring a scrum project's progress :tada:. \
 Also support for **adding comments** in cards will be added :speaking\_head:
 {% endhint %}
 
@@ -53,7 +80,7 @@ Also support for **adding comments** in cards will be added :speaking\_head:
 
 </div>
 
-### \[Version 1.3] -  available on [Envato](https://codecanyon.net/item/harmony-project-management-tool/49138488)
+### \[Version 1.3] - 6 December 2023
 
 {% hint style="info" %}
 This version's goal was to **add email notifications** using Gmail configuration and optional email service provider such as Brevo. For best practices and scaling capabilities, a new project was created, responsible to send the notifications. The entire setup will be based on **RabbitMQ** messaging & **HangFire**.
@@ -101,7 +128,7 @@ Other than that, there were **fixes** and an amazing UX improvement on the board
 * [x] Move items from sprint to backlog
 * [x] Move items from backlog to sprints
 * [x] Introduce issue types for cards _(Epic, Bug, Task, Story, Task)_
-* [x] Create **Serial Key** to easily identify cards/issues, e.g. HARM-1[^1]
+* [x] Create **Serial Key** to easily identify cards/issues, e.g. HARM-1[^2]
 * [x] Create board/sprint navigation items _(left menu & breadcrumbs)_
 * [x] Change backlog items order
 
@@ -139,4 +166,6 @@ Other than that, there were **fixes** and an amazing UX improvement on the board
 [technology.md](technology.md)
 {% endcontent-ref %}
 
-[^1]: First issue for a project named Harmony
+[^1]: Christopher Wolfgang John Alexander (4 October 1936 – 17 March 2022) was an Austrian-born British-American architect and design theorist. He was an emeritus professor at the University of California, Berkeley. His theories about the nature of human-centered design have affected fields beyond architecture, including urban design, software, and sociology.
+
+[^2]: First issue for a project named Harmony

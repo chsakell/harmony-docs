@@ -16,11 +16,15 @@ Remember that whenever you buy Harmony, you will be able to download the new rel
 
 The main goal is to add most if not all of the basic features someone can find on Trello & Jira.&#x20;
 
-{% hint style="info" %}
+{% hint style="success" %}
 Other than new features, more UX improvements, bug fixes and performance improvements will be always released\
-\
 Expect a release cycle to be about **2-3 weeks**, considering that [Envato](https://codecanyon.net/item/harmony-project-management-tool/49138488) needs a few days to approve the release.
 {% endhint %}
+
+### Major milestones coming soon
+
+* [ ] **Search Engine integration**: A powerful and super fast search text box will be added to the top bar&#x20;
+* [ ] **Gmail & Facebook login integration**
 
 #### Read next - Changelog & Technology used
 
