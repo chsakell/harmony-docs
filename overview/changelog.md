@@ -19,18 +19,18 @@ Here are some of the features to be implemented in this release:
 
 #### Features
 
-* [ ] Integrate [Angolia](https://www.algolia.com/) search engine for super fast indexing & searching capabilities. Angolia is totally [free](https://www.algolia.com/pricing/) to use for **10000** requests per month  :muscle: and probably the easiest search engine to configure, existing at the moment
+* [ ] Integrate [Algolia](https://www.algolia.com/) search engine for super fast indexing & searching capabilities. Algolia is totally [free](https://www.algolia.com/pricing/) to use for **10000** requests per month  :muscle: and probably the easiest search engine to configure, existing at the moment
 * [ ] Implement a database fallback search service in case there's no search engine integration configuration
 
 {% hint style="info" %}
-**Why Angolia & not Elastic Search?**\
+**Why Algolia & not Elastic Search?**\
 
 
 * Algolia search is [faster](https://www.algolia.com/blog/engineering/full-text-search-in-your-database-algolia-versus-elasticsearch/), more relevant, and easier to use than Elasticsearch for searching simple database data. Algolia's focus is on getting exceptional results with minimal configuration.&#x20;
 * Elasticsearch is more flexible for searching complex data and can be used for a wider range of search applications.
 
 \
-<mark style="color:orange;">Who said Harmony won't add Elastic Search support in the future?</mark> :sunglasses:\ <mark style="color:orange;">Hamony is here to stay. Elastic Search support will be added as soon as possible.</mark>
+<mark style="color:orange;">Who said Harmony won't add Elastic Search support in the future?</mark> :sunglasses:\ <mark style="color:orange;">Harmony is here to stay.</mark> <mark style="color:orange;"></mark><mark style="color:orange;">**Elastic Search**</mark> <mark style="color:orange;"></mark><mark style="color:orange;">support will be added as well.</mark>
 {% endhint %}
 
 ### \[Version 1.4] -   available on [Envato](https://codecanyon.net/item/harmony-project-management-tool/49138488)

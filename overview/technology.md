@@ -12,6 +12,7 @@ The stack, tools, frameworks used in Harmony are the following:
 * [AutoMapper](https://automapper.org/)
 * [HangFire](https://www.hangfire.io/)
 * [RabbitMQ](https://rabbitmq.com/)
+* [Algolia](https://www.algolia.com/) search engine integration _(optional)_
 
 #### Database diagram
 
