@@ -23,9 +23,9 @@ layout:
 Harmony
 {% endembed %}
 
-### :tada: :clap: Discount Alert <mark style="color:orange;">50%</mark> :tada: :clap:
+### :tada: :clap: Christmas discount alert <mark style="color:orange;">50%</mark> :tada: :clap:
 
-Just for a **few days**, Harmony will be available for purchase with [**30%** discount](#user-content-fn-1)[^1]!!!
+Just for a **few days**, Harmony will be available for purchase with [**50%** discount](#user-content-fn-1)[^1]!!!
 
 Make a Christmas :christmas\_tree: gift to your team or yourself and let Harmony be your favorite project management tool :rocket:&#x20;
 
@@ -53,4 +53,4 @@ Docs have been updated to the latest version **v1.4**
 [buy-online.md](overview/buy-online.md)
 {% endcontent-ref %}
 
-[^1]: <mark style="color:green;">51$</mark> instead of <mark style="color:red;">74$</mark>
+[^1]: <mark style="color:green;">49$</mark> instead of <mark style="color:red;">99$</mark>
