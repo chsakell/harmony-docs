@@ -23,7 +23,7 @@ layout:
 Harmony
 {% endembed %}
 
-### :tada: :clap: Discount Alert <mark style="color:orange;">30%</mark> :tada: :clap:
+### :tada: :clap: Discount Alert <mark style="color:orange;">50%</mark> :tada: :clap:
 
 Just for a **few days**, Harmony will be available for purchase with [**30%** discount](#user-content-fn-1)[^1]!!!
 
