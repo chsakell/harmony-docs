@@ -21,6 +21,7 @@ Here are some of the features to be implemented in this release:
 
 * [ ] Integrate [Algolia](https://www.algolia.com/) search engine for super fast indexing & searching capabilities. Algolia is totally [free](https://www.algolia.com/pricing/) to use for **10000** requests per month  :muscle: and probably the easiest search engine to configure, existing at the moment
 * [ ] Implement a database fallback search service in case there's no search engine integration configuration
+* [ ] Add **caching** to database operations
 
 {% hint style="info" %}
 **Why Algolia & not Elastic Search?**\
