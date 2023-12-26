@@ -21,6 +21,8 @@ Here are some of the features to be implemented in this release:
 
 * [x] Integrate [Algolia](https://www.algolia.com/) search engine for super fast indexing & searching capabilities. Algolia is totally [free](https://www.algolia.com/pricing/) to use for **10000** requests per month  :muscle: and probably the easiest search engine to configure, existing at the moment
 * [ ] Implement a database fallback search service in case there's no search engine integration configuration
+* [x] Add app bar search textbox for fast results
+* [ ] Create search modal option for advanced searching scenarios _(based on several criteria, e.g. issue status,  members assigned, board etc.)_&#x20;
 * [ ] Add **caching** to database operations
 
 {% hint style="info" %}
