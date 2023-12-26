@@ -23,11 +23,11 @@ layout:
 Harmony
 {% endembed %}
 
-### :tada: :clap: Christmas discount alert <mark style="color:orange;">50%</mark> :tada: :clap:
+<figure><img src=".gitbook/assets/new-year-sale-50.png" alt="" width="188"><figcaption><p>50% discount</p></figcaption></figure>
 
 Just for a **few days**, Harmony will be available for purchase with [**50%** discount](#user-content-fn-1)[^1]!!!
 
-Make a Christmas :christmas\_tree: gift to your team or yourself and let Harmony be your favorite project management tool :rocket:&#x20;
+Make a gift :gift: to your team or yourself and let Harmony be your favorite project management tool :rocket:&#x20;
 
 ## Overview
 

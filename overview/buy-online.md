@@ -10,7 +10,7 @@ Harmony is currently available to buy on [**Envato**](https://codecanyon.net/ite
 * Receive updates every time new features or fixes are being released
 * Host your own instance of Harmony and manage your projects
 
-### :tada: :clap: Discount Alert <mark style="color:orange;">50%</mark> :tada: :clap:
+<figure><img src="../.gitbook/assets/new-year-sale-50.png" alt="" width="188"><figcaption><p>50% discount</p></figcaption></figure>
 
 Just for a **few days**, Harmony will be available for purchase with [**50%** discount](#user-content-fn-1)[^1]!!!
 
