@@ -39,15 +39,16 @@ All board updates are smoothly synced via WebSocket connection across all connec
 * [x] Create workspaces
 * [x] Create Kanban projects
 * [x] Create Scrum projects
-* [x] Email notifications (new) :rocket:
+* [x] Email notifications _(new)_ :rocket:
+* [x] Powerful search with search engine integration :clap: _(coming soon)_
 * [x] Dark & light theme included
 
 #### Scrum features
 
-* [x] Build backlog
+* [x] Build and plan your backlog
 * [x] Create sprints
 * [x] Move issues between backlog & sprints
-* [x] Start & complete sprints
+* [x] Start & complete sprints - move pending items to backlog or new sprint upon completion
 * [x] Display **burndown** chart (new) :rocket: :chart\_with\_upwards\_trend:
 
 #### Board features
@@ -75,13 +76,14 @@ All board updates are smoothly synced via WebSocket connection across all connec
 * [x] Share a project _(board)_ with a member
 * [x] Remove members from workspaces & projects
 * [x] Edit user account
-* [x] Upload profile picture
+* [x] Upload profile picture :frame\_photo:
+* [x] Configure email notifications :envelope:
 
 #### Harmony VS other popular project management tools
 
 * [x] **One time** small purchase rather than monthly or yearly payments :credit\_card::date:
 * [x] There are no limitations or premium features! :clap: - Everything that becomes available on each release becomes available to use for everyone.
-* [x] Full source code available _(thousands of lines..)_ :tada: :muscle: - Harmony is built using best code practices and patterns.
+* [x] Full **source code** available _(thousands of lines..)_ :tada: :muscle: - Harmony is built using best code practices and patterns.
 * [x] Host your own instance - scale on demand based on your requirements.
 * [x] Beautiful, simple and easy to use UI.
 
@@ -90,6 +92,10 @@ For a complete list of features, fixes, enhanced being added to Harmony on every
 {% endhint %}
 
 #### Read next - Roadmap
+
+{% content-ref url="changelog.md" %}
+[changelog.md](changelog.md)
+{% endcontent-ref %}
 
 {% content-ref url="roadmap.md" %}
 [roadmap.md](roadmap.md)
