@@ -24,6 +24,7 @@ Expect a release cycle to be about **2-3 weeks**, considering that [Envato](http
 ### Major milestones coming soon
 
 * [ ] **Search Engine integration**: A powerful and super fast search text box will be added to the top bar&#x20;
+* [ ] **Automation**: an automation engine allows users to _automate_ tasks and processes in just a few clicks
 * [ ] **Gmail & Facebook login integration**
 
 #### Read next - Changelog & Technology used
