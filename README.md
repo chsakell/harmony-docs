@@ -41,10 +41,6 @@ Docs have been updated to the latest version **v1.4**
 
 Just for a **few days**, Harmony will be available for purchase with [**50%** discount](#user-content-fn-1)[^1] :tada:
 
-Make a gift :gift: to your team or yourself and let Harmony be your favorite project management tool :rocket:&#x20;
-
-
-
 {% content-ref url="overview/features.md" %}
 [features.md](overview/features.md)
 {% endcontent-ref %}
