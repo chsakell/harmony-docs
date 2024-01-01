@@ -6,7 +6,7 @@ description: Make sure you read the changelog every time a new update is release
 
 Change log contains all version updates, old, current and upcoming with all important additions, fixes or improvements. The **unchecked** items of the _work in progress_ version, are the items remained before this build is released.
 
-### \[Version 1.5] - Work in progress
+### \[Version 1.5] - Testing <a href="#version-1.5" id="version-1.5"></a>
 
 > _We are searching for some kind of **harmony** between two intangibles: a form which we have not yet designed and a context which we cannot properly describe._\
 > \
@@ -20,10 +20,10 @@ Here are some of the features to be implemented in this release:
 #### Features
 
 * [x] Integrate [Algolia](https://www.algolia.com/) search engine for super fast indexing & searching capabilities. Algolia is totally [free](https://www.algolia.com/pricing/) to use for **10000** requests per month  :muscle: and probably the easiest search engine to configure, existing at the moment
-* [ ] Implement a database fallback search service in case there's no search engine integration configuration
+* [x] Implement a database fallback search service in case there's no search engine integration configuration
 * [x] Add app bar search textbox for fast results
-* [ ] Create search modal option for advanced searching scenarios _(based on several criteria, e.g. issue status,  members assigned, board etc.)_&#x20;
-* [ ] Add **caching** to database operations
+* [x] Create search modal option for advanced searching scenarios _(based on several criteria, e.g. issue status,  members assigned, board etc.)_&#x20;
+* [x] Add **caching** to database operations
 
 {% hint style="info" %}
 **Why Algolia & not Elastic Search?**\
@@ -33,7 +33,7 @@ Here are some of the features to be implemented in this release:
 * Elasticsearch is more flexible for searching complex data and can be used for a wider range of search applications.
 
 \
-<mark style="color:orange;">Who said Harmony won't add Elastic Search support in the future?</mark> :sunglasses:\ <mark style="color:orange;">Harmony is here to stay.</mark> <mark style="color:orange;"></mark><mark style="color:orange;">**Elastic Search**</mark> <mark style="color:orange;"></mark><mark style="color:orange;">support will be added as well.</mark>
+<mark style="color:blue;">Who said Harmony won't add Elastic Search support in the future?</mark> :sunglasses:\ <mark style="color:blue;">Harmony is here to stay.</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Elastic Search**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">support will be added as well.</mark>
 {% endhint %}
 
 ### \[Version 1.4] -   available on [Envato](https://codecanyon.net/item/harmony-project-management-tool/49138488)
