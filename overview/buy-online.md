@@ -10,14 +10,10 @@ Harmony is currently available to buy on [**Envato**](https://codecanyon.net/ite
 * Receive updates every time new features or fixes are being released
 * Host your own instance of Harmony and manage your projects
 
-<figure><img src="../.gitbook/assets/new-year-sale-50.png" alt="" width="188"><figcaption><p>50% discount</p></figcaption></figure>
-
-Just for a **few days**, Harmony will be available for purchase with [**50%** discount](#user-content-fn-1)[^1]!!!
-
 {% hint style="success" %}
 **Harmony** is huge project written with best practices and it's expected to grow more. The price is expected to rise in the future as more and more functionality will being added.\
 \
-Seize the opportunity to buy Harmony at the discounted price of <mark style="color:green;">**49$**</mark> instead of <mark style="color:red;">**99$**</mark>**.** The discount will be available for a few days only. Remember that whenever you buy Harmony, you will be able to download the new releases for free.
+Remember that whenever you buy Harmony, you will be able to download the new releases for free.
 {% endhint %}
 
 Click the following link to buy Harmony.
@@ -31,5 +27,3 @@ Envato market
 {% content-ref url="../guide/workspaces/" %}
 [workspaces](../guide/workspaces/)
 {% endcontent-ref %}
-
-[^1]: <mark style="color:green;">49$</mark> instead of <mark style="color:red;">99$</mark>

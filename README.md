@@ -37,10 +37,6 @@ The source code is fully available after [purchase](overview/buy-online.md) and 
 Docs have been updated to the latest version **v1.4**
 {% endhint %}
 
-<figure><img src=".gitbook/assets/new-year-sale-50.png" alt="" width="188"><figcaption><p>50% discount</p></figcaption></figure>
-
-Just for a **few days**, Harmony will be available for purchase with [**50%** discount](#user-content-fn-1)[^1] :tada:
-
 {% content-ref url="overview/features.md" %}
 [features.md](overview/features.md)
 {% endcontent-ref %}
@@ -48,5 +44,3 @@ Just for a **few days**, Harmony will be available for purchase with [**50%** di
 {% content-ref url="overview/buy-online.md" %}
 [buy-online.md](overview/buy-online.md)
 {% endcontent-ref %}
-
-[^1]: <mark style="color:green;">49$</mark> instead of <mark style="color:red;">99$</mark>

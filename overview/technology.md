@@ -1,5 +1,11 @@
 # 🔥 Technology
 
+Harmony's **codebase** is a state of the art solution, built with best practices, patterns and a clean architecture. You will be impressed by how easily can be scaled and maintained on a codebase level by adding new features or on infrastructure level by scaling horizontally.&#x20;
+
+{% hint style="success" %}
+If you are an engineer or developer, you will be certainly benefit only by studding its codebase.
+{% endhint %}
+
 The stack, tools, frameworks used in Harmony are the following:
 
 * ASP.NET CORE
