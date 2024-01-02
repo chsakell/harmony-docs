@@ -13,9 +13,9 @@
   * [💾 Databases](overview/setup/databases.md)
   * [🏃♂ Debugging](overview/setup/debugging.md)
   * [📬 RabbitMQ](overview/setup/rabbitmq.md)
+  * [🔎 Search Engine](overview/setup/search-engine.md)
   * [📧 Email provider](overview/setup/email-provider.md)
   * [🚀 Deployment](overview/setup/deployment.md)
-  * [🔎 Search Engine](overview/setup/search-engine.md)
 * [💳 Buy online](overview/buy-online.md)
 
 ## Guide

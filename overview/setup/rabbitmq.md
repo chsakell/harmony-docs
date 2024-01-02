@@ -20,7 +20,15 @@ Set the **BrokerConfiguration** setting in the _**appsettings.json**_ file in bo
   }
 ```
 
-#### Read next: Configuring the email service provider
+{% hint style="info" %}
+Harmony's **Email & Search Index** notifications handled by the <mark style="color:blue;">Harmony.Notifications</mark> projects have a dependency on the RabbitMQ so make sure you have configure it before using them
+{% endhint %}
+
+#### Read next: Configuring the email service provider and a search engine
+
+{% content-ref url="search-engine.md" %}
+[search-engine.md](search-engine.md)
+{% endcontent-ref %}
 
 {% content-ref url="email-provider.md" %}
 [email-provider.md](email-provider.md)
