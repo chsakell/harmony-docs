@@ -15,6 +15,7 @@
   * [📬 RabbitMQ](overview/setup/rabbitmq.md)
   * [📧 Email provider](overview/setup/email-provider.md)
   * [🚀 Deployment](overview/setup/deployment.md)
+  * [🔎 Search Engine](overview/setup/search-engine.md)
 * [💳 Buy online](overview/buy-online.md)
 
 ## Guide
