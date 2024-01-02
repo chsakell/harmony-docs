@@ -47,3 +47,5 @@ Every time you make a change in cards, Harmony.Server sends a message and Harmon
 {% endhint %}
 
 Algolia will contain an index for each board named by the **workspace\_name-board\_name** and it's being created when you **create the board**. This means that you may have to re-create from scratch the board/project and add cards to it. In a future release, there will be a button that automatically syncs all boards and their items without having to create it from scratch :fingers\_crossed:.
+
+<figure><img src="../../.gitbook/assets/algolia-index.png" alt=""><figcaption><p>Index records</p></figcaption></figure>

@@ -6,7 +6,7 @@ description: Make sure you read the changelog every time a new update is release
 
 Change log contains all version updates, old, current and upcoming with all important additions, fixes or improvements. The **unchecked** items of the _work in progress_ version, are the items remained before this build is released.
 
-### \[Version 1.5] - Submited for review in Envato <a href="#version-1.5" id="version-1.5"></a>
+### \[Version 1.5] - Submitted for review in Envato <a href="#version-1.5" id="version-1.5"></a>
 
 > _We are searching for some kind of **harmony** between two intangibles: a form which we have not yet designed and a context which we cannot properly describe._\
 > \
