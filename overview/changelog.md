@@ -6,7 +6,7 @@ description: Make sure you read the changelog every time a new update is release
 
 Change log contains all version updates, old, current and upcoming with all important additions, fixes or improvements. The **unchecked** items of the _work in progress_ version, are the items remained before this build is released.
 
-### \[Version 1.5] - Submitted for review in Envato <a href="#version-1.5" id="version-1.5"></a>
+### \[Version 1.5] - available on [Envato](https://codecanyon.net/item/harmony-project-management-tool/49138488) <a href="#version-1.5" id="version-1.5"></a>
 
 > _We are searching for some kind of **harmony** between two intangibles: a form which we have not yet designed and a context which we cannot properly describe._\
 > \
@@ -38,7 +38,7 @@ For more info on how to setup the search engine read the [search-engine.md](setu
 <mark style="color:blue;">Who said Harmony won't add Elastic Search support in the future?</mark> :sunglasses:\ <mark style="color:blue;">Harmony is here to stay.</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Elastic Search**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">support will be added as well.</mark>
 {% endhint %}
 
-### \[Version 1.4] -   available on [Envato](https://codecanyon.net/item/harmony-project-management-tool/49138488)
+### \[Version 1.4]  -  18 December 2023
 
 {% hint style="info" %}
 This version's goal is to add the first **charts** for monitoring a scrum project's progress :tada:. \
