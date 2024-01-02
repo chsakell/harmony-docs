@@ -39,8 +39,8 @@ All board updates are smoothly synced via WebSocket connection across all connec
 * [x] Create workspaces
 * [x] Create Kanban projects
 * [x] Create Scrum projects
-* [x] Email notifications _(new)_ :rocket:
-* [x] Powerful search with search engine integration :clap: _(coming soon)_
+* [x] Email notifications
+* [x] Powerful search with search engine integration _(new)_ :rocket:
 * [x] Dark & light theme included
 
 #### Scrum features
