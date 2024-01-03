@@ -6,11 +6,29 @@ description: Make sure you read the changelog every time a new update is release
 
 Change log contains all version updates, old, current and upcoming with all important additions, fixes or improvements. The **unchecked** items of the _work in progress_ version, are the items remained before this build is released.
 
+### \[Version 2.0] <a href="#version-2.0" id="version-2.0"></a>
+
+> The first rule of any technology used in a business is that **automation** applied to an efficient operation will magnify the efficiency. The second is that **automation** applied to an inefficient operation will magnify the inefficiency.
+>
+> [_**Bill Gates**_](#user-content-fn-1)[^1]
+
+{% hint style="info" %}
+This version will bring two 3 major upgrades which will level up Harmony even more:
+
+* Add the very first **automation**. Automations like "_<mark style="color:orange;">Sync parent and child tasks</mark>_" will be supported via _triggers_, _conditions_ and _actions_. The first automation template that will be implemented is the _"<mark style="color:orange;">Auto close parent issue when all sub-tasks are done</mark>"._
+* Redesign <mark style="color:blue;">Harmony.Notifications</mark> web app. It currently supports both email and search indexing notifications but we need to move forward towards a clean microservice architecture and adding the first automation is the best time to do so.
+* Create a scalable **SignalR** web app responsible for pushing the board related updates to clients.  Another scaling issue to be solved
+{% endhint %}
+
+Version 2.0 will set things up towards a [**dockerized**](https://www.docker.com/) solution. Sit back and relax, this might take a while. &#x20;
+
 ### \[Version 1.5] - available on [Envato](https://codecanyon.net/item/harmony-project-management-tool/49138488) <a href="#version-1.5" id="version-1.5"></a>
 
 > _We are searching for some kind of **harmony** between two intangibles: a form which we have not yet designed and a context which we cannot properly describe._\
 > \
-> [_**Christopher Alexander**_](#user-content-fn-1)[^1]
+> [_**Christopher Alexander**_](#user-content-fn-2)[^2]
+
+* fsfs
 
 {% hint style="info" %}
 This version's goal is to add a **powerful Search textbox** at the top bar :mag\_right: .  \
@@ -133,7 +151,7 @@ Other than that, there were **fixes** and an amazing UX improvement on the board
 * [x] Move items from sprint to backlog
 * [x] Move items from backlog to sprints
 * [x] Introduce issue types for cards _(Epic, Bug, Task, Story, Task)_
-* [x] Create **Serial Key** to easily identify cards/issues, e.g. HARM-1[^2]
+* [x] Create **Serial Key** to easily identify cards/issues, e.g. HARM-1[^3]
 * [x] Create board/sprint navigation items _(left menu & breadcrumbs)_
 * [x] Change backlog items order
 
@@ -171,6 +189,8 @@ Other than that, there were **fixes** and an amazing UX improvement on the board
 [technology.md](technology.md)
 {% endcontent-ref %}
 
-[^1]: Christopher Wolfgang John Alexander (4 October 1936 – 17 March 2022) was an Austrian-born British-American architect and design theorist. He was an emeritus professor at the University of California, Berkeley. His theories about the nature of human-centered design have affected fields beyond architecture, including urban design, software, and sociology.
+[^1]: William Henry Gates III (born October 28, 1955) is an American businessman, investor, philanthropist, and writer best known for co-founding the software giant [Microsoft](https://en.wikipedia.org/wiki/Microsoft)
 
-[^2]: First issue for a project named Harmony
+[^2]: Christopher Wolfgang John Alexander (4 October 1936 – 17 March 2022) was an Austrian-born British-American architect and design theorist. He was an emeritus professor at the University of California, Berkeley. His theories about the nature of human-centered design have affected fields beyond architecture, including urban design, software, and sociology.
+
+[^3]: First issue for a project named Harmony
