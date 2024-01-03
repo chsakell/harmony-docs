@@ -13,11 +13,11 @@ Change log contains all version updates, old, current and upcoming with all impo
 > [_**Bill Gates**_](#user-content-fn-1)[^1]
 
 {% hint style="info" %}
-This version will bring two 3 major upgrades which will level up Harmony even more:
+This version will bring 3 major upgrades which will level up Harmony even more:
 
 * Add the very first **automation**. Automations like "_<mark style="color:orange;">Sync parent and child tasks</mark>_" will be supported via _triggers_, _conditions_ and _actions_. The first automation template that will be implemented is the _"<mark style="color:orange;">Auto close parent issue when all sub-tasks are done</mark>"._
-* Redesign <mark style="color:blue;">Harmony.Notifications</mark> web app. It currently supports both email and search indexing notifications but we need to move forward towards a clean microservice architecture and adding the first automation is the best time to do so.
-* Create a scalable **SignalR** web app responsible for pushing the board related updates to clients.  Another scaling issue to be solved
+* Redesign <mark style="color:blue;">Harmony.Notifications</mark> web app. It currently supports both email and search indexing notifications but we need to move forward, towards a clean microservice architecture and adding the first automation is the best time to do so.
+* Create a scalable **SignalR** web app responsible for pushing the board related updates to clients.  Another scaling issue to be solved.
 {% endhint %}
 
 Version 2.0 will set things up towards a [**dockerized**](https://www.docker.com/) solution. Sit back and relax, this might take a while. &#x20;
