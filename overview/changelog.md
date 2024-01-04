@@ -20,15 +20,18 @@ This version will bring 3 major upgrades which will level up Harmony even more:
 * Create a scalable **SignalR** web app responsible for pushing the board related updates to clients.  Another scaling issue to be solved.
 {% endhint %}
 
-Version 2.0 will set things up towards a [**dockerized**](https://www.docker.com/) solution. Sit back and relax, this might take a while. &#x20;
+Version 2.0 will set things up towards a [**dockerized**](https://www.docker.com/) solution. Sit back and relax, this might take a while.
+
+* [ ] Add support for subtasks
+* [ ] Create **Harmony.Automations** project for handling automations
+* [ ] Move search indexing to a new **Harmony.Indexing** project&#x20;
+* [ ] Create **Harmony.Push** project for SignalR
 
 ### \[Version 1.5] - available on [Envato](https://codecanyon.net/item/harmony-project-management-tool/49138488) <a href="#version-1.5" id="version-1.5"></a>
 
 > _We are searching for some kind of **harmony** between two intangibles: a form which we have not yet designed and a context which we cannot properly describe._\
 > \
 > [_**Christopher Alexander**_](#user-content-fn-2)[^2]
-
-* fsfs
 
 {% hint style="info" %}
 This version's goal is to add a **powerful Search textbox** at the top bar :mag\_right: .  \
