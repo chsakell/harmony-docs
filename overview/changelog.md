@@ -22,8 +22,11 @@ This version will bring 3 major upgrades which will level up Harmony even more:
 
 Version 2.0 will set things up towards a [**dockerized**](https://www.docker.com/) solution. Sit back and relax, this might take a while.
 
-* [ ] Add support for subtasks
+* [x] Add child issues to cards
+* [x] Change issue status from card's view
+* [x] Display total numbers of child issues per card on board&#x20;
 * [ ] Create **Harmony.Automations** project for handling automations
+* [ ] Create Automations settings page
 * [ ] Move search indexing to a new **Harmony.Indexing** project&#x20;
 * [ ] Create **Harmony.Push** project for SignalR
 

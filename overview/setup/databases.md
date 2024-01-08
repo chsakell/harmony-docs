@@ -62,6 +62,12 @@ dotnet tool install --global dotnet-ef
 dotnet ef database update --context HarmonyContext --startup-project "../../Web/Harmony/Server/Harmony.Server.csproj"
 ```
 
+{% hint style="warning" %}
+In case you have installed a local SQL Server on a **Linux** machine accepting a Developer license, you need to add **Encrypt=False;** at the end of your connection string before running migration commands, otherwise you will get an error. Also keep in mind that for Linux SQL Server installations your connection string should use username and password rather than windows authentication.\
+\
+Harmony has been tested successfully :white\_check\_mark: on **Windows** and an **Ubuntu 22.04** machine. SQL Server for Ubuntu was installed following [this](https://learn.microsoft.com/en-us/sql/linux/quickstart-install-connect-ubuntu?view=sql-server-ver16\&tabs=ubuntu2204) guide.
+{% endhint %}
+
 <figure><img src="../../.gitbook/assets/command-line-update-database.png" alt=""><figcaption><p>Create database migration through command line</p></figcaption></figure>
 
 {% hint style="info" %}
