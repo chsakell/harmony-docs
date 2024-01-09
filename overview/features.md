@@ -91,6 +91,11 @@ All board updates are smoothly synced via WebSocket connection across all connec
 For a complete list of features, fixes, enhanced being added to Harmony on every release, you can always check the [changelog](changelog.md) :bulb:
 {% endhint %}
 
+{% hint style="success" %}
+![](../.gitbook/assets/discount-60.png)\
+JUST FOR A FEW DAYS GET [HARMONY](https://codecanyon.net/item/harmony-project-management-tool/49138488) FOR ONLY **39$**
+{% endhint %}
+
 #### Read next - Roadmap
 
 {% content-ref url="changelog.md" %}
