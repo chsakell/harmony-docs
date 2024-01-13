@@ -25,7 +25,7 @@ Harmony
 
 ## Overview
 
-<mark style="color:blue;">**Harmony**</mark> is a project management tool to manage your projects.
+[<mark style="color:blue;">**Harmony**</mark>](http://demo.harmony-teams.com/) is a project management tool to manage your projects.
 
 It can be used by large organizations to manage projects across their teams or by developers to manage their own projects.
 
@@ -36,6 +36,8 @@ The source code is fully available after [purchase](overview/buy-online.md) and 
 {% hint style="info" %}
 Docs have been updated to the latest version **v1.5**
 {% endhint %}
+
+**DEMO**: You can take a look at a limited version of Harmony [here](http://demo.harmony-teams.com/).
 
 {% content-ref url="overview/features.md" %}
 [features.md](overview/features.md)

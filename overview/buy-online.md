@@ -19,6 +19,8 @@ JUST FOR A FEW DAYS GET [HARMONY](https://codecanyon.net/item/harmony-project-ma
 Remember that whenever you buy Harmony, you will be able to download the new releases for free.
 {% endhint %}
 
+\
+DEMO: You can take a look at a limited version of Harmony [here](http://demo.harmony-teams.com/).\
 Click the following link to buy Harmony.
 
 {% embed url="https://codecanyon.net/item/harmony-project-management-tool/49138488" %}
