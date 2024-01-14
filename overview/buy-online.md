@@ -20,7 +20,7 @@ Remember that whenever you buy Harmony, you will be able to download the new rel
 {% endhint %}
 
 \
-DEMO: You can take a look at a limited version of Harmony [here](http://demo.harmony-teams.com/).\
+DEMO: You can take a look at a limited version of Harmony [here](https://demo.harmony-teams.com/).\
 Click the following link to buy Harmony.
 
 {% embed url="https://codecanyon.net/item/harmony-project-management-tool/49138488" %}

@@ -37,7 +37,7 @@ The source code is fully available after [purchase](overview/buy-online.md) and 
 Docs have been updated to the latest version **v1.5**
 {% endhint %}
 
-**DEMO**: You can take a look at a limited version of Harmony [here](http://demo.harmony-teams.com/).
+**DEMO**: You can take a look at a limited version of Harmony [here](https://demo.harmony-teams.com/).
 
 {% content-ref url="overview/features.md" %}
 [features.md](overview/features.md)
