@@ -26,10 +26,8 @@ Version 2.0 will set things up towards a [**dockerized**](https://www.docker.com
 * [x] Change issue status from card's view
 * [x] Display total number of child issues per card on board&#x20;
 * [x] Create **Harmony.Automations** project for handling automations
-* [ ] Create Automations settings page
-* [ ] Create
-* [ ] Move search indexing to a new **Harmony.Indexing** project&#x20;
-* [ ] Create **Harmony.Push** project for SignalR
+* [x] Create Automations settings page
+* [x] Create **Harmony.Server.SignalR** project for handling SignalR messages
 
 ### \[Version 1.5] - available on [Envato](https://codecanyon.net/item/harmony-project-management-tool/49138488) <a href="#version-1.5" id="version-1.5"></a>
 
