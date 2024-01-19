@@ -35,7 +35,7 @@ Run the following command to create the database:
 Update-Database -Context HarmonyContext -StartUpProject Harmony.Server -v
 ```
 
-<figure><img src="../../.gitbook/assets/visual-studio-migrations-update-database.png" alt=""><figcaption><p>Create database migration through Visual Studio</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/visual-studio-migrations-update-database.png" alt=""><figcaption><p>Create database migration through Visual Studio</p></figcaption></figure>
 
 {% hint style="warning" %}
 Migrations command require that you have previously setup your database connection string properly.
@@ -68,7 +68,7 @@ In case you have installed a local SQL Server on a **Linux** machine accepting a
 Harmony has been tested successfully :white\_check\_mark: on **Windows** and an **Ubuntu 22.04** machine. SQL Server for Ubuntu was installed following [this](https://learn.microsoft.com/en-us/sql/linux/quickstart-install-connect-ubuntu?view=sql-server-ver16\&tabs=ubuntu2204) guide.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/command-line-update-database.png" alt=""><figcaption><p>Create database migration through command line</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/command-line-update-database.png" alt=""><figcaption><p>Create database migration through command line</p></figcaption></figure>
 
 {% hint style="info" %}
 Just a reminder here: It's **optional** to run the migrations by yourself because they will run by default at startup. At a later release, this will be active only in **debug** mode.
@@ -107,7 +107,7 @@ Run the following command to create the database:
 Update-Database -Context NotificationContext -StartUpProject Harmony.Notifications -v
 ```
 
-<figure><img src="../../.gitbook/assets/harmony-notifications-migration-update.png" alt=""><figcaption><p>Create Harmony.Notifications database migration through Visual Studio</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/harmony-notifications-migration-update.png" alt=""><figcaption><p>Create Harmony.Notifications database migration through Visual Studio</p></figcaption></figure>
 
 {% hint style="warning" %}
 Migrations command require that you have previously setup your database connection strings properly.
@@ -134,4 +134,4 @@ dotnet tool install --global dotnet-ef
 dotnet ef database update --context NotificationContext --startup-project "Harmony.Notifications.csproj"
 ```
 
-<figure><img src="../../.gitbook/assets/harmony-notifications-migration-update-terminal.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/harmony-notifications-migration-update-terminal.png" alt=""><figcaption></figcaption></figure>

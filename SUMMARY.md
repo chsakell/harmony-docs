@@ -10,12 +10,15 @@
 * [🔃 Changelog](overview/changelog.md)
 * [🔥 Technology](overview/technology.md)
 * [⚙ Setup](overview/setup/README.md)
-  * [💾 Databases](overview/setup/databases.md)
-  * [🏃♂ Debugging](overview/setup/debugging.md)
+  * [💾 Databases](overview/setup/databases/README.md)
+    * [SQL Server](overview/setup/databases/sql-server.md)
+    * [MongoDB Server](overview/setup/databases/mongodb-server.md)
+    * [Redis](overview/setup/databases/redis.md)
   * [📬 RabbitMQ](overview/setup/rabbitmq.md)
   * [🔎 Search Engine](overview/setup/search-engine.md)
   * [📧 Email provider](overview/setup/email-provider.md)
   * [🚀 Deployment](overview/setup/deployment.md)
+  * [🏃♂ Debugging](overview/setup/debugging.md)
 * [💳 Buy online](overview/buy-online.md)
 
 ## Guide
