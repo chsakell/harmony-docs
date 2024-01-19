@@ -94,11 +94,6 @@ For a complete list of features, fixes, enhanced being added to Harmony on every
 **DEMO**: You can take a look at a limited version of Harmony [here](http://demo.harmony-teams.com/).
 {% endhint %}
 
-{% hint style="success" %}
-![](../.gitbook/assets/discount-60.png)\
-JUST FOR A FEW DAYS GET [HARMONY](https://codecanyon.net/item/harmony-project-management-tool/49138488) FOR ONLY **39$**
-{% endhint %}
-
 #### Read next - Roadmap
 
 {% content-ref url="changelog.md" %}
