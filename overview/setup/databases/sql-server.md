@@ -84,7 +84,7 @@ Configure the SQL Server's `DefaultConnection` connection string existing in the
 
 ```json
   "ConnectionStrings": {
-    "DefaultConnection": "Server=.;Database=Harmony.Notifications;Integrated Security=True;TrustServerCertificate=True",
+    "HarmonyNotificationsConnection ": "Server=.;Database=Harmony.Notifications;Integrated Security=True;TrustServerCertificate=True",
     "HarmonyConnection": "Server=.;Database=Harmony;Integrated Security=True;TrustServerCertificate=True"
   },
 ```

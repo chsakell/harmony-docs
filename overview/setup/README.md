@@ -1,6 +1,6 @@
 # ⚙ Setup
 
-Harmony on its core is a web application built with **.NET Core** which means it's a cross platform app and can be deployed anywhere _(Windows, Linux, Mac)_. On the other hand, it can be seen as a large scalable system consisting by several .NET Core applications and other components, each one having a specific responsibility. Because of this, it's highly advised that you have understood its architecture and carefully follow and configure one by one the required dependencies before running Harmony.
+Harmony at its core is a web application built with **.NET Core** which means it's a cross platform app and can be deployed anywhere _(Windows, Linux, Mac)_. On the other hand, it can be seen as a large scalable system consisting by several .NET Core applications and other components, each one having a specific responsibility. Because of this, it's highly advised that you have understood its architecture and carefully follow and configure one by one the required dependencies before running Harmony.
 
 <figure><img src="../../.gitbook/assets/harmony-architecture.png" alt=""><figcaption><p>Harmony architecture overview</p></figcaption></figure>
 

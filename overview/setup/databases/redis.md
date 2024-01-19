@@ -16,6 +16,16 @@ Next configure the **RedisConnectionString** connection string in the **appsetti
 
 <figure><img src="../../../.gitbook/assets/docker-container-create.png" alt=""><figcaption></figcaption></figure>
 
+**Important!** After configuring <mark style="color:blue;">**Harmony.SignalR,**</mark> set the **signalrHostUrl** property inside the **appsettings.json** file existing in the Harmony.Server project in the **www** folder. This is Harmony.SignalR project's host URL and clients will try to connect to it in order to receive instant updates via WebSockets. By default when running through Visual Studio, Harmony.SignalR will listen on port 7262.
+
+```
+{
+  "signalrHostUrl": "https://localhost:7262"
+}
+```
+
+&#x20;
+
 #### Read next - Configure RabbitMQ
 
 {% content-ref url="../rabbitmq.md" %}
