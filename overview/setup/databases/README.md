@@ -1,137 +1,19 @@
 # 💾 Databases
 
-Harmony has a dependency to **SQL Server** databases which can be installed on Windows or [Linux](https://learn.microsoft.com/en-us/sql/linux/sql-server-linux-setup?view=sql-server-ver16#supportedplatforms). More specifically it uses two databases:
+Harmony uses the following database providers:
 
-1. **Harmony**: The default database used by the **Harmony.Server** web app, containing all the core tables and their relationships, e.g. Workspaces, Boards or Cards.
-2. **Harmony.Notifications**: The database used by the **Harmony.Notifications** web app, containing all the HangFire required tables and one more.
+* **SQL Server**: <mark style="color:orange;">Harmony</mark> database is used to store project management tool's **domain entities** such as workspaces, boards and cards. It also stores the user entities used for authentication and authorization. The applications that have a dependency to the Harmony database are <mark style="color:blue;">**Harmony.Server**</mark>, <mark style="color:blue;">**Harmony.Notifications**</mark> & <mark style="color:blue;">**Harmony.Automations**</mark>. A second SLQ Server database named <mark style="color:orange;">Harmony.Notifications</mark> is used to job related tasks by <mark style="color:blue;">**Harmony.Notifications**</mark> web only.&#x20;
+* **MongoDB Server**: MongoDB schemaless database named <mark style="color:orange;">harmony\_automation</mark> is used for implementing flexible automations. The database contains the available automation template & the per board automation configurations. Configurations are written by the <mark style="color:blue;">Harmony.Server</mark> web app and being read by the <mark style="color:blue;">**Harmony.Automations**</mark>.
+* **Redis**: Harmony is a scalable system and one of its main features is that syncs all updates across all connected clients. In order to support this <mark style="color:blue;">**Harmony.SignalR**</mark>, the web application responsible to read messages from RabbitMQ and push them to all connected clients via websockets, uses [Redis Backplane](https://learn.microsoft.com/en-us/aspnet/core/signalr/redis-backplane?view=aspnetcore-8.0) for scaling out.
 
-{% hint style="info" %}
-Harmony use two databases for scaling reasons&#x20;
-{% endhint %}
+{% content-ref url="sql-server.md" %}
+[sql-server.md](sql-server.md)
+{% endcontent-ref %}
 
-### Harmony database configuration
+{% content-ref url="mongodb-server.md" %}
+[mongodb-server.md](mongodb-server.md)
+{% endcontent-ref %}
 
-#### Database connection string
-
-Configure the SQL Server's connection string existing in the <mark style="color:blue;">**appsettings.json**</mark> file at the root of the **Harmony.Server** project to point to your SQL Server instance.
-
-```json
-  "ConnectionStrings": {
-    "DefaultConnection": "Server=.;Database=Harmony;Integrated Security=True;TrustServerCertificate=True"
-  }
-```
-
-#### Database migrations
-
-You can run the database migrations either manually or let the project run them for you during startup.
-
-#### Run migrations through <mark style="color:blue;">Visual Studio</mark>
-
-When running migrations through Visual Studio, open the `Package Manager Console` and set the `Default project` to **src\Infrastructure\Harmony.Persistence**.
-
-Run the following command to create the database:
-
-```powershell
-Update-Database -Context HarmonyContext -StartUpProject Harmony.Server -v
-```
-
-<figure><img src="../../../.gitbook/assets/visual-studio-migrations-update-database.png" alt=""><figcaption><p>Create database migration through Visual Studio</p></figcaption></figure>
-
-{% hint style="warning" %}
-Migrations command require that you have previously setup your database connection string properly.
-{% endhint %}
-
-In case you decide to **create** a new migration, follow the same procedure by replacing the command with the following:
-
-```powershell
-Add-Migration MyCustomMigrationName -Context HarmonyContext -StartUpProject Harmony.Server -v// Some code
-```
-
-#### Run migrations using a command line
-
-You can run database migrations from a command line as well. First make sure you have installed [EF Core tools](https://learn.microsoft.com/en-us/ef/core/cli/dotnet).
-
-```powershell
-dotnet tool install --global dotnet-ef
-```
-
-1. Open a terminal and navigate at the root of the **Harmony.Persistence** project, where the <mark style="color:blue;">HarmonyContext</mark> database context class exists.
-2. Run the **dotnet ef** command to create the database
-
-```powershell
-dotnet ef database update --context HarmonyContext --startup-project "../../Web/Harmony/Server/Harmony.Server.csproj"
-```
-
-{% hint style="warning" %}
-In case you have installed a local SQL Server on a **Linux** machine accepting a Developer license, you need to add **Encrypt=False;** at the end of your connection string before running migration commands, otherwise you will get an error. Also keep in mind that for Linux SQL Server installations your connection string should use username and password rather than windows authentication.\
-\
-Harmony has been tested successfully :white\_check\_mark: on **Windows** and an **Ubuntu 22.04** machine. SQL Server for Ubuntu was installed following [this](https://learn.microsoft.com/en-us/sql/linux/quickstart-install-connect-ubuntu?view=sql-server-ver16\&tabs=ubuntu2204) guide.
-{% endhint %}
-
-<figure><img src="../../../.gitbook/assets/command-line-update-database.png" alt=""><figcaption><p>Create database migration through command line</p></figcaption></figure>
-
-{% hint style="info" %}
-Just a reminder here: It's **optional** to run the migrations by yourself because they will run by default at startup. At a later release, this will be active only in **debug** mode.
-{% endhint %}
-
-To disable the automatic migrations remove the following line from the <mark style="color:blue;">ApplicationBuilderExtensions</mark> class.
-
-```csharp
-harmonyContext.Database.Migrate();
-```
-
-### Harmony.Notifications database configuration
-
-#### Database connection string
-
-Configure the SQL Server's `DefaultConnection` connection string existing in the <mark style="color:blue;">**appsettings.json**</mark> file at the root of the **Harmony.Notifications** project to point to your SQL Server instance. The `HarmonyConnection` string should point to your Harmony database.
-
-```json
-  "ConnectionStrings": {
-    "DefaultConnection": "Server=.;Database=Harmony.Notifications;Integrated Security=True;TrustServerCertificate=True",
-    "HarmonyConnection": "Server=.;Database=Harmony;Integrated Security=True;TrustServerCertificate=True"
-  },
-```
-
-#### Database migrations
-
-You can run the database migrations either manually or let the project run them for you during startup.
-
-#### Run migrations through <mark style="color:blue;">Visual Studio</mark>
-
-When running migrations through Visual Studio, open the `Package Manager Console` and set the `Default project` to **src\Web\Harmony.Notifications**.
-
-Run the following command to create the database:
-
-```powershell
-Update-Database -Context NotificationContext -StartUpProject Harmony.Notifications -v
-```
-
-<figure><img src="../../../.gitbook/assets/harmony-notifications-migration-update.png" alt=""><figcaption><p>Create Harmony.Notifications database migration through Visual Studio</p></figcaption></figure>
-
-{% hint style="warning" %}
-Migrations command require that you have previously setup your database connection strings properly.
-{% endhint %}
-
-In case you decide to **create** a new migration, follow the same procedure by replacing the command with the following:
-
-```powershell
-Add-Migration MyCustomMigrationName -Context NotificationContext -StartUpProject Harmony.Notifications -v
-```
-
-#### Run migrations using a command line
-
-You can run database migrations from a command line as well. First make sure you have installed [EF Core tools](https://learn.microsoft.com/en-us/ef/core/cli/dotnet).
-
-```powershell
-dotnet tool install --global dotnet-ef
-```
-
-1. Open a terminal and navigate at the root of the **Harmony.Notifications** project, where the <mark style="color:blue;">NotificationContext</mark> database context class exists.
-2. Run the **dotnet ef** command to create the database
-
-```powershell
-dotnet ef database update --context NotificationContext --startup-project "Harmony.Notifications.csproj"
-```
-
-<figure><img src="../../../.gitbook/assets/harmony-notifications-migration-update-terminal.png" alt=""><figcaption></figcaption></figure>
+{% content-ref url="redis.md" %}
+[redis.md](redis.md)
+{% endcontent-ref %}
