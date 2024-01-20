@@ -6,7 +6,7 @@ description: Make sure you read the changelog every time a new update is release
 
 Change log contains all version updates, old, current and upcoming with all important additions, fixes or improvements. The **unchecked** items of the _work in progress_ version, are the items remained before this build is released.
 
-### \[Version 2.0] <a href="#version-2.0" id="version-2.0"></a>
+### \[Version 2.0] - available on [Envato](https://codecanyon.net/item/harmony-project-management-tool/49138488) <a href="#version-2.0" id="version-2.0"></a>
 
 > The first rule of any technology used in a business is that **automation** applied to an efficient operation will magnify the efficiency. The second is that **automation** applied to an inefficient operation will magnify the inefficiency.
 >
@@ -16,20 +16,20 @@ Change log contains all version updates, old, current and upcoming with all impo
 This version will bring 3 major upgrades which will level up Harmony even more:
 
 * Add the very first **automation**. Automations like "_<mark style="color:orange;">Sync parent and child tasks</mark>_" will be supported via _triggers_, _conditions_ and _actions_. The first automation template that will be implemented is the _"<mark style="color:orange;">Auto close parent issue when all sub-tasks are done</mark>"._
-* Redesign <mark style="color:blue;">Harmony.Notifications</mark> web app. It currently supports both email and search indexing notifications but we need to move forward, towards a clean microservice architecture and adding the first automation is the best time to do so.
 * Create a scalable **SignalR** web app responsible for pushing the board related updates to clients.  Another scaling issue to be solved.
 {% endhint %}
 
 Version 2.0 will set things up towards a [**dockerized**](https://www.docker.com/) solution. Sit back and relax, this might take a while.
 
-* [x] Add support for child issues to cards
-* [x] Change issue status from card's view
-* [x] Display total number of child issues per card on board&#x20;
-* [x] Create **Harmony.Automations** project for handling automations
-* [x] Create Automations settings page
-* [x] Create **Harmony.Server.SignalR** project for handling SignalR messages
+* [x] Add support for child issues to cards.
+* [x] Change issue status from card's view.
+* [x] Display total number of child issues per card on board.
+* [x] Create [**Harmony.Automations**](../guide/automations.md) project for handling automations.
+* [x] Create Automations settings page.
+* [x] Create, enable, disable and remove an automation.
+* [x] Create [**Harmony.Server.SignalR**](setup/databases/redis.md) project for handling SignalR messages.
 
-### \[Version 1.5] - available on [Envato](https://codecanyon.net/item/harmony-project-management-tool/49138488) <a href="#version-1.5" id="version-1.5"></a>
+### \[Version 1.5] - 2 January 2024 <a href="#version-1.5" id="version-1.5"></a>
 
 > _We are searching for some kind of **harmony** between two intangibles: a form which we have not yet designed and a context which we cannot properly describe._\
 > \
