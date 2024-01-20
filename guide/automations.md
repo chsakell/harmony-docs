@@ -20,5 +20,7 @@ Navigate to the <mark style="color:blue;">Settings => Automation</mark> view of 
 * **From status**: The parent issue will be synced only if belongs to any of the selected lists. Leave empty if you wish to always sync.
 * **To status**: The parent issue will sync when all children are moved to any of the selected lists. Leave empty and the parent issue will always be synced with children.
 
-<figure><img src="../.gitbook/assets/automation-sync-parent-children.png" alt=""><figcaption><p>Sync parent and child tasks automation</p></figcaption></figure>
+{% embed url="https://www.youtube.com/watch?v=2GcHRGpwGic" %}
+Sync parent and child tasks automation
+{% endembed %}
 
