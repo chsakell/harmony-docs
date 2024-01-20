@@ -44,3 +44,4 @@
     * [🗣 Comments](guide/boards/cards/comments.md)
     * [🔴 Archive](guide/boards/cards/archive.md)
   * [👥 Members](guide/boards/members.md)
+* [⚙ Automations](guide/automations.md)
