@@ -8,7 +8,7 @@ Remember that RabbitMQ requires that you have also installed [Erlang](https://ww
 
 ### Broker configuration
 
-Set the **BrokerConfiguration** setting in the _**appsettings.json**_ file in both the <mark style="color:blue;">**Harmony.Server**</mark> & <mark style="color:blue;">**Harmony.Notifications**</mark> web app. Following is an example for local RabbitMQ configuration.
+Set the **BrokerConfiguration** setting in the _**appsettings.json**_ files in all web application projects. Following is an example for local RabbitMQ configuration.
 
 ```json
   "BrokerConfiguration": {
@@ -19,10 +19,6 @@ Set the **BrokerConfiguration** setting in the _**appsettings.json**_ file in bo
     "VirtualHost": "/"
   }
 ```
-
-{% hint style="info" %}
-Harmony's **Email & Search Index** notifications handled by the <mark style="color:blue;">Harmony.Notifications</mark> projects have a dependency on the RabbitMQ so make sure you have configure it before using them
-{% endhint %}
 
 #### Read next: Configuring the email service provider and a search engine
 
