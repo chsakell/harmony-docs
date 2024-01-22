@@ -6,6 +6,21 @@ description: Make sure you read the changelog every time a new update is release
 
 Change log contains all version updates, old, current and upcoming with all important additions, fixes or improvements. The **unchecked** items of the _work in progress_ version, are the items remained before this build is released.
 
+### \[Version 2.1] - In progress
+
+{% hint style="info" %}
+This version will upgrade the entire solution to .NET 8.0 :rocket: :tada:.
+
+Also, the architecture will be finalized towards a dockerized microservice architecture.
+{% endhint %}
+
+* [x] Upgrade solution projects to .NET 8.0
+* [ ] Convert <mark style="color:blue;">Harmony.Client</mark> to **Standalone Blazor WebAssembly** project.
+* [ ] Remove all Harmony database dependencies/access from all projects except from <mark style="color:blue;">Harmony.Server</mark> which will be the core API accessing Harmony database.
+* [ ] Rename <mark style="color:blue;">Harmony.Server</mark> to **Harmony.API** _(microservice)_.
+* [ ] Remove all MongoDB database dependencies/access from all projects except from Harmony.Automations _(Harmony.Automations will be a microservice)_.
+* [ ] Expose HTTP endpoints for internal microservice communication.
+
 ### \[Version 2.0] - available on [Envato](https://codecanyon.net/item/harmony-project-management-tool/49138488) <a href="#version-2.0" id="version-2.0"></a>
 
 > The first rule of any technology used in a business is that **automation** applied to an efficient operation will magnify the efficiency. The second is that **automation** applied to an inefficient operation will magnify the inefficiency.
