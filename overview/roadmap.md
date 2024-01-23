@@ -21,11 +21,11 @@ Other than new features, more UX improvements, bug fixes and performance improve
 Expect a release cycle to be about **2-3 weeks**, considering that [Envato](https://codecanyon.net/item/harmony-project-management-tool/49138488) needs a few days to approve the release.
 {% endhint %}
 
-### Major milestones coming soon
+### Major milestones
 
 * [x] **Search Engine integration**: A powerful and super fast search text box will be added to the top bar - Also an advanced search modal will also be implemented for advanced searching scenarios with many criteria _(released on_ [_release v1.5_](changelog.md#version-1.5)_)_. &#x20;
 * [x] **Automation**: an automation engine allows users to _automate_ tasks and processes in just a few clicks _(first automation released on_ [_release v2.0_](changelog.md#version-2.0)_)_
-* [ ] **Upgrade to .NET 8.0**
+* [x] **Upgrade to .NET 8.0**
 * [ ] **Dockerize solution**
 * [ ] **Gmail & Facebook login integration**
 
