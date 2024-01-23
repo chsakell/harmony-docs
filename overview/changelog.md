@@ -15,11 +15,10 @@ Also, the architecture will be finalized towards a dockerized microservice archi
 {% endhint %}
 
 * [x] Upgrade solution projects to .NET 8.0
-* [ ] Convert <mark style="color:blue;">Harmony.Client</mark> to **Standalone Blazor WebAssembly** project.
-* [ ] Remove all Harmony database dependencies/access from all projects except from <mark style="color:blue;">Harmony.Server</mark> which will be the core API accessing Harmony database.
-* [ ] Rename <mark style="color:blue;">Harmony.Server</mark> to **Harmony.API** _(microservice)_.
-* [ ] Remove all MongoDB database dependencies/access from all projects except from Harmony.Automations _(Harmony.Automations will be a microservice)_.
-* [ ] Expose HTTP endpoints for internal microservice communication.
+* [x] Convert <mark style="color:blue;">Harmony.Client</mark> to **Standalone Blazor WebAssembly** project.
+* [x] Rename <mark style="color:blue;">Harmony.Server</mark> to **Harmony.API** _(microservice)_.
+* [x] Remove all MongoDB database dependencies/access from all projects except from Harmony.Automations _(Harmony.Automations will be a microservice)_.
+* [x] Expose HTTP endpoints for internal microservice communication.
 
 ### \[Version 2.0] - available on [Envato](https://codecanyon.net/item/harmony-project-management-tool/49138488) <a href="#version-2.0" id="version-2.0"></a>
 
