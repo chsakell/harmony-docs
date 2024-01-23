@@ -1,3 +1,9 @@
+---
+description: >-
+  Built with .NET 8.0, Harmony is a state of the art project management tool
+  with tons of features already implemented and more being added every day.
+---
+
 # ✨ Features
 
 ### Kanban Boards

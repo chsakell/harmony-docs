@@ -1,7 +1,7 @@
 ---
 description: >-
   Bring harmony to your teams with a simple, yet powerful project management
-  tool. Built with .NET 8.0.
+  tool.
 layout:
   title:
     visible: true
