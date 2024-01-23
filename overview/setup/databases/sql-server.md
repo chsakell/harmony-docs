@@ -19,7 +19,7 @@ Configure the <mark style="color:orange;">HarmonyConnection</mark> SQL Server's 
 
 #### Database migrations
 
-You can run the database migrations either manually or let the project run them for you during startup.
+You can run the database migrations either manually or **let the projects run them for you** during startup.
 
 #### Run migrations through <mark style="color:blue;">Visual Studio</mark>
 
@@ -31,7 +31,7 @@ Run the following command to create the database:
 Update-Database -Context HarmonyContext -StartUpProject Harmony.Api -v
 ```
 
-<figure><img src="../../../.gitbook/assets/visual-studio-migrations-update-database.png" alt=""><figcaption><p>Create database migration through Visual Studio</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/visual-studio-migrations-update-database.png" alt=""><figcaption><p>Run update migration for Harmony database</p></figcaption></figure>
 
 {% hint style="warning" %}
 Migrations command require that you have previously setup your database connection string properly.

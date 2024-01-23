@@ -17,7 +17,7 @@ Also, the architecture will be finalized towards a dockerized microservice archi
 * [x] Upgrade solution projects to .NET 8.0
 * [x] Convert <mark style="color:blue;">Harmony.Client</mark> to **Standalone Blazor WebAssembly** project.
 * [x] Rename <mark style="color:blue;">Harmony.Server</mark> to **Harmony.API** _(microservice)_.
-* [ ] Raname Harmony.Server.SignalR to **Harmony.Signalr**.
+* [x] Rename Harmony.Server.SignalR to **Harmony.SignalR**.
 * [x] Remove all MongoDB database dependencies/access from all projects except from Harmony.Automations _(Harmony.Automations will be a microservice)_.
 * [x] Expose HTTP endpoints for internal microservice communication.
 
