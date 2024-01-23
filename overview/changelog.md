@@ -6,7 +6,7 @@ description: Make sure you read the changelog every time a new update is release
 
 Change log contains all version updates, old, current and upcoming with all important additions, fixes or improvements. The **unchecked** items of the _work in progress_ version, are the items remained before this build is released.
 
-### \[Version 2.1]  - available on [Envato](https://codecanyon.net/item/harmony-project-management-tool/49138488)
+### \[Version 2.1]  - available on [Envato](https://codecanyon.net/item/harmony-project-management-tool/49138488) <a href="#version-2.1" id="version-2.1"></a>
 
 {% hint style="info" %}
 This version will upgrade the entire solution to .NET 8.0 :rocket: :tada:.
