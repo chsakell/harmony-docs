@@ -2,14 +2,14 @@
 
 Harmony has a dependency to **SQL Server** databases which can be installed on Windows or [Linux](https://learn.microsoft.com/en-us/sql/linux/sql-server-linux-setup?view=sql-server-ver16#supportedplatforms). After installing an SQL Server instance, proceed by creating the required databases and configuring the connection strings for the following two databases:
 
-1. **Harmony**: The core database used by the <mark style="color:blue;">Harmony.Server</mark>, <mark style="color:blue;">Harmony.Notification</mark> & <mark style="color:blue;">Harmony.Automations</mark> web apps, containing all the core tables and their relationships, e.g. Workspaces, Boards or Cards.
+1. **Harmony**: The core database used by the <mark style="color:blue;">Harmony.Api</mark>, <mark style="color:blue;">Harmony.Notification</mark> & <mark style="color:blue;">Harmony.Automations</mark> web apps, containing all the core tables and their relationships, e.g. Workspaces, Boards or Cards.
 2. **Harmony.Notifications**: The database used by the <mark style="color:blue;">Harmony.Notifications</mark> web app, containing all the HangFire required tables and one more.
 
 ### Harmony database configuration
 
 #### Database connection string
 
-Configure the <mark style="color:orange;">HarmonyConnection</mark> SQL Server's connection string existing in the <mark style="color:blue;">**appsettings.json**</mark> file at the root of the **Harmony.Server, Harmony.Notifications** & **Harmony.Automations** projects to point to your SQL Server instance.
+Configure the <mark style="color:orange;">HarmonyConnection</mark> SQL Server's connection string existing in the <mark style="color:blue;">**appsettings.json**</mark> file at the root of the **Harmony.Api, Harmony.Notifications** & **Harmony.Automations** projects to point to your SQL Server instance.
 
 ```json
   "ConnectionStrings": {
@@ -28,7 +28,7 @@ When running migrations through Visual Studio, open the `Package Manager Console
 Run the following command to create the database:
 
 ```powershell
-Update-Database -Context HarmonyContext -StartUpProject Harmony.Server -v
+Update-Database -Context HarmonyContext -StartUpProject Harmony.Api -v
 ```
 
 <figure><img src="../../../.gitbook/assets/visual-studio-migrations-update-database.png" alt=""><figcaption><p>Create database migration through Visual Studio</p></figcaption></figure>
@@ -40,7 +40,7 @@ Migrations command require that you have previously setup your database connecti
 In case you decide to **create** a new migration, follow the same procedure by replacing the command with the following:
 
 ```powershell
-Add-Migration MyCustomMigrationName -Context HarmonyContext -StartUpProject Harmony.Server -v// Some code
+Add-Migration MyCustomMigrationName -Context HarmonyContext -StartUpProject Harmony.Api -v// Some code
 ```
 
 #### Run migrations using a command line
@@ -55,7 +55,7 @@ dotnet tool install --global dotnet-ef
 2. Run the **dotnet ef** command to create the database
 
 ```powershell
-dotnet ef database update --context HarmonyContext --startup-project "../../Web/Harmony/Server/Harmony.Server.csproj"
+dotnet ef database update --context HarmonyContext --startup-project "../../Web/Harmony/Harmony.Api/Harmony.Api.csproj"
 ```
 
 {% hint style="warning" %}
