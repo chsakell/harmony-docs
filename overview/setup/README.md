@@ -27,7 +27,16 @@ Harmony dependencies are:
 * **Harmony.Notifications**: A web application that subscribes to RabbitMQ messages and handles email and search index notifications.
 
 {% hint style="success" %}
-In one of the upcoming releases Harmony will be able to run via **docker** commands
+Don't get overwhelmed by the number of things you need to setup before firing up Harmony. Keep in mind the followings:
+
+1. Database migrations & seeding can run automatically during startup which means you don't have to manually run them.
+2. &#x20;RabbitMQ exchanges/queues are being created for you.&#x20;
+
+
+
+This means that if you want to start Harmony from Visual Studio, the only thing required is to install the required infrastructure on your machine, SQL Server, MongoDB, RabbitMQ, Redis, place the correct connection strings  & just setup the [startup projects](before-running.md) on Visual Studio.\
+\
+In one of the upcoming releases Harmony will be able to run via **docker** commands. :rocket: :ship:
 {% endhint %}
 
 {% content-ref url="databases/" %}
