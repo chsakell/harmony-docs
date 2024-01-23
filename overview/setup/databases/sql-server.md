@@ -51,11 +51,17 @@ You can run database migrations from a command line as well. First make sure you
 dotnet tool install --global dotnet-ef
 ```
 
+{% hint style="warning" %}
+In case you had previously installed a **dotnet-ef** version other than the latest, update it by running the following command:\
+\
+`dotnet tool install --global dotnet-ef`
+{% endhint %}
+
 1. Open a terminal and navigate at the root of the **Harmony.Persistence** project, where the <mark style="color:blue;">HarmonyContext</mark> database context class exists.
 2. Run the **dotnet ef** command to create the database
 
 ```powershell
-dotnet ef database update --context HarmonyContext --startup-project "../../Web/Harmony/Harmony.Api/Harmony.Api.csproj"
+dotnet ef database update --context HarmonyContext --startup-project "../../Web/Harmony.Api/Harmony.Api.csproj"
 ```
 
 {% hint style="warning" %}
@@ -64,9 +70,9 @@ In case you have installed a local SQL Server on a **Linux** machine accepting a
 Harmony has been tested successfully :white\_check\_mark: on **Windows** and an **Ubuntu 22.04** machine. SQL Server for Ubuntu was installed following [this](https://learn.microsoft.com/en-us/sql/linux/quickstart-install-connect-ubuntu?view=sql-server-ver16\&tabs=ubuntu2204) guide.
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/command-line-update-database.png" alt=""><figcaption><p>Create database migration through command line</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/command-line-update-database.png.png" alt=""><figcaption><p>Create database migration through command line</p></figcaption></figure>
 
-{% hint style="info" %}
+{% hint style="success" %}
 Just a reminder here: It's **optional** to run the migrations by yourself because they will run by default at startup. At a later release, this will be active only in **debug** mode.
 {% endhint %}
 
@@ -80,7 +86,7 @@ harmonyContext.Database.Migrate();
 
 #### Database connection string
 
-Configure the SQL Server's `DefaultConnection` connection string existing in the <mark style="color:blue;">**appsettings.json**</mark> file at the root of the **Harmony.Notifications** project to point to your SQL Server instance. The `HarmonyConnection` string should point to your Harmony database.
+Configure the SQL Server's connection strings existing in the <mark style="color:blue;">**appsettings.json**</mark> file at the root of the **Harmony.Notifications** project to point to your SQL Server instance. The `HarmonyConnection` string should point to your Harmony database and the `HarmonyNotificationsConnection` should point to the Harmony.Notifications database.
 
 ```json
   "ConnectionStrings": {
