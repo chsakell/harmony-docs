@@ -9,7 +9,7 @@ Change log contains all version updates, old, current and upcoming with all impo
 ### \[Version 2.2] - In progress
 
 {% hint style="info" %}
-This version goal is to integrate [gRPC](https://learn.microsoft.com/en-us/aspnet/core/grpc/?view=aspnetcore-8.0) communication between internal microservices. This will finalize the solution design towards a **dockerized** microservice architecture.
+This version's goal is to integrate [gRPC](https://learn.microsoft.com/en-us/aspnet/core/grpc/?view=aspnetcore-8.0) communication between internal microservices. This will finalize the solution design towards a **dockerized** microservice architecture.
 
 * [x] The only application that has direct access to the main harmony database is the <mark style="color:blue;">Harmony.Api</mark>.
 * [x] The only application that has direct access to the MongoDB automations database is the <mark style="color:blue;">Harmony.Automations</mark>.
