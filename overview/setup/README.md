@@ -6,7 +6,7 @@ Harmony at its core is a web application built with **.NET 8.0** which means it'
 
 #### Architecture explained
 
-* Harmony.Client is the standalone Blazor WASM application. It communicates via HTTP with the Harmony.Api & connects via Websocket to Harmony.SignalR to receive instant updates.
+* **Harmony.Client** is the standalone Blazor WASM application. It communicates via HTTP with the Harmony.Api & connects via Websocket to Harmony.SignalR to receive instant updates.
 * **Harmony.Api** is the core API for managing domain entities. Soon it will be the only application accesing harmony database.
 * **Harmony.SignalR** is the web app which is responsible to push instant updates via WebSocket. Messages can be sent from any application via RabbitMQ. SignalR scaling is supported via Redis Backplane.
 * **SQL Serve**r stores the required domain entities (workspaces, boards, cards, users).
