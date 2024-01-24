@@ -11,18 +11,22 @@ When you are ready to deploy Harmony to a production environment you need to set
 
 #### Applications
 
-* [x] Harmony.Server
-* [x] Harmony.Server.SignalR
+* [x] Harmony.Client
+* [x] Harmony.Api
+* [x] Harmony.SignalR
 * [x] Harmony.Notifications
 * [x] Harmony.Automations
 
 After installing the required components in the production environment, go ahead and configure all the **appsettings.Production.json** files in the applications to reflect your production setup.
 
 {% hint style="warning" %}
-Don't forget to set the <mark style="color:orange;">signalrHostUrl</mark> property in the **appsettings.Production.json** file existing in the **Harmony.Client** project _(www folder)_ which configures the **Harmony.SignalR** project's host URL for clients!
+Don't forget to set:
+
+1. The <mark style="color:orange;">signalrHostUrl</mark> property in the **appsettings.Production.json** file existing in the <mark style="color:blue;">Harmony.Client</mark> project _(www folder)_ which configures the <mark style="color:blue;">**Harmony.SignalR**</mark> project's host URL for clients
+2. The <mark style="color:orange;">AutomationEndpoint</mark> property in the **appsettings.Production.json** file existing in the <mark style="color:blue;">Harmony.Api</mark> project which configures the communciation with the <mark style="color:blue;">Harmony.Automations</mark> app
 {% endhint %}
 
-### Publishing the app
+### Publishing the apps
 
 In case you build the artifacts manually, run the following command for all web applications after navigating at their root's folder.
 
