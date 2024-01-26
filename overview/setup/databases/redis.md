@@ -1,6 +1,12 @@
 # Redis
 
-[Redis](https://redis.io/) is an open-source in memory data source used by Harmony for scaling <mark style="color:blue;">**Harmony.SignalR**</mark> application.  Clients served by the <mark style="color:blue;">**Harmony.Api**</mark> app, connect to an instance of <mark style="color:blue;">**Harmony.SignalR**</mark> application to receive instance updates via WebSocket. [Redis backplance](https://learn.microsoft.com/en-us/aspnet/core/signalr/redis-backplane?view=aspnetcore-8.0) is used to support the scenario where you may have multiple instances of Harmony.SignalR app and different clients have been connected to different instances. Applications send messages to Harmony.SignalR via RabbitMQ messages.
+[Redis](https://redis.io/) is an open-source in memory data source used by Harmony for scaling <mark style="color:blue;">**Harmony.SignalR**</mark> application.  Clients served by the <mark style="color:blue;">**Harmony.Api**</mark> app, connect to an instance of <mark style="color:blue;">**Harmony.SignalR**</mark> application to receive instance updates via WebSocket. [Redis backplance](https://learn.microsoft.com/en-us/aspnet/core/signalr/redis-backplane?view=aspnetcore-8.0) is used to **support the scenario** where you may have multiple instances of Harmony.SignalR app and different clients have been connected to different instances. Applications send messages to Harmony.SignalR via RabbitMQ messages.
+
+{% hint style="info" %}
+Installing Redis is optional and only required when you have actually more than one instances of **Harmony.SignalR** application running.
+
+In case you are running Harmony with just one instance of Harmony.SignalR then you are good to skip the entire Redis section.
+{% endhint %}
 
 ### Installation
 

@@ -7,10 +7,10 @@ Harmony at its core is a web application built with **.NET 8.0** which means it'
 #### Architecture explained
 
 * **Harmony.Client** is the standalone Blazor WASM application. It communicates via HTTP with the Harmony.Api & connects via Websocket to Harmony.SignalR to receive instant updates.
-* **Harmony.Api** is the core API for managing domain entities. Soon it will be the only application accesing harmony database.
-* **Harmony.SignalR** is the web app which is responsible to push instant updates via WebSocket. Messages can be sent from any application via RabbitMQ. SignalR scaling is supported via Redis Backplane.
+* **Harmony.Api** is the core API for managing domain entities. It's the only application accessing harmony database and exposes gRPC services for other microservices.
+* **Harmony.SignalR** is the web app which is responsible to push instant updates via WebSocket. Messages can be sent from any application via RabbitMQ. SignalR scaling is supported via Redis Backplane and it's optional.
 * **SQL Serve**r stores the required domain entities (workspaces, boards, cards, users).
-* Automations are stored in a MongoDB database. Only the **Harmony.Automations** application has direct access to the MongoDB database. It provides HTTP endpoints to Harmony.Api and runs automations upon message received via a RabbitMQ message.
+* Automations are stored in a MongoDB database. Only the **Harmony.Automations** application has direct access to the MongoDB database. It provides gRPC services to Harmony.Api and runs automations upon message received via a RabbitMQ message.
 * **Harmony.Notifications** is responsible for sending email notifications to users & optionally sending indexing requests to an integrated search service _(if any)_.
 
 {% hint style="info" %}
@@ -33,7 +33,9 @@ Don't get overwhelmed by the number of things you need to setup before firing up
 1. Database migrations & seeding can run automatically during startup which means you don't have to manually run them.
 2. &#x20;RabbitMQ exchanges/queues are being created for you.&#x20;
 
-This means that if you want to start Harmony from Visual Studio, the only thing required is to install the required infrastructure on your machine, SQL Server, MongoDB, RabbitMQ, Redis, place the correct connection strings  & just setup the [startup projects](before-running.md) on Visual Studio.\
+This means that if you want to start Harmony from Visual Studio, the only thing required is to install the required infrastructure on your machine, SQL Server, MongoDB, RabbitMQ, Redis, place the correct connection strings  & just setup the [startup projects](before-running.md) on Visual Studio.
+
+Also make sure that you have set the correct **AppEndpointConfiguration** settings in all application.settings.json files.\
 \
 In one of the upcoming releases Harmony will be able to run via **docker** commands. :rocket: :ship:
 {% endhint %}

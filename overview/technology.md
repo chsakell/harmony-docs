@@ -8,11 +8,11 @@ If you are an engineer or developer, you will be certainly benefit just by study
 
 The stack, tools, frameworks used in Harmony are the following:
 
-| Databases                           | Server    | Front                                                                    |
-| ----------------------------------- | --------- | ------------------------------------------------------------------------ |
-| SQL Server                          | .NET Core | [Blazor](https://dotnet.microsoft.com/en-us/apps/aspnet/web-apps/blazor) |
-| [MongoDB](https://www.mongodb.com/) | SignalR   | [MudBlazor](https://mudblazor.com/)                                      |
-| Redis                               |           |                                                                          |
+| Databases                           | Server                                                                                   | Front                                                                    |
+| ----------------------------------- | ---------------------------------------------------------------------------------------- | ------------------------------------------------------------------------ |
+| SQL Server                          | .NET Core                                                                                | [Blazor](https://dotnet.microsoft.com/en-us/apps/aspnet/web-apps/blazor) |
+| [MongoDB](https://www.mongodb.com/) | SignalR                                                                                  | [MudBlazor](https://mudblazor.com/)                                      |
+| Redis                               | [gRPC](https://learn.microsoft.com/en-us/aspnet/core/grpc/?view=aspnetcore-8.0) :rocket: |                                                                          |
 
 | Data Access      | Patterns           | Messaging                         |
 | ---------------- | ------------------ | --------------------------------- |

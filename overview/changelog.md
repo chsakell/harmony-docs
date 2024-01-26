@@ -11,17 +11,19 @@ Change log contains all version updates, old, current and upcoming with all impo
 {% hint style="info" %}
 This version's goal is to integrate [gRPC](https://learn.microsoft.com/en-us/aspnet/core/grpc/?view=aspnetcore-8.0) communication between internal microservices. This will finalize the solution design towards a **dockerized** microservice architecture.
 
-* [x] The only application that has direct access to the main harmony database is the <mark style="color:blue;">Harmony.Api</mark>.
-* [x] The only application that has direct access to the MongoDB automations database is the <mark style="color:blue;">Harmony.Automations</mark>.
-* [x] Any interaction between backend microservices should be done through high performant communication using **gRPC** framework :rocket:
+* The only application that has direct access to the main harmony database is the <mark style="color:blue;">Harmony.Api</mark>.
+* The only application that has direct access to the MongoDB automations database is the <mark style="color:blue;">Harmony.Automations</mark>.
+* Any interaction between backend microservices should be done through high performant communication using **gRPC** framework :rocket:
 
 \
 _**gRPC** is a modern open source high performance Remote Procedure Call (RPC) framework that can run in any environment. It can efficiently connect services in and across data centers with pluggable support for load balancing, tracing, health checking and authentication._
 {% endhint %}
 
-* [ ] Expose gRPC services on Harmony.Api to be used by other microservices
-* [ ] Remove direct harmony database access from <mark style="color:blue;">Harmony.Automations</mark> and consume gRPC service from Harmony.Api instead
-* [ ] Remove direct harmony database access from <mark style="color:blue;">Harmony.Notifications</mark> and consume gRPC service from Harmony.Api instead
+* [x] Expose gRPC services from Harmony.Api&#x20;
+* [x] Expose gRPC service from Harmony.Automations
+* [x] Remove direct harmony database access from <mark style="color:blue;">Harmony.Automations</mark> and consume gRPC service from Harmony.Api instead
+* [x] Remove direct harmony database access from <mark style="color:blue;">Harmony.Notifications</mark> and consume gRPC service from Harmony.Api instead
+* [x] Remove direct MongoDB database access from <mark style="color:blue;">Harmony.Api</mark> and consume gRPC service from Harmony.Automations instead
 
 ### \[Version 2.1]  - available on [Envato](https://codecanyon.net/item/harmony-project-management-tool/49138488) <a href="#version-2.1" id="version-2.1"></a>
 

@@ -15,6 +15,7 @@
     * [MongoDB Server](overview/setup/databases/mongodb-server.md)
     * [Redis](overview/setup/databases/redis.md)
   * [📬 RabbitMQ](overview/setup/rabbitmq.md)
+  * [🚀 gRPC](overview/setup/grpc.md)
   * [🔎 Search Engine](overview/setup/search-engine.md)
   * [📧 Email provider](overview/setup/email-provider.md)
   * [🚀 Deployment](overview/setup/deployment.md)
