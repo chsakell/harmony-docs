@@ -20,7 +20,7 @@ The stack, tools, frameworks used in Harmony are the following:
 | Dapper           | CQRS MediatR       |                                   |
 |                  |                    |                                   |
 
-<figure><img src="../.gitbook/assets/harmony-architecture.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/harmony-architecture.gif" alt=""><figcaption></figcaption></figure>
 
 #### Database diagram
 

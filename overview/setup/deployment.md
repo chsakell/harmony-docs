@@ -1,4 +1,4 @@
-# 🚀 Deployment
+# 🚢 Deployment
 
 When you are ready to deploy Harmony to a production environment you need to setup the deployments for the following components & apps:
 
