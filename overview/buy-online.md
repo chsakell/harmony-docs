@@ -6,12 +6,12 @@ description: A professional, simple yet super powerful project management tool.
 
 Harmony is currently available to buy on [**Envato**](https://codecanyon.net/item/harmony-project-management-tool/49138488) market. After buying the product you will be able to:
 
-* View & study its full source code
-* Receive updates every time new features or fixes are being released
-* Host your own instance of Harmony and manage your projects
+* **View & study its full source code**: Thousands of code lines, built with .NET 8.0 and the best available [options](technology.md) _(e.g gRPC)_ for building scalable microservices. In case you are a .NET developer/engineer/architect you are going to love this project.
+* **Receive updates** every time new features or fixes are being released. Harmony is here to stay. There are about 2-3 releases per month adding new features or enhancing the existing ones.
+* **Host your own instance** of Harmony and manage your projects. Take harmony to the next level and try it on your own infrastructure.
 
-{% hint style="success" %}
-**Harmony** is huge **state of the art** project written with best practices and it's expected to grow more. Seize the opportunity to make it yours before [version 2.0](changelog.md#version-2.0) is released. The price is expected to rise as soon as the version becomes available on Envato.\
+{% hint style="info" %}
+**Harmony** is an amazing **state of the art** project written with best practices and latest technologies and it's expected to grow more. The price is expected to rise as more and more features are being added.\
 \
 Remember that whenever you buy Harmony, you will be able to download the new releases for free.
 {% endhint %}
