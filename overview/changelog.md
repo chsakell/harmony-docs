@@ -6,7 +6,7 @@ description: Make sure you read the changelog every time a new update is release
 
 Change log contains all version updates, old, current and upcoming with all important additions, fixes or improvements. The **unchecked** items of the _work in progress_ version, are the items remained before this build is released.
 
-### \[Version 2.2] - In progress
+### \[Version 2.2] - available on [Envato](https://codecanyon.net/item/harmony-project-management-tool/49138488) <a href="#version-2.2" id="version-2.2"></a>
 
 {% hint style="info" %}
 This version's goal is to integrate [gRPC](https://learn.microsoft.com/en-us/aspnet/core/grpc/?view=aspnetcore-8.0) communication between internal microservices. This will finalize the solution design towards a **dockerized** microservice architecture.
@@ -25,7 +25,7 @@ _**gRPC** is a modern open source high performance Remote Procedure Call (RPC) f
 * [x] Remove direct harmony database access from <mark style="color:blue;">Harmony.Notifications</mark> and consume gRPC service from Harmony.Api instead
 * [x] Remove direct MongoDB database access from <mark style="color:blue;">Harmony.Api</mark> and consume gRPC service from Harmony.Automations instead
 
-### \[Version 2.1]  - available on [Envato](https://codecanyon.net/item/harmony-project-management-tool/49138488) <a href="#version-2.1" id="version-2.1"></a>
+### \[Version 2.1]  - 23 January 2024 <a href="#version-2.1" id="version-2.1"></a>
 
 {% hint style="info" %}
 This version will upgrade the entire solution to .NET 8.0 :rocket: :tada:

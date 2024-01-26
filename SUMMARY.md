@@ -18,7 +18,7 @@
   * [🚀 gRPC](overview/setup/grpc.md)
   * [🔎 Search Engine](overview/setup/search-engine.md)
   * [📧 Email provider](overview/setup/email-provider.md)
-  * [🚀 Deployment](overview/setup/deployment.md)
+  * [🚢 Deployment](overview/setup/deployment.md)
   * [🏃♂ Before running](overview/setup/before-running.md)
 * [💳 Buy online](overview/buy-online.md)
 

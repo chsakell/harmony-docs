@@ -12,7 +12,7 @@ Before starting Harmony, make sure you have completed all the following required
 
 * [x] You have an SQL Server instance and you have configured **HarmonyConnection** connection string in <mark style="color:blue;">Harmony.Api</mark> and **HarmonyNotificationsConnection** connection string in <mark style="color:blue;">Harmony.Notifications</mark> respectively. Migrations can be run either manually or let the projects create the databases on start.
 * [x] You have a **MongoDB Server** instance running and you have configured the MongoDB:ConnectionUI property in the **appsettings.json** for <mark style="color:blue;">Harmony.Automations</mark> project.
-* [x] You have configured the **gRPC** communication between the microservices as described in the gRPC section.
+* [x] You have configured the **gRPC** communication between the microservices as described in the [gRPC](grpc.md) section.
 * [x] You have a RabbitMQ instance running and you have configured the **BrokerConfiguration** setting in all required projects in their **appsettings.json** file.
 * [x] **Optional**: You have a Redis instance up and running and you have configured the **RedisConnectionString** property in the <mark style="color:blue;">Harmony.SignalR</mark> project's appsettings.json file.&#x20;
 * [x] **Important!** You have set the **signalrHostUrl** property in the <mark style="color:blue;">**Harmony.Client**</mark> project's **www** folder, in the appsettings.json file, equal to Harmony.SignalR host URL

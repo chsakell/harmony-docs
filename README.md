@@ -31,12 +31,12 @@ It can be used by large organizations to manage projects across their teams or b
 
 You can create workspaces, **Kanban** boards, **Scrum** projects, lists, cards, add members, attachments, labels, check lists/items, due dates, comments and many more.
 
-:battery: Batteries included! Starting from **v2.0** Harmony supports automations! :rocket:
+:battery: Batteries included! Harmony supports automations! :rocket:
 
 The source code is fully available after [purchase](overview/buy-online.md) and of course you get updates every time a new release is available! :tada: This means you can host your own instance of **Harmony** rather than paying paid services.
 
 {% hint style="info" %}
-Docs have been updated to the latest version **v2.1**
+Docs have been updated to the latest version **v2.2**
 {% endhint %}
 
 {% content-ref url="overview/features.md" %}

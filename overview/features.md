@@ -66,6 +66,15 @@ All board updates are smoothly synced via WebSocket connection across all connec
 * [x] Add, edit and remove comments to a card  (new) :rocket:
 * [x] Archive a card
 
+#### Automations
+
+* [x] Sync parent and child tasks
+* [ ] Smart auto-assign
+* [ ] Auto-create sub-tasks
+* [ ] Sum up story points
+
+More automations to be added soon..
+
 #### Member features
 
 * [x] Register a new user
