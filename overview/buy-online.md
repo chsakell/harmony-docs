@@ -14,7 +14,7 @@ In order to get direct access to Harmony's **private** repository, navigate to i
 
 <figure><img src="../.gitbook/assets/harmony-tier.png" alt="" width="375"><figcaption><p>Harmony's one time tier</p></figcaption></figure>
 
-Select the Harmony tier & complete the purchasing.
+Select the Harmony tier & complete the purchase.
 
 <figure><img src="../.gitbook/assets/harmony-tier-purchase.png" alt=""><figcaption><p>Complete transaction</p></figcaption></figure>
 
@@ -42,7 +42,7 @@ The **recommended** way to get access to Harmony's source code is using the Harm
 
 #### Buy from GitHub
 
-Navigate to Harmony's sponsor tier by clicking [here](https://github.com/sponsors/chsakell).
+<img src="../.gitbook/assets/harmony-sponsor-link.png" alt="" data-size="original">Navigate to Harmony's sponsor tier by clicking [here](https://github.com/sponsors/chsakell).&#x20;
 
 #### Buy from Envato
 
