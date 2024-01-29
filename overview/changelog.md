@@ -6,7 +6,7 @@ description: Make sure you read the changelog every time a new update is release
 
 Change log contains all version updates, old, current and upcoming with all important additions, fixes or improvements. The **unchecked** items of the _work in progress_ version, are the items remained before this build is released.
 
-### \[Version 2.2] - available on [Envato](https://codecanyon.net/item/harmony-project-management-tool/49138488) <a href="#version-2.2" id="version-2.2"></a>
+### \[Version 2.2] - 26 January 2024 <a href="#version-2.2" id="version-2.2"></a>
 
 {% hint style="info" %}
 This version's goal is to integrate [gRPC](https://learn.microsoft.com/en-us/aspnet/core/grpc/?view=aspnetcore-8.0) communication between internal microservices. This will finalize the solution design towards a **dockerized** microservice architecture.

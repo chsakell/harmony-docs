@@ -24,7 +24,7 @@ The stack, tools, frameworks used in Harmony are the following:
 
 #### Database diagram
 
-<figure><img src="../.gitbook/assets/database-diagram.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/database-diagram.png" alt=""><figcaption><p>Harmony's domain entities</p></figcaption></figure>
 
 #### Read next - Configure Harmony
 
