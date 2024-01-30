@@ -4,7 +4,7 @@ description: A professional, simple yet super powerful project management tool.
 
 # 💳 Buy online
 
-Harmony is currently available to buy via two channels, [GitHub](https://github.com/sponsors/chsakell) &  [**Envato**](https://codecanyon.net/item/harmony-project-management-tool/49138488) market:&#x20;
+Harmony is currently available to buy via two channels, [**GitHub**](https://github.com/sponsors/chsakell) &  [Envato](https://codecanyon.net/item/harmony-project-management-tool/49138488) market:&#x20;
 
 ### GitHub sponsors
 
