@@ -22,8 +22,6 @@ layout:
 
 # 👋 Welcome to Harmony
 
-<figure><img src=".gitbook/assets/harmony-logo.jpg" alt="" width="100"><figcaption><p>Harmony</p></figcaption></figure>
-
 {% embed url="https://www.youtube.com/watch?v=BajTOkYuxx0" %}
 Harmony
 {% endembed %}
