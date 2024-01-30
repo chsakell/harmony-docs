@@ -22,10 +22,10 @@ Other than new features, more UX improvements, bug fixes and performance improve
 
 ### Major milestones
 
-* [x] **Search Engine integration**: A powerful and super fast search text box will be added to the top bar - Also an advanced search modal will also be implemented for advanced searching scenarios with many criteria _(released on_ [_release v1.5_](changelog.md#version-1.5)_)_
-* [x] **Automation**: an automation engine allows users to _automate_ tasks and processes in just a few clicks _(first automation released on_ [_release v2.0_](changelog.md#version-2.0)_)_
-* [x] Upgrade to **.NET 8.0** _(released on_[ _release v2.1_](changelog.md#version-2.1-available-on-envato)_)_
-* [ ] Use **gRPC** for internal microservices communication
+* [x] **Search Engine integration**: A powerful and super fast search text box will be added to the top bar - Also an advanced search modal will also be implemented for advanced searching scenarios with many criteria
+* [x] **Automation**: an automation engine allows users to _automate_ tasks and processes in just a few clicks
+* [x] Upgrade to **.NET 8.0**&#x20;
+* [x] Use **gRPC** for internal microservices communication _(new_ :rocket:_)_
 * [ ] **Dockerize** solution
 * [ ] **Gmail & Facebook** login integration
 
