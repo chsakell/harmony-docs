@@ -96,9 +96,6 @@ More automations to be added soon..
 
 {% hint style="info" %}
 For a complete list of features, fixes, enhanced being added to Harmony on every release, you can always check the [changelog](changelog.md) :bulb:
-
-\
-**DEMO**: You can take a look at a limited version of Harmony [here](https://demo.harmony-teams.com/).
 {% endhint %}
 
 #### Read next - Roadmap
