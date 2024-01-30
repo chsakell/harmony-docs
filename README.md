@@ -2,7 +2,12 @@
 description: >-
   Bring harmony to your teams with a simple, yet powerful project management
   tool.
+cover: .gitbook/assets/harmony-teams-cover.png
+coverY: 0
 layout:
+  cover:
+    visible: true
+    size: full
   title:
     visible: true
   description:
