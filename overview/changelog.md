@@ -12,8 +12,9 @@ Change log contains all version updates, old, current and upcoming with all impo
 After working on architectural improvements for a few sprints in a row, it's high time to get back on track and start adding new features :tada:
 {% endhint %}
 
-* [ ] Display archived cards.
-* [ ] <mark style="color:green;">Re-activate</mark> an archived card by moving it either to a board (Kanban) or to a sprint / backlog (Scrum).
+* [x] Display <mark style="color:red;">archived</mark> cards.
+* [x] <mark style="color:green;">Re-activate</mark> archived cards by moving them either to a board (Kanban) or to a sprint (Scrum).
+* [x] Sync board across all connections upon card creation.
 
 ### \[Version 2.2] - 26 January 2024 <a href="#version-2.2" id="version-2.2"></a>
 
