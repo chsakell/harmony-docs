@@ -35,7 +35,6 @@ Regardless the option you choose, after buying the product you will be able to:
 The **recommended** way to get access to Harmony's source code is using the Harmony **GitHub** sponsor tier instead of Envato market. Here's the benefits you get via GitHub:
 
 * [x] Get instant access to all commits pushed to the repository :muscle:&#x20;
-* [x] Better price :moneybag: since there are less fees than Envato
 * [x] View **git history** and understand all the changes being made to the repository
 * [x] You don't have to wait for Envato's approval process till you get updates
 {% endhint %}
