@@ -24,15 +24,15 @@
 
 ## Guide
 
-* [Workspaces](guide/workspaces/README.md)
+* [🌐 Workspaces](guide/workspaces/README.md)
   * [➕ Create](guide/workspaces/create.md)
   * [👥 Members](guide/workspaces/members.md)
-* [Kanban](guide/kanban.md)
-* [Scrum](guide/scrum/README.md)
+* [🧮 Kanban](guide/kanban.md)
+* [🎯 Scrum](guide/scrum/README.md)
   * [➕ Create](guide/scrum/create.md)
   * [📝 Backlog](guide/scrum/backlog.md)
   * [🎯 Sprints](guide/scrum/sprints.md)
-* [Boards](guide/boards/README.md)
+* [📋 Boards](guide/boards/README.md)
   * [📊 Board lists](guide/boards/board-lists.md)
   * [🟧 Cards](guide/boards/cards/README.md)
     * [➕ Create](guide/boards/cards/create.md)
@@ -45,4 +45,4 @@
     * [🗣 Comments](guide/boards/cards/comments.md)
     * [🔴 Archive](guide/boards/cards/archive.md)
   * [👥 Members](guide/boards/members.md)
-* [⚙ Automations](guide/automations.md)
+* [💫 Automations](guide/automations.md)
