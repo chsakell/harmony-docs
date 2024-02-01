@@ -1,4 +1,4 @@
-# Kanban
+# 🧮 Kanban
 
 You can create a Kanban board by clicking the upper right drop menu and selecting **Create Kanban Board**.
 

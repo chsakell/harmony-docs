@@ -1,4 +1,4 @@
-# ⚙ Automations
+# 💫 Automations
 
 Starting from v2.0 Harmony supports automations :rocket:. \
 The purpose of each automation is to automatically run a task for you, a repetitive operation that you would normally do after certain conditions.&#x20;

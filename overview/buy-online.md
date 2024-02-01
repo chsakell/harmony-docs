@@ -10,13 +10,18 @@ Harmony is currently available to buy via two channels, [**GitHub**](https://git
 
 <figure><img src="../.gitbook/assets/harmony-sponsor-link.png" alt="" width="563"><figcaption><p>GitHub Harmony one-time sponsor tier</p></figcaption></figure>
 
-In order to get direct access to Harmony's **private** repository, navigate to its creator's sponsorship's [page](https://github.com/sponsors/chsakell) and select the Harmony **one-time** tier. You need to sign in with your **GitHub** account.
+In order to get direct access to Harmony's **private** repository, navigate to its creator's sponsorship's [page](https://github.com/sponsors/chsakell) and select one of the Harmony's sponsorships tiers.&#x20;
 
-<figure><img src="../.gitbook/assets/harmony-tier.png" alt="" width="375"><figcaption><p>Harmony's one time tier</p></figcaption></figure>
+* **Monthly**: Pay a fixed amount **per month** in order to gain access to the repository. Your access is remained as long as you are subscribed to the tier.
+* **One-time**: Pay once and get a **life-time** access to the repository.
 
-Select the Harmony tier & complete the purchase.
+<figure><img src="../.gitbook/assets/harmony-monthly-tier.png" alt="" width="375"><figcaption><p>Harmony tier</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/harmony-tier-purchase.png" alt=""><figcaption><p>Complete transaction</p></figcaption></figure>
+You need to sign in with your **GitHub** account.
+
+Select either a **monthly** or an **one-time** Harmony tier & complete the purchase.
+
+<figure><img src="../.gitbook/assets/harmony-tier-purchase.png" alt="" width="563"><figcaption><p>Complete transaction</p></figcaption></figure>
 
 After completing purchasing, your **GitHub** account will be granted read-only access to the repository in next few hours.
 
@@ -32,7 +37,7 @@ Regardless the option you choose, after buying the product you will be able to:
 {% hint style="info" %}
 **Harmony** is an amazing **state of the art** project written with best practices and latest technologies and it's expected to grow more. The price may rise in the future as more and more features are being added.
 
-The **recommended** way to get access to Harmony's source code is using the Harmony **GitHub** sponsor tier instead of Envato market. Here's the benefits you get via GitHub:
+The **recommended** way to get access to Harmony's source code is using a Harmony **GitHub** sponsor tier instead of Envato market. Here's the benefits you get via GitHub:
 
 * [x] Get instant access to all commits pushed to the repository :muscle:&#x20;
 * [x] View **git history** and understand all the changes being made to the repository

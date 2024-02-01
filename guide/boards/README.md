@@ -1,4 +1,4 @@
-# Boards
+# 📋 Boards
 
 Boards are containers for your cards. The are a snapshot of your current project's status displaying each card's status based on the list it belongs to.
 
