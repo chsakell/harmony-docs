@@ -62,6 +62,6 @@ In one of the upcoming releases Harmony will be able to run via **docker** comma
 
 #### Make Harmony yours - Buy once, get updates for ever :rocket:
 
-{% content-ref url="../buy-online.md" %}
-[buy-online.md](../buy-online.md)
+{% content-ref url="../pricing.md" %}
+[pricing.md](../pricing.md)
 {% endcontent-ref %}

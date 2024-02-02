@@ -18,8 +18,8 @@ Before starting Harmony, make sure you have completed all the following required
 * [x] **Important!** You have set the **signalrHostUrl** property in the <mark style="color:blue;">**Harmony.Client**</mark> project's **www** folder, in the appsettings.json file, equal to Harmony.SignalR host URL
 * [x] You have set the _AppEndpointConfiguration:FrontendUrl_ in Harmony.Api. This will be used for email templates in order to configure any links to the front.
 
-{% content-ref url="../buy-online.md" %}
-[buy-online.md](../buy-online.md)
+{% content-ref url="../pricing.md" %}
+[pricing.md](../pricing.md)
 {% endcontent-ref %}
 
 {% content-ref url="../../guide/workspaces/" %}

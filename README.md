@@ -36,7 +36,7 @@ You can create workspaces, **Kanban** boards, **Scrum** projects, lists, cards, 
 
 :battery: Batteries included! Harmony supports automations! :rocket:
 
-The source code is fully available after [purchase](overview/buy-online.md) and of course you get updates every time a new release is available! :tada: This means you can host your own instance of **Harmony** rather than paying paid services.
+The source code is fully available after [purchase](overview/pricing.md) and of course you get updates every time a new release is available! :tada: This means you can host your own instance of **Harmony** rather than paying paid services.
 
 {% hint style="info" %}
 Docs have been updated to the latest version **v2.2**
@@ -46,6 +46,6 @@ Docs have been updated to the latest version **v2.2**
 [features.md](overview/features.md)
 {% endcontent-ref %}
 
-{% content-ref url="overview/buy-online.md" %}
-[buy-online.md](overview/buy-online.md)
+{% content-ref url="overview/pricing.md" %}
+[pricing.md](overview/pricing.md)
 {% endcontent-ref %}

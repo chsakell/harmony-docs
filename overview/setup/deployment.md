@@ -54,8 +54,8 @@ There are many options to deploy a .NET Core web application in production. Plea
 [before-running.md](before-running.md)
 {% endcontent-ref %}
 
-{% content-ref url="../buy-online.md" %}
-[buy-online.md](../buy-online.md)
+{% content-ref url="../pricing.md" %}
+[pricing.md](../pricing.md)
 {% endcontent-ref %}
 
 {% content-ref url="../../guide/workspaces/" %}

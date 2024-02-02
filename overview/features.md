@@ -108,6 +108,6 @@ For a complete list of features, fixes, enhanced being added to Harmony on every
 [roadmap.md](roadmap.md)
 {% endcontent-ref %}
 
-{% content-ref url="buy-online.md" %}
-[buy-online.md](buy-online.md)
+{% content-ref url="pricing.md" %}
+[pricing.md](pricing.md)
 {% endcontent-ref %}

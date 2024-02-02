@@ -20,7 +20,7 @@
   * [📧 Email provider](overview/setup/email-provider.md)
   * [🚢 Deployment](overview/setup/deployment.md)
   * [🏃♂ Before running](overview/setup/before-running.md)
-* [💳 Buy online](overview/buy-online.md)
+* [💳 Pricing](overview/pricing.md)
 
 ## Guide
 
