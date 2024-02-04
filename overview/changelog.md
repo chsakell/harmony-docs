@@ -16,6 +16,7 @@ After working on architectural improvements for a few sprints in a row, it's hig
 * [x] <mark style="color:green;">Re-activate</mark> archived cards by moving them either to a board (Kanban) or to a sprint (Scrum).
 * [x] Sync board across all connections upon card creation or archiving.
 * [ ] Implement **Smart auto-assign** automation.
+* [x] Rename **Harmony.Notifications** HangFire database to **Harmony.Jobs** and re-use it in <mark style="color:blue;">Harmony.Automations</mark> _(breaking)_.
 
 ### \[Version 2.2] - 26 January 2024 <a href="#version-2.2" id="version-2.2"></a>
 
