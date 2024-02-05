@@ -1,6 +1,6 @@
 # Table of contents
 
-* [👋 Welcome to Harmony](README.md)
+* [Manage Your Team's Projects](README.md)
 
 ## Overview
 

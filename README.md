@@ -20,7 +20,7 @@ layout:
     visible: true
 ---
 
-# 👋 Welcome to Harmony
+# Manage Your Team's Projects
 
 {% embed url="https://www.youtube.com/watch?v=BajTOkYuxx0" %}
 Harmony
