@@ -68,8 +68,8 @@ All board updates are smoothly synced via WebSocket connection across all connec
 
 #### Automations
 
-* [x] Sync parent and child tasks
-* [ ] Smart auto-assign
+* [x] [Sync parent and child tasks](../guide/automations/sync-parent-and-child-tasks.md)
+* [x] [Smart auto-assign](../guide/automations/smart-auto-assign.md)
 * [ ] Auto-create sub-tasks
 * [ ] Sum up story points
 
