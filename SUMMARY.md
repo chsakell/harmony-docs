@@ -45,4 +45,6 @@
     * [🗣 Comments](guide/boards/cards/comments.md)
     * [🔴 Archive](guide/boards/cards/archive.md)
   * [👥 Members](guide/boards/members.md)
-* [💫 Automations](guide/automations.md)
+* [💫 Automations](guide/automations/README.md)
+  * [Sync parent and child tasks](guide/automations/sync-parent-and-child-tasks.md)
+  * [Smart auto-assign](guide/automations/smart-auto-assign.md)

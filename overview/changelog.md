@@ -68,7 +68,7 @@ Version 2.0 will set things up towards a [**dockerized**](https://www.docker.com
 * [x] Add support for child issues to cards.
 * [x] Change issue status from card's view.
 * [x] Display total number of child issues per card on board.
-* [x] Create [**Harmony.Automations**](../guide/automations.md) project for handling automations.
+* [x] Create [**Harmony.Automations**](../guide/automations/) project for handling automations.
 * [x] Create Automations settings page.
 * [x] Create, enable, disable and remove an automation.
 * [x] Create [**Harmony.Server.SignalR**](setup/databases/redis.md) project for handling SignalR messages.
