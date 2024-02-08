@@ -6,7 +6,7 @@ description: Make sure you read the changelog every time a new update is release
 
 Change log contains all version updates, old, current and upcoming with all important additions, fixes or improvements. The **unchecked** items of the _work in progress_ version, are the items remained before this build is released.
 
-### \[Version 2.3] - In progress _(instantly available with_ [_GitHub_](pricing.md#github-sponsors) _plan)_
+### \[Version 2.3] - 8 February 2024
 
 {% hint style="info" %}
 After working on architectural improvements for a few sprints in a row, it's high time to get back on track and start adding new features :tada:
