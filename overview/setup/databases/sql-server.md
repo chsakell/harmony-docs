@@ -2,14 +2,15 @@
 
 Harmony has a dependency to **SQL Server** databases which can be installed on Windows or [Linux](https://learn.microsoft.com/en-us/sql/linux/sql-server-linux-setup?view=sql-server-ver16#supportedplatforms). After installing an SQL Server instance, proceed by creating the required databases and configuring the connection strings for the following two databases:
 
-1. **Harmony**: The core database used by the <mark style="color:blue;">Harmony.Api</mark>, <mark style="color:blue;">Harmony.Notification</mark> & <mark style="color:blue;">Harmony.Automations</mark> web apps, containing all the core tables and their relationships, e.g. Workspaces, Boards or Cards.
-2. **Harmony.Notifications**: The database used by the <mark style="color:blue;">Harmony.Notifications</mark> web app, containing all the HangFire required tables and one more.
+1. **Harmony**: The core database used by the <mark style="color:blue;">Harmony.Api</mark> server app, containing all the core tables and their relationships, e.g. Workspaces, Boards or Cards.
+2. **Harmony.Notifications.Jobs**: The database used by the <mark style="color:blue;">Harmony.Notifications</mark> web app, containing all the HangFire required tables and one more.
+3. **Harmony.Automations.Jobs**: The database used by the <mark style="color:blue;">Harmony.Automations</mark> web app, containing all the HangFire required tables and one more.
 
 ### Harmony database configuration
 
 #### Database connection string
 
-Configure the <mark style="color:orange;">HarmonyConnection</mark> SQL Server's connection string existing in the <mark style="color:blue;">**appsettings.json**</mark> file at the root of the **Harmony.Api, Harmony.Notifications** & **Harmony.Automations** projects to point to your SQL Server instance.
+Configure the <mark style="color:orange;">HarmonyConnection</mark> SQL Server's connection string existing in the <mark style="color:blue;">**appsettings.json**</mark> file at the root of the **Harmony.Api** project to point to your SQL Server instance.
 
 ```json
   "ConnectionStrings": {
@@ -82,61 +83,44 @@ To disable the automatic migrations remove the following line from the <mark sty
 harmonyContext.Database.Migrate();
 ```
 
-### Harmony.Notifications database configuration
+### Harmony.Notifications & Harmony.Automations jobs database configuration
 
 #### Database connection string
 
-Configure the SQL Server's connection strings existing in the <mark style="color:blue;">**appsettings.json**</mark> file at the root of the **Harmony.Notifications** project to point to your SQL Server instance. The `HarmonyConnection` string should point to your Harmony database and the `HarmonyNotificationsConnection` should point to the Harmony.Notifications database.
+Configure the SQL Server's _HarmonyJobsConnection_ connection strings existing in the <mark style="color:blue;">**appsettings.json**</mark> file at the root of the **Harmony.Notifications** & **Harmony.Automations** projects to point to your SQL Server instance.
+
+#### Harmony.Notifications appsettings.json
 
 ```json
   "ConnectionStrings": {
-    "HarmonyNotificationsConnection ": "Server=.;Database=Harmony.Notifications;Integrated Security=True;TrustServerCertificate=True",
-    "HarmonyConnection": "Server=.;Database=Harmony;Integrated Security=True;TrustServerCertificate=True"
+    "HarmonyJobsConnection": "Server=.;Database=Harmony.Notifications.Jobs;Integrated Security=True;TrustServerCertificate=True"
+  },
+```
+
+#### Harmony.Automations appsettings.json
+
+```json
+  "ConnectionStrings": {
+    "HarmonyJobsConnection": "Server=.;Database=Harmony.Automations.Jobs;Integrated Security=True;TrustServerCertificate=True"
   },
 ```
 
 #### Database migrations
 
-You can run the database migrations either manually or let the project run them for you during startup.
+Use the same process & commands you used for Harmony database and Harmony.Api projects except that you have to change the following two parameters:
 
-#### Run migrations through <mark style="color:blue;">Visual Studio</mark>
+* \-**Context**: NotificationContext
+* \-**StartUpProject**: Harmony.Notifications or Harmony.Automations&#x20;
 
-When running migrations through Visual Studio, open the `Package Manager Console` and set the `Default project` to **src\Web\Harmony.Notifications**.
-
-Run the following command to create the database:
+Examples:
 
 ```powershell
 Update-Database -Context NotificationContext -StartUpProject Harmony.Notifications -v
 ```
 
-<figure><img src="../../../.gitbook/assets/harmony-notifications-migration-update.png" alt=""><figcaption><p>Create Harmony.Notifications database migration through Visual Studio</p></figcaption></figure>
-
-{% hint style="warning" %}
-Migrations command require that you have previously setup your database connection strings properly.
-{% endhint %}
-
-In case you decide to **create** a new migration, follow the same procedure by replacing the command with the following:
-
 ```powershell
-Add-Migration MyCustomMigrationName -Context NotificationContext -StartUpProject Harmony.Notifications -v
+Update-Database -Context NotificationContext -StartUpProject Harmony.Automations -v
 ```
-
-#### Run migrations using a command line
-
-You can run database migrations from a command line as well. First make sure you have installed [EF Core tools](https://learn.microsoft.com/en-us/ef/core/cli/dotnet).
-
-```powershell
-dotnet tool install --global dotnet-ef
-```
-
-1. Open a terminal and navigate at the root of the **Harmony.Notifications** project, where the <mark style="color:blue;">NotificationContext</mark> database context class exists.
-2. Run the **dotnet ef** command to create the database
-
-```powershell
-dotnet ef database update --context NotificationContext --startup-project "Harmony.Notifications.csproj"
-```
-
-<figure><img src="../../../.gitbook/assets/harmony-notifications-migration-update-terminal.png" alt=""><figcaption></figcaption></figure>
 
 #### Read next - configure the MongoDB Server
 
