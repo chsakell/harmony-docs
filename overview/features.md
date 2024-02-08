@@ -65,6 +65,7 @@ All board updates are smoothly synced via WebSocket connection across all connec
 * [x] Remove attachments from a card
 * [x] Add, edit and remove comments to a card  (new) :rocket:
 * [x] Archive a card
+* [x] Display & re-activate archived cards
 
 #### Automations
 
