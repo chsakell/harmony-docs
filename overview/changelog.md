@@ -6,7 +6,7 @@ description: Make sure you read the changelog every time a new update is release
 
 Change log contains all version updates, old, current and upcoming with all important additions, fixes or improvements. The **unchecked** items of the _work in progress_ version, are the items remained before this build is released.
 
-### \[Version 2.3.1] - In progress
+### \[Version 2.3.1] - 12 February 2024
 
 * Minor fixes on Image URLs
 
