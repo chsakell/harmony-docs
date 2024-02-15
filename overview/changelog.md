@@ -6,6 +6,26 @@ description: Make sure you read the changelog every time a new update is release
 
 Change log contains all version updates, old, current and upcoming with all important additions, fixes or improvements. The **unchecked** items of the _work in progress_ version, are the items remained before this build is released.
 
+### &#x20;\[Version 2.4] - Containerization In progress
+
+{% hint style="info" %}
+This version's goal is to **containerize** Harmony solution :muscle:\
+Docker files will be added for every web application in order to define their image build process. Next, a **docker-compose** file will be responsible to define the services and all of their dependencies _(SQL Server, Redis, MongoDB, etc..)_. \
+Ideally after this release, you should be able to start Harmony by running the following commands:
+
+```docker
+docker compose build
+docker compose up
+```
+{% endhint %}
+
+* [x] Create Dockerfile for <mark style="color:blue;">Harmony.Api</mark>.
+* [ ] Create Dockerfilefor <mark style="color:blue;">Harmony.SignalR</mark>.
+* [ ] Create Dockerfilefor <mark style="color:blue;">Harmony.Client</mark>.
+* [ ] Create Dockerfile for <mark style="color:blue;">Harmony.Automations</mark>.
+* [ ] Create Dockerfilefor <mark style="color:blue;">Harmony.Notifications</mark>.
+* [x] Create **docker-compose** file to start Harmony with a single command.
+
 ### \[Version 2.3.1] - 12 February 2024
 
 * Minor fixes on Image URLs
