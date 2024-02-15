@@ -20,7 +20,7 @@ docker compose up
 {% endhint %}
 
 * [x] Create Dockerfile for <mark style="color:blue;">Harmony.Api</mark>.
-* [ ] Create Dockerfilefor <mark style="color:blue;">Harmony.SignalR</mark>.
+* [x] Create Dockerfilefor <mark style="color:blue;">Harmony.SignalR</mark>.
 * [ ] Create Dockerfilefor <mark style="color:blue;">Harmony.Client</mark>.
 * [ ] Create Dockerfile for <mark style="color:blue;">Harmony.Automations</mark>.
 * [ ] Create Dockerfilefor <mark style="color:blue;">Harmony.Notifications</mark>.
