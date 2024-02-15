@@ -19,11 +19,11 @@ docker compose up
 ```
 {% endhint %}
 
-* [x] Create Dockerfile for <mark style="color:blue;">Harmony.Api</mark>.
-* [x] Create Dockerfilefor <mark style="color:blue;">Harmony.SignalR</mark>.
-* [ ] Create Dockerfilefor <mark style="color:blue;">Harmony.Client</mark>.
-* [ ] Create Dockerfile for <mark style="color:blue;">Harmony.Automations</mark>.
-* [ ] Create Dockerfilefor <mark style="color:blue;">Harmony.Notifications</mark>.
+* [x] Create _Dockerfile_ for <mark style="color:blue;">Harmony.Api</mark>.
+* [x] Create _Dockerfile_ for <mark style="color:blue;">Harmony.SignalR</mark>.
+* [ ] Create _Dockerfile_ for <mark style="color:blue;">Harmony.Client</mark>.
+* [ ] Create _Dockerfile_ for <mark style="color:blue;">Harmony.Automations</mark>.
+* [ ] Create _Dockerfile_ for <mark style="color:blue;">Harmony.Notifications</mark>.
 * [x] Create **docker-compose** file to start Harmony with a single command.
 
 ### \[Version 2.3.1] - 12 February 2024
