@@ -15,6 +15,9 @@ Harmony at its core is a web application built with **.NET 8.0** which means it'
 
 {% hint style="info" %}
 Configure one by one the following components - Each link provides details about the role of the corresponding component and how to configure it. After finishing with the component's setup, follow with the individual web app configurations _(e.g. appsettings.json)_
+
+\
+Maybe you want to fast-forward? :man\_running: That's ok, you can fire up the entire infrastructure via [docker](docker.md) commands!
 {% endhint %}
 
 Harmony dependencies are:

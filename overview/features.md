@@ -20,9 +20,17 @@ Scrum projects allow you to plan your work in a **backlog** and organize cycles 
 
 ### Batteries included :battery: - Automations
 
-Automations couldn't miss from Harmony - Configure automations on a simple yet elegant interface.
+[Automations](../guide/automations/) couldn't miss from Harmony - Configure automations on a simple yet elegant interface.
 
-<figure><img src="../.gitbook/assets/automations.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/automations.png" alt=""><figcaption><p>Automations</p></figcaption></figure>
+
+### Docker ready :whale: :rocket:
+
+Built with best practices, latest technologies and most popular tools and frameworks, broken in isolated and scalable microservices, Harmony can be served via [docker](setup/docker.md) containers.
+
+<figure><img src="../.gitbook/assets/harmony-containers.png" alt=""><figcaption></figcaption></figure>
+
+### Board auto-syncing
 
 {% hint style="info" %}
 All board updates are smoothly synced via WebSocket connection across all connected members
