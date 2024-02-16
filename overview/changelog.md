@@ -6,7 +6,7 @@ description: Make sure you read the changelog every time a new update is release
 
 Change log contains all version updates, old, current and upcoming with all important additions, fixes or improvements. The **unchecked** items of the _work in progress_ version, are the items remained before this build is released.
 
-### &#x20;\[Version 2.4] - Containerization In progress
+### &#x20;\[Version 2.4] - Containerization _(currently available on GitHub only)_ <a href="#version-2.4" id="version-2.4"></a>
 
 {% hint style="info" %}
 This version's goal is to **containerize** Harmony solution :muscle:\
@@ -21,10 +21,12 @@ docker compose up
 
 * [x] Create _Dockerfile_ for <mark style="color:blue;">Harmony.Api</mark>.
 * [x] Create _Dockerfile_ for <mark style="color:blue;">Harmony.SignalR</mark>.
-* [ ] Create _Dockerfile_ for <mark style="color:blue;">Harmony.Client</mark>.
-* [ ] Create _Dockerfile_ for <mark style="color:blue;">Harmony.Automations</mark>.
-* [ ] Create _Dockerfile_ for <mark style="color:blue;">Harmony.Notifications</mark>.
+* [x] Create _Dockerfile_ for <mark style="color:blue;">Harmony.Client</mark>.
+* [x] Create _Dockerfile_ for <mark style="color:blue;">Harmony.Automations</mark>.
+* [x] Create _Dockerfile_ for <mark style="color:blue;">Harmony.Notifications</mark>.
 * [x] Create **docker-compose** file to start Harmony with a single command.
+
+<figure><img src="../.gitbook/assets/harmony-containers.png" alt="" width="563"><figcaption></figcaption></figure>
 
 ### \[Version 2.3.1] - 12 February 2024
 
