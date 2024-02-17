@@ -6,7 +6,7 @@ description: Make sure you read the changelog every time a new update is release
 
 Change log contains all version updates, old, current and upcoming with all important additions, fixes or improvements. The **unchecked** items of the _work in progress_ version, are the items remained before this build is released.
 
-### &#x20;\[Version 2.4] - Containerization _(currently available on GitHub only)_ <a href="#version-2.4" id="version-2.4"></a>
+### &#x20;\[Version 2.4] - 17 February 2024 <a href="#version-2.4" id="version-2.4"></a>
 
 {% hint style="info" %}
 This version's goal is to **containerize** Harmony solution :muscle:\

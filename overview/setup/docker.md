@@ -22,7 +22,7 @@ dotnet dev-certs https --trust
 The above commands are for **Windows using Linux** containers. If you are on a **Mac** or **Linux** you need to run:
 
 ```powershell
-dotnet dev-certs https -ep ${HOME}/.aspnet/https/aspnetapp.pfx -p HarmonyTeamsSecretKey
+dotnet dev-certs https -ep ${HOME}/.aspnet/https/harmony.pfx -p HarmonyTeamsSecretKey
 dotnet dev-certs https --trust
 ```
 
