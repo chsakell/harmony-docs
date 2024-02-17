@@ -25,8 +25,8 @@ Other than new features, more UX improvements, bug fixes and performance improve
 * [x] **Search Engine integration**: A powerful and super fast search text box will be added to the top bar - Also an advanced search modal will also be implemented for advanced searching scenarios with many criteria
 * [x] **Automation**: an automation engine allows users to _automate_ tasks and processes in just a few clicks
 * [x] Upgrade to **.NET 8.0**&#x20;
-* [x] Use **gRPC** for internal microservices communication _(new_ :rocket:_)_
-* [x] **Dockerize** solution :whale: _(currently available on GitHub)_
+* [x] Use **gRPC** for internal microservices communication
+* [x] **Dockerize** solution :whale: _(new_ :rocket:_)_
 * [ ] **Gmail & Facebook** login integration
 
 #### Read next - Changelog & Technology used

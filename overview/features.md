@@ -28,7 +28,7 @@ Scrum projects allow you to plan your work in a **backlog** and organize cycles 
 
 Built with best practices, latest technologies and most popular tools and frameworks, broken in isolated and scalable microservices, Harmony can be served via [docker](setup/docker.md) containers.
 
-<figure><img src="../.gitbook/assets/harmony-containers.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/harmony-containers.png" alt=""><figcaption><p>Harmony docker containers</p></figcaption></figure>
 
 ### Board auto-syncing
 
