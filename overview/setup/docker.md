@@ -79,10 +79,10 @@ By default, docker will create a new SQL Server based on Microsoft's image.&#x20
 
 In you want to connect to your host's SQL Server rather than connecting to a docker container, check the follow steps:
 
-1. Remove the previous snipper from the **docker-compose.yml** file.
+1. Remove the previous snippet from the **docker-compose.yml** file and any _depends\_on_ reference to it.
 2. Enable **TCP/IP** access on your SQL Server instance & restart SQL Server services.
 3. Make sure your SQL Server runs under mixed mode or at least SQL Server mode so that you can connect via user & password credentials _(windows authentication won't work on a linux container!)_
-4. Change the connection string in the docker-compose.yml file to connect to your SQL Server. For localhost development, you must use **host.docker.internal** as the following example _(make sure you use your own credentials)_:
+4. Change the connection string in the _docker-compose.yml_ file to connect to your SQL Server. For localhost development, you must use **host.docker.internal** as the following example _(make sure you use your own credentials)_:
 
 ```
 - ConnectionStrings__HarmonyJobsConnection=Server=host.docker.internal,1433;database=Harmony.Automations.Jobs;User Id=harmony_user;Password=%HarmonyTeams100;TrustServerCertificate=True
@@ -90,7 +90,7 @@ In you want to connect to your host's SQL Server rather than connecting to a doc
 
 #### Persist SQL Server container data
 
-In case you want to run SQL Server as a docker container but you want to persist the data and don't lose them after re-creating the container, you need to add docker volumes on the related service in the **docker-compose.yml**. Here's an example:
+In case you want to run SQL Server as a docker container but you want to persist the data and don't lose them after re-creating the container, you need to add docker volumes on the related service definition in the **docker-compose.yml**. Here's an example:
 
 ```docker
    sql_server:
@@ -105,8 +105,4 @@ In case you want to run SQL Server as a docker container but you want to persist
       - C:/HarmonySql/secrets:/var/opt/mssql/secrets
 ```
 
-\
-
-
-\
-In case you want to&#x20;
+You can use docker managed volumes of course.
