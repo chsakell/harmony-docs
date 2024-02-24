@@ -6,7 +6,7 @@ description: Make sure you read the changelog every time a new update is release
 
 Change log contains all version updates, old, current and upcoming with all important additions, fixes or improvements. The **unchecked** items of the _work in progress_ version, are the items remained before this build is released.
 
-### \[Version 2.5] - In progress
+### \[Version 2.5] - In progress _(already available on GitHub)_
 
 {% hint style="info" %}
 This version goal is to introduce an <mark style="color:orange;">API Gateway</mark> so there's a **unified point of entry** into harmony system. For this, [Ocelot](https://github.com/ThreeMammals/Ocelot) Gateway will be used to:
@@ -21,8 +21,9 @@ This version goal is to introduce an <mark style="color:orange;">API Gateway</ma
 * [x] Create new project <mark style="color:blue;">Harmony.ApiGateway</mark>
 * [x] Integrate <mark style="color:blue;">Harmony.Api</mark> to Gateway
 * [x] Integrate <mark style="color:blue;">Harmony.Automations</mark> to Gateway
-* [ ] Integrate <mark style="color:blue;">Harmony.SignalR</mark> to Gateway
-* [ ] Dockerize <mark style="color:blue;">Harmony.ApiGateway</mark>
+* [x] Integrate <mark style="color:blue;">Harmony.SignalR</mark> to Gateway
+* [x] Dockerize <mark style="color:blue;">Harmony.ApiGateway</mark>
+* [x] Add **distributed logging** using Elastic Search & Kibana :mag: :rocket:
 
 ### &#x20;\[Version 2.4] - 17 February 2024 <a href="#version-2.4" id="version-2.4"></a>
 
