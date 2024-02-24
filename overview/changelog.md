@@ -6,6 +6,24 @@ description: Make sure you read the changelog every time a new update is release
 
 Change log contains all version updates, old, current and upcoming with all important additions, fixes or improvements. The **unchecked** items of the _work in progress_ version, are the items remained before this build is released.
 
+### \[Version 2.5] - In progress
+
+{% hint style="info" %}
+This version goal is to introduce an <mark style="color:orange;">API Gateway</mark> so there's a **unified point of entry** into harmony system. For this, [Ocelot](https://github.com/ThreeMammals/Ocelot) Gateway will be used to:
+
+* Proxy all requests starting with _/core_ to <mark style="color:blue;">Harmony.Api</mark>
+* Proxy all requests starting with _/automations_ to <mark style="color:blue;">Harmony.Automations</mark>
+* Proxy all WebSocket connections to <mark style="color:blue;">Harmony.Signalr</mark> through Gateway\
+  \
+  This way, the client only needs to know a single endpoint configuration, the gateway's endpoint. Also the gateway can be used for other reasons in the future, e.g. _caching, rate limiting, service discovery, tracing, load balancer, kubernetes_
+{% endhint %}
+
+* [x] Create new project <mark style="color:blue;">Harmony.ApiGateway</mark>
+* [x] Integrate <mark style="color:blue;">Harmony.Api</mark> to Gateway
+* [x] Integrate <mark style="color:blue;">Harmony.Automations</mark> to Gateway
+* [ ] Integrate <mark style="color:blue;">Harmony.SignalR</mark> to Gateway
+* [ ] Dockerize <mark style="color:blue;">Harmony.ApiGateway</mark>
+
 ### &#x20;\[Version 2.4] - 17 February 2024 <a href="#version-2.4" id="version-2.4"></a>
 
 {% hint style="info" %}
