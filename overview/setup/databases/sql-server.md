@@ -62,7 +62,7 @@ In case you had previously installed a **dotnet-ef** version other than the late
 2. Run the **dotnet ef** command to create the database
 
 ```powershell
-dotnet ef database update --context HarmonyContext --startup-project "../../Web/Harmony.Api/Harmony.Api.csproj"
+dotnet ef database update --context HarmonyContext --startup-project "../../Services/Harmony.Api/Harmony.Api.csproj"
 ```
 
 {% hint style="warning" %}

@@ -6,7 +6,7 @@ description: Make sure you read the changelog every time a new update is release
 
 Change log contains all version updates, old, current and upcoming with all important additions, fixes or improvements. The **unchecked** items of the _work in progress_ version, are the items remained before this build is released.
 
-### \[Version 2.5] - In progress _(already available on GitHub)_
+### \[Version 2.5] - 25 February 2024 <a href="#version-2.5" id="version-2.5"></a>
 
 {% hint style="info" %}
 This version goal is to introduce an <mark style="color:orange;">API Gateway</mark> so there's a **unified point of entry** into harmony system. For this, [Ocelot](https://github.com/ThreeMammals/Ocelot) Gateway will be used to:
