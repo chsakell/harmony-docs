@@ -1,4 +1,4 @@
-# 🏃♂ Before running
+# 🏃‍♂️ Before running
 
 ### Running the apps through Visual Studio
 
@@ -15,7 +15,7 @@ Before starting Harmony, make sure you have completed all the following required
 * [x] You have configured the **gRPC** communication between the microservices as described in the [gRPC](grpc.md) section.
 * [x] You have a RabbitMQ instance running and you have configured the **BrokerConfiguration** setting in all required projects in their **appsettings.json** file.
 * [x] **Optional**: You have a Redis instance up and running and you have configured the **RedisConnectionString** property in the <mark style="color:blue;">Harmony.SignalR</mark> project's appsettings.json file.&#x20;
-* [x] **Important!** You have set the **signalrHostUrl** property in the <mark style="color:blue;">**Harmony.Client**</mark> project's **www** folder, in the appsettings.json file, equal to Harmony.SignalR host URL
+* [x] **Important!** You have set the **gatewayUrl** property in the <mark style="color:blue;">**Harmony.Client**</mark> project's **www** folder, in the appsettings.json file, equal to <mark style="color:blue;">Harmony.ApiGateway</mark> host URL
 * [x] You have set the _AppEndpointConfiguration:FrontendUrl_ in Harmony.Api. This will be used for email templates in order to configure any links to the front.
 
 {% content-ref url="../pricing.md" %}
