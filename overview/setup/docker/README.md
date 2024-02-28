@@ -6,7 +6,7 @@ description: Accelerate how you build, test and deploy Harmony
 
 Harmony has adapted a clean, microservice architecture and [**docker** ](https://www.docker.com/)sits on top of this to make building and deploying the entire infrastructure with just a few commands.&#x20;
 
-<figure><img src="../../.gitbook/assets/harmony-containers.png" alt="" width="563"><figcaption><p>Harmony containers</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/harmony-containers.png" alt="" width="563"><figcaption><p>Harmony containers</p></figcaption></figure>
 
 The following instructions will guide you to build Harmony's images and run its containers on your local machine.
 

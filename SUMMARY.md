@@ -20,7 +20,8 @@
   * [📧 Email provider](overview/setup/email-provider.md)
   * [🚢 Deployment](overview/setup/deployment.md)
   * [🏃‍♂️ Before running](overview/setup/before-running.md)
-  * [🐳 Docker](overview/setup/docker.md)
+  * [🐳 Docker](overview/setup/docker/README.md)
+    * [Kubernetes](overview/setup/docker/kubernetes.md)
 * [💳 Pricing](overview/pricing.md)
 
 ## Guide
