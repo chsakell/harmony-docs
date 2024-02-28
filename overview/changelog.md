@@ -6,7 +6,7 @@ description: Make sure you read the changelog every time a new update is release
 
 Change log contains all version updates, old, current and upcoming with all important additions, fixes or improvements. The **unchecked** items of the _work in progress_ version, are the items remained before this build is released.
 
-### \[Version 2.5] - 28 February 2024 <a href="#version-2.5" id="version-2.5"></a>
+### \[Version 2.6] - 28 February 2024 <a href="#version-2.6" id="version-2.6"></a>
 
 Added [Kubernetes](setup/docker/kubernetes.md) support :rocket:
 

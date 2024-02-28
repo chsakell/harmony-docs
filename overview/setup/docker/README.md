@@ -8,7 +8,7 @@ Harmony has adapted a clean, microservice architecture and [**docker** ](https:/
 
 <figure><img src="../../../.gitbook/assets/harmony-containers.png" alt="" width="563"><figcaption><p>Harmony containers</p></figcaption></figure>
 
-The following instructions will guide you to build Harmony's images and run its containers on your local machine.
+The following instructions will guide you to build Harmony's images and run its containers on your local machine using docker compose. In case you want to deploy to a local Kubernetes cluster read the [Kubernetes](kubernetes.md) section.
 
 #### Create and trust a development certificate
 
