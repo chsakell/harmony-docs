@@ -2,7 +2,7 @@
 description: Bring Harmony to your teams
 ---
 
-# 🛣 Roadmap
+# 🛣️ Roadmap
 
 ## Expect to grow fast
 
@@ -26,7 +26,7 @@ Other than new features, more UX improvements, bug fixes and performance improve
 * [x] **Automation**: an automation engine allows users to _automate_ tasks and processes in just a few clicks
 * [x] Upgrade to **.NET 8.0**&#x20;
 * [x] Use **gRPC** for internal microservices communication
-* [x] **Dockerize** solution :whale: _(new_ :rocket:_)_
+* [x] **Dockerize** solution - add Kubernetes support :whale: _(new_ :rocket:_)_
 * [ ] **Gmail & Facebook** login integration
 
 #### Read next - Changelog & Technology used

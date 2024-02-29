@@ -52,4 +52,6 @@ The command creates all Kubernetes deployments and services existing inside the 
 
 Harmony should be up and running at [http://localhost:7096/](http://localhost:7096/)
 
-<figure><img src="../../../.gitbook/assets/local-kubernetes.png" alt=""><figcaption><p>Kubernetes harmony services</p></figcaption></figure>
+{% embed url="https://youtu.be/kWQrQri5Dxs" %}
+Harmony on Kubernetes
+{% endembed %}

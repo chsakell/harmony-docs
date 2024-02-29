@@ -40,8 +40,7 @@ Don't get overwhelmed by the number of things you need to setup before firing up
 This means that if you want to start Harmony from Visual Studio, the only thing required is to install the required infrastructure on your machine, SQL Server, MongoDB, RabbitMQ, Redis, place the correct connection strings  & just setup the [startup projects](before-running.md) on Visual Studio.
 
 Also make sure that you have set the correct **AppEndpointConfiguration** settings in all application.settings.json files.\
-\
-In one of the upcoming releases Harmony will be able to run via **docker** commands. :rocket: :ship:
+
 {% endhint %}
 
 {% content-ref url="databases/" %}
