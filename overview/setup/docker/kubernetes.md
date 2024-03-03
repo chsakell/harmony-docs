@@ -4,7 +4,11 @@ description: Automate deployment, scaling, and management of Harmony
 
 # Kubernetes
 
-Harmony can be deployed on a [Kubernetes](https://kubernetes.io/) cluster with just a single command. The files existing in the source code are tested for a **local** Kubernetes cluster, ideally being created using the [Docker Desktop](https://www.docker.com/products/docker-desktop/) app. For production deployment, you are free to make any modifications to match your environment.
+Harmony can be deployed on a [Kubernetes](https://kubernetes.io/) cluster with just a single command. What Kubernetes _(k8s)_ allows you to do is to seamlessly automate deploying,  scaling, auto-healing your services and much more.&#x20;
+
+The files existing in the source code are tested for a **local** Kubernetes cluster, ideally being created using the [Docker Desktop](https://www.docker.com/products/docker-desktop/) app. You can test scaling deployment replicas or auto healing features by runing <mark style="color:orange;">kubectl</mark> commands on your machine.
+
+For production deployment, feel free to make any modifications to match your environment.
 
 Here's the prerequisites to deploy Harmony in a local Kubernetes cluster:
 
