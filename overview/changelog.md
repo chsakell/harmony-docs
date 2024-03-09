@@ -6,6 +6,19 @@ description: Make sure you read the changelog every time a new update is release
 
 Change log contains all version updates, old, current and upcoming with all important additions, fixes or improvements. The **unchecked** items of the _work in progress_ version, are the items remained before this build is released.
 
+### \[Version 2.7] - In Progress _(instantly available on GitHub)_
+
+{% hint style="info" %}
+This version goal to do use Kubernetes **self-healing** functionality and for this to happen we need to implement health checks to Harmony microservices & add the required readiness & liveness probes.
+
+As a bonus :sparkles:,  the **Sum up story points** automation will be implemented. This automation will sum up the story points of all sub-tasks and then update the parent issue with this value.
+{% endhint %}
+
+* [x] Add database health checks
+* [x] Add RabbitMQ health checks
+* [x] Add readiness & liveness probes in all microservices
+* [ ] Create the **Sum up story points** automation
+
 ### \[Version 2.6] - 28 February 2024 <a href="#version-2.6" id="version-2.6"></a>
 
 Added [Kubernetes](setup/docker/kubernetes.md) support :rocket:
