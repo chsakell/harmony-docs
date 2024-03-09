@@ -21,7 +21,7 @@
   * [🚢 Deployment](overview/setup/deployment.md)
   * [🏃‍♂️ Before running](overview/setup/before-running.md)
   * [🐳 Docker](overview/setup/docker/README.md)
-    * [Kubernetes](overview/setup/docker/kubernetes.md)
+    * [☸️ Kubernetes](overview/setup/docker/kubernetes.md)
     * [📝 Distributed logging](overview/setup/docker/distributed-logging.md)
 * [💳 Pricing](overview/pricing.md)
 
