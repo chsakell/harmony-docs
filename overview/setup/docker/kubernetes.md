@@ -2,7 +2,7 @@
 description: Automate deployment, scaling, and management of Harmony
 ---
 
-# Kubernetes
+# ☸️ Kubernetes
 
 Harmony can be deployed on a [Kubernetes](https://kubernetes.io/) cluster with just a single command. What Kubernetes _(k8s)_ allows you to do is to seamlessly automate deploying,  scaling, auto-healing your services and much more.&#x20;
 
