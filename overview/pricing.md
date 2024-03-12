@@ -16,10 +16,10 @@ You are recommended to buy Harmony from [GitHub](https://github.com/sponsors/chs
 
 In order to get direct access to Harmony's **private** repository, navigate to its creator's sponsorship [page](https://github.com/sponsors/chsakell) and select one of the Harmony's tiers.&#x20;
 
-* **Monthly**: Pay a fixed amount **per month** in order to gain access to the repository. Your access is remained as long as you are subscribed to the tier. \
+* **Monthly**: Get access to Harmony's repository for only **10$** per month. Your access is remained as long as you are subscribed to the tier. \
   Choose this tier, if you want to take a look at how an amazing project management tool can be implemented using the latest [technologies](technology.md) and best practices existing for building microservices _(best suitable for developers/engineers/architects)_<mark style="color:blue;">.</mark>
 * **One-time**: Pay once and get a **life-time** access to the repository.  \
-  Choose this tier, if you are interested in both technical and product features in a <mark style="color:blue;">long term</mark>.  Harmony will continue to evolve for a long time so with this plan you gain life-time access to code changes, architectural improvements, product additions, bug fixes, etc.\
+  Choose this tier, if you are interested in both technical and product features in a **long term**.  Harmony will continue to evolve for a long time so with this plan you gain life-time access to code changes, architectural improvements, product additions, bug fixes, etc.\
   There are two one-time plans, <mark style="color:blue;">69$</mark> & <mark style="color:blue;">99$</mark> which work the same _(the latter can be used as a sign of appreciation for this state of the art solution which requires hard work and effort to maintain)._
 
 <figure><img src="../.gitbook/assets/harmony-monthly-tier.png" alt="" width="375"><figcaption><p>Harmony tier</p></figcaption></figure>
