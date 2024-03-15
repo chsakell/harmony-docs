@@ -6,10 +6,6 @@ description: A professional, simple yet super powerful project management tool.
 
 Harmony is currently available to buy via two channels, [**GitHub**](https://github.com/sponsors/chsakell) &  [Envato](https://codecanyon.net/item/harmony-project-management-tool/49138488) market.
 
-{% hint style="info" %}
-You are recommended to buy Harmony from [GitHub](https://github.com/sponsors/chsakell) using one of the available sponsorships plans that suit your needs, rather than envato market which is much more expensive due to their high fees.&#x20;
-{% endhint %}
-
 ### GitHub sponsors
 
 <figure><img src="../.gitbook/assets/harmony-sponsor-link.png" alt="" width="563"><figcaption><p>GitHub Harmony one-time sponsor tier</p></figcaption></figure>
