@@ -41,7 +41,7 @@ The source code is fully available after [purchase](overview/pricing.md) and of 
 Docker & Kubernetes support :whale: :ship:
 
 {% hint style="info" %}
-Docs have been updated to the latest version **v2.6**
+Docs have been updated to the latest version **v2.7**
 {% endhint %}
 
 {% content-ref url="overview/features.md" %}

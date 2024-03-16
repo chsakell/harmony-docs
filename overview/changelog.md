@@ -6,7 +6,7 @@ description: Make sure you read the changelog every time a new update is release
 
 Change log contains all version updates, old, current and upcoming with all important additions, fixes or improvements. The **unchecked** items of the _work in progress_ version, are the items remained before this build is released.
 
-### \[Version 2.7] - In Progress _(already available on GitHub)_
+### \[Version 2.7] - 16 March 2024
 
 {% hint style="info" %}
 This version goal to do use Kubernetes **self-healing** functionality and for this to happen we need to implement health checks to Harmony microservices & add the required readiness & liveness probes.
