@@ -25,7 +25,7 @@ You need to set the <mark style="color:blue;">Harmony.Automations</mark> endpoin
 ```
 
 {% hint style="warning" %}
-In case <mark style="color:blue;">Harmony.Automations</mark> uses a different port make sure you update the value of the **AutomationEndpoint** property
+In case <mark style="color:blue;">Harmony.Automations</mark> uses a different port, update the value of the **AutomationEndpoint** property
 {% endhint %}
 
 Read next - Configure Redis

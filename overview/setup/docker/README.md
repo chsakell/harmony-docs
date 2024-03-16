@@ -26,7 +26,7 @@ dotnet dev-certs https -ep ${HOME}/.aspnet/https/harmony.pfx -p HarmonyTeamsSecr
 dotnet dev-certs https --trust
 ```
 
-Please read the official Microsoft's [guide](https://learn.microsoft.com/en-us/aspnet/core/security/docker-compose-https?view=aspnetcore-8.0) for more details in case you face any problems. The previous commands used a password _HarmonyTeamsSecretKey_ but you can use your own. If you do so make sure you change it on the **docker-compose.yml** file as well.
+Please read the official Microsoft's [guide](https://learn.microsoft.com/en-us/aspnet/core/security/docker-compose-https?view=aspnetcore-8.0) for more details in case you face any problems. The previous commands used a password _HarmonyTeamsSecretKey_ but you can use your own. If you do, change it on the **docker-compose.yml** file as well.
 
 #### Build docker images and run the containers
 
@@ -38,7 +38,7 @@ docker compose up
 ```
 
 {% hint style="info" %}
-In case you are running Harmony via Visual Studio, make sure to stop it before running the `docker compose up` command because the same ports will be exposed by the docker containers. Also if you have MongoDB or/and RabbitMQ servers running on your local machine, you may want to stop them so they don't interfere with the ports exposed by the corresponding containers. \
+In case you are running Harmony via Visual Studio, stop it before running the `docker compose up` command because the same ports will be exposed by the docker containers. Also if you have MongoDB or/and RabbitMQ servers running on your local machine, you may want to stop them so they don't interfere with the ports exposed by the corresponding containers. \
 \
 If you don't want to stop them, you can remove the exposed ports from the **docker-compose.yml**. The ports have been exposed for your own convenience, for example if you want to access the container's RabbitMQ management UI from localhost, but they are not required.
 
@@ -81,8 +81,8 @@ In you want to connect to your host's SQL Server rather than connecting to a doc
 
 1. Remove the previous snippet from the **docker-compose.yml** file and any _depends\_on_ reference to it.
 2. Enable **TCP/IP** access on your SQL Server instance & restart SQL Server services.
-3. Make sure your SQL Server runs under mixed mode or at least SQL Server mode so that you can connect via user & password credentials _(windows authentication won't work on a linux container!)_
-4. Change the connection string in the _docker-compose.yml_ file to connect to your SQL Server. For localhost development, you must use **host.docker.internal** as the following example _(make sure you use your own credentials)_:
+3. Ensure your SQL Server runs under mixed mode or at least SQL Server mode so that you can connect via user & password credentials _(windows authentication won't work on a linux container!)_
+4. Change the connection string in the _docker-compose.yml_ file to connect to your SQL Server. For localhost development, you must use **host.docker.internal** as the following example _(use your own credentials)_:
 
 ```
 - ConnectionStrings__HarmonyJobsConnection=Server=host.docker.internal,1433;database=Harmony.Automations.Jobs;User Id=harmony_user;Password=%HarmonyTeams100;TrustServerCertificate=True

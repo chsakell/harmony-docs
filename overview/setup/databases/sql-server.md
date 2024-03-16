@@ -46,7 +46,7 @@ Add-Migration MyCustomMigrationName -Context HarmonyContext -StartUpProject Harm
 
 #### Run migrations using a command line
 
-You can run database migrations from a command line as well. First make sure you have installed [EF Core tools](https://learn.microsoft.com/en-us/ef/core/cli/dotnet).
+You can run database migrations from a command line as well. First you need to have installed [EF Core tools](https://learn.microsoft.com/en-us/ef/core/cli/dotnet).
 
 ```powershell
 dotnet tool install --global dotnet-ef

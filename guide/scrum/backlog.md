@@ -9,7 +9,7 @@ The backlog is where you create your future issues, in other words your project'
 
 ### Create backlog item
 
-In the backlog's view, click the **CREATE ISSUE** top bar button and add an issue. Make sure to select an issue type.
+In the backlog's view, click the **CREATE ISSUE** top bar button and add an issue. Select an issue type.
 
 <figure><img src="../../.gitbook/assets/backlog-create-issue (1).png" alt=""><figcaption><p>Create backlog item</p></figcaption></figure>
 

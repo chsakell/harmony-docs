@@ -6,7 +6,7 @@ In case you want to run or debug <mark style="color:blue;">**Harmony**</mark> fr
 
 <figure><img src="../../.gitbook/assets/startup-projects.png" alt=""><figcaption></figcaption></figure>
 
-Before starting Harmony, make sure you have completed all the following required steps:
+Before starting Harmony, complete all the following required steps:
 
 ### Required steps before running Harmony
 

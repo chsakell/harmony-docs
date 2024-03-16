@@ -37,9 +37,9 @@ Don't get overwhelmed by the number of things you need to setup before firing up
 1. Database migrations & seeding can run automatically during startup which means you don't have to manually run them.
 2. &#x20;RabbitMQ exchanges/queues are being created for you.&#x20;
 
-This means that if you want to start Harmony from Visual Studio, the only thing required is to install the required infrastructure on your machine, SQL Server, MongoDB, RabbitMQ, Redis, place the correct connection strings  & just setup the [startup projects](before-running.md) on Visual Studio.
+This means that if you want to start Harmony from Visual Studio, the only thing required is to install the required infrastructure on your machine, SQL Server, MongoDB, RabbitMQ, Redis _(optional for localhost)_, place the correct connection strings  & just setup the [startup projects](before-running.md) on Visual Studio.
 
-Also make sure that you have set the correct **AppEndpointConfiguration** settings in all application.settings.json files.\
+Also you need to configure the correct **AppEndpointConfiguration** settings in all application.settings.json files.\
 
 {% endhint %}
 

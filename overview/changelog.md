@@ -1,5 +1,5 @@
 ---
-description: Make sure you read the changelog every time a new update is released on Envato
+description: Read the changelog every time a new update is released
 ---
 
 # 🔃 Changelog

@@ -18,7 +18,7 @@ If though Harmony is used by many teams, having multiple boards then it is highl
 Algolia is the easiest search engine existing to configure. It provides 10000 requests for free per month so you can certainly test it without even paying. Follow the next steps to create an App Id & and an API Key.&#x20;
 
 * Subscribe and create a new account
-* Navigate to your [account](https://dashboard.algolia.com/account/overview). You will see that an Application has been already created in the **Applications** nav item. If you wish you can rename it and if not created automatically for you, proceed by creating one. Make sure you copy its **ApplicationId**.
+* Navigate to your [account](https://dashboard.algolia.com/account/overview). You will see that an Application has been already created in the **Applications** nav item. If you wish, you can rename it and if not created automatically for you, proceed by creating one. Copy its **ApplicationId**.
 
 <figure><img src="../../.gitbook/assets/algolia-account.png" alt=""><figcaption><p>Algolia account page</p></figcaption></figure>
 

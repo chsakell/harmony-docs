@@ -2,7 +2,7 @@
 
 You can use Harmony's GitHub [repositor](https://github.com/chsakell/harmony-docs/issues)[y](../) for creating issues for Harmony.
 
-#### When creating an issue make sure to follow the rules:
+#### When creating an issue, follow the rules:
 
 {% hint style="warning" %}
 * U**se the GitHub issue search** — check if the issue has already been reported.

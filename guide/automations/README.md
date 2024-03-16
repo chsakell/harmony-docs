@@ -16,7 +16,7 @@ Currently there are 2 automations supported, more to come soon!
 * [x] [Smart auto-assign](smart-auto-assign.md)
 
 {% hint style="warning" %}
-Automations are stored in a **MongoDB** database so make sure you have [setup](../../overview/setup/databases/mongodb-server.md) all the required dependencies before trying to configure them.
+Automations are stored in a **MongoDB** database so ensure you have [setup](../../overview/setup/databases/mongodb-server.md) all the required dependencies before trying to configure them.
 {% endhint %}
 
 {% content-ref url="sync-parent-and-child-tasks.md" %}

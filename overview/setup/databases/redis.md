@@ -10,7 +10,7 @@ In case you are running Harmony with just one instance of Harmony.SignalR then y
 
 ### Installation
 
-Follow the official installation [instructions](https://redis.io/docs/install/install-redis/) for installing Redis on your environment. The easiest way to run a Redis instance locally is by using a docker container. Make sure you expose a port outside the container so that other apps can connect to it.
+Follow the official installation [instructions](https://redis.io/docs/install/install-redis/) for installing Redis on your environment. The easiest way to run a Redis instance locally is by using a docker container. Expose a port outside the container so that other apps can connect to it.
 
 Next configure the **RedisConnectionString** connection string in the **appsettings.json** for Harmony.SignalR project. The following configuration connects to a local Redis instance listening to the default 6379 port.
 

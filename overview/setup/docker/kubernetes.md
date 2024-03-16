@@ -31,7 +31,7 @@ kubectl create configmap cert-config-map --from-file C:\Users\chsakell\.aspnet\h
 ```
 
 {% hint style="info" %}
-The config map will make sure **harmony.pfx** file will be available on your cluster.
+The config map will make **harmony.pfx** file available on your cluster.
 {% endhint %}
 
 #### Create Harmony images

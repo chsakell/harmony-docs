@@ -34,7 +34,7 @@ Each email service provider, e.g Gmail, Outlook, etc.. has its own settings so p
 The password **xxxx yyyy zzzz wwww** isn't the actual password for signing with the harmony username. It's a new **app password** created specifically on its google account to be used for the smtp settings. After adding **2FA authentication** on your Gmail account, search for **App passwords** and create a password for your app. Then paste that password in the corresponding property in appsettings.json file.
 {% endhint %}
 
-Last thing you need to do is to register the Gmail service provider in code. Make sure you don't have any other registrations for the <mark style="color:blue;">IEmailService</mark> interface.
+Last thing you need to do is to register the Gmail service provider in code. Ensure you don't have any other registrations for the <mark style="color:blue;">IEmailService</mark> interface.
 
 ```csharp
 builder.Services.AddSingleton<IEmailService, GmailEmailService>();
@@ -56,7 +56,7 @@ Brevo setup is much easier to configure. Follow the next steps to create an API 
       },
     ```
 
-Last thing you need to do is to register the Brevo service provider in code. Make sure you don't have any other registrations for the <mark style="color:blue;">IEmailService</mark> interface.
+Last thing you need to do is to register the Brevo service provider in code. Ensure you don't have any other registrations for the <mark style="color:blue;">IEmailService</mark> interface.
 
 ```csharp
 builder.Services.AddSingleton<IEmailService, BrevoEmailService>();
