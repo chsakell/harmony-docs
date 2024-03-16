@@ -29,7 +29,7 @@ When running migrations through Visual Studio, open the `Package Manager Console
 Run the following command to create the database:
 
 ```powershell
-Update-Database -Context HarmonyContext -StartUpProject Harmony.Api -v
+Update-Database -Context HarmonyContext -StartUpProject Harmony.Api
 ```
 
 <figure><img src="../../../.gitbook/assets/visual-studio-migrations-update-database.png" alt=""><figcaption><p>Run update migration for Harmony database</p></figcaption></figure>
@@ -41,7 +41,7 @@ Migrations command require that you have previously setup your database connecti
 In case you decide to **create** a new migration, follow the same procedure by replacing the command with the following:
 
 ```powershell
-Add-Migration MyCustomMigrationName -Context HarmonyContext -StartUpProject Harmony.Api -v// Some code
+Add-Migration MyCustomMigrationName -Context HarmonyContext -StartUpProject Harmony.Api
 ```
 
 #### Run migrations using a command line
