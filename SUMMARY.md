@@ -51,3 +51,4 @@
 * [💫 Automations](guide/automations/README.md)
   * [Sync parent and child tasks](guide/automations/sync-parent-and-child-tasks.md)
   * [Smart auto-assign](guide/automations/smart-auto-assign.md)
+  * [Sum up story points](guide/automations/sum-up-story-points.md)
