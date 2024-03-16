@@ -18,8 +18,7 @@ As a bonus :sparkles:,  the **Sum up story points** automation will be implement
 * [x] Add RabbitMQ health checks
 * [x] Add readiness & liveness probes in all microservices
 * [x] Create the **Sum up story points** automation :rocket:
-* [ ] Archive workspace
-* [ ] Rename workspace
+* [ ] Archive workspace :wastebasket:
 
 ### \[Version 2.6] - 28 February 2024 <a href="#version-2.6" id="version-2.6"></a>
 
