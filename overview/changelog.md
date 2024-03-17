@@ -6,6 +6,13 @@ description: Read the changelog every time a new update is released
 
 Change log contains all version updates, old, current and upcoming with all important additions, fixes or improvements. The **unchecked** items of the _work in progress_ version, are the items remained before this build is released.
 
+### \[Version 2.8] - Creating backlog
+
+* [ ] Add support to create new optionally start a new sprint when moving items from backlog
+* [ ] Directly edit subtasks story points from parent view
+* [ ] Rename workspace
+* [ ] Archive a board
+
 ### \[Version 2.7] - 16 March 2024
 
 {% hint style="info" %}
