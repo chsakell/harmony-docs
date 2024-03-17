@@ -8,9 +8,9 @@ Change log contains all version updates, old, current and upcoming with all impo
 
 ### \[Version 2.8] - Creating backlog
 
-* [ ] Add support to create new optionally start a new sprint when moving items from backlog
-* [ ] Directly edit subtasks story points from parent view
-* [ ] Rename workspace
+* [ ] Add support to create and optionally start a **new sprint** when moving items from backlog
+* [ ] Directly edit subtask **story points** from parent's issue edit modal view
+* [ ] Rename a workspace
 * [ ] Archive a board
 
 ### \[Version 2.7] - 16 March 2024
@@ -171,9 +171,6 @@ For more info on how to setup the search engine read the [search-engine.md](setu
 
 * Algolia search is [faster](https://www.algolia.com/blog/engineering/full-text-search-in-your-database-algolia-versus-elasticsearch/), more relevant, and easier to use than Elasticsearch for searching simple database data. Algolia's focus is on getting exceptional results with minimal configuration.&#x20;
 * Elasticsearch is more flexible for searching complex data and can be used for a wider range of search applications.
-
-\
-<mark style="color:blue;">Who said Harmony won't add Elastic Search support in the future?</mark> :sunglasses:\ <mark style="color:blue;">Harmony is here to stay.</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Elastic Search**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">support will be added as well.</mark>
 {% endhint %}
 
 ### \[Version 1.4]  -  18 December 2023
