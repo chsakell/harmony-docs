@@ -8,7 +8,7 @@ Change log contains all version updates, old, current and upcoming with all impo
 
 ### \[Version 2.8] - In progress _(finished items already available on GitHub)_
 
-* [ ] Add support to create and optionally start a **new sprint** when moving items from backlog
+* [x] Add support to create and optionally start a **new sprint** when moving items from backlog
 * [ ] Directly edit subtask **story points** from parent's issue edit modal view
 * [ ] Rename a workspace
 * [ ] Archive a board
