@@ -6,7 +6,7 @@ description: Read the changelog every time a new update is released
 
 Change log contains all version updates, old, current and upcoming with all important additions, fixes or improvements. The **unchecked** items of the _work in progress_ version, are the items remained before this build is released.
 
-### \[Version 2.8] - Creating backlog
+### \[Version 2.8] - In progress _(finished items already available on GitHub)_
 
 * [ ] Add support to create and optionally start a **new sprint** when moving items from backlog
 * [ ] Directly edit subtask **story points** from parent's issue edit modal view
