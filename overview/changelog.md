@@ -11,6 +11,8 @@ Change log contains all version updates, old, current and upcoming with all impo
 * [x] Add support to create and optionally start a **new sprint** when moving items from backlog
 * [x] Directly edit subtask **story points** from parent's issue edit modal view
 * [x] Edit workspace details
+* [ ] Refactor sprints page
+* [ ] Create new individual sprint page
 * [ ] Archive a board
 
 ### \[Version 2.7] - 16 March 2024
