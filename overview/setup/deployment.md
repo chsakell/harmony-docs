@@ -7,7 +7,7 @@ When you are ready to deploy Harmony to a production environment you need to set
 * [x] SQL Server
 * [x] MongoDB Server
 * [x] RabbitMQ
-* [x] Redis instance
+* [x] Redis instance _(optionally, required only if you run multiple instances of Harmony.SignalR)_
 
 #### Applications
 
@@ -16,14 +16,15 @@ When you are ready to deploy Harmony to a production environment you need to set
 * [x] Harmony.SignalR
 * [x] Harmony.Notifications
 * [x] Harmony.Automations
+* [x] Harmony.ApiGateway
 
 After installing the required components in the production environment, go ahead and configure all the **appsettings.Production.json** files in the applications to reflect your production setup.
 
 {% hint style="warning" %}
 Don't forget to set:
 
-1. The <mark style="color:orange;">signalrHostUrl</mark> property in the **appsettings.Production.json** file existing in the <mark style="color:blue;">Harmony.Client</mark> project _(www folder)_ which configures the <mark style="color:blue;">**Harmony.SignalR**</mark> project's host URL for clients
-2. The <mark style="color:orange;">AutomationEndpoint</mark> property in the **appsettings.Production.json** file existing in the <mark style="color:blue;">Harmony.Api</mark> project which configures the communciation with the <mark style="color:blue;">Harmony.Automations</mark> app
+1. The _gatewayUrl_ property in the _**appsettings.Production.json**_ file existing in the <mark style="color:blue;">Harmony.Client</mark> project _(www folder)_ which configures the <mark style="color:blue;">**Harmony.ApiGateway**</mark> project's host URL
+2. The _AutomationEndpoint_ property in the _**appsettings.Production.json**_ file existing in the <mark style="color:blue;">Harmony.Api</mark> project which configures the communication with the <mark style="color:blue;">Harmony.Automations</mark> app
 {% endhint %}
 
 ### Publishing the apps
