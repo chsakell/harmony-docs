@@ -6,14 +6,14 @@ description: Read the changelog every time a new update is released
 
 Change log contains all version updates, old, current and upcoming with all important additions, fixes or improvements. The **unchecked** items of the _work in progress_ version, are the items remained before this build is released.
 
-### \[Version 2.8] - In progress _(finished items already available on GitHub)_
+### \[Version 2.8] - 23 March 2024
 
 * [x] Add support to create and optionally start a **new sprint** when moving items from backlog
 * [x] Directly edit subtask **story points** from parent's issue edit modal view
 * [x] Edit workspace details
-* [ ] Refactor sprints page
-* [ ] Create new individual sprint page
-* [ ] Archive a board
+* [x] Refactor sprints page
+* [x] Create new individual sprint page
+* [x] Position & card movement fixes
 
 ### \[Version 2.7] - 16 March 2024
 
