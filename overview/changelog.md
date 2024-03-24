@@ -6,6 +6,12 @@ description: Read the changelog every time a new update is released
 
 Change log contains all version updates, old, current and upcoming with all important additions, fixes or improvements. The **unchecked** items of the _work in progress_ version, are the items remained before this build is released.
 
+### \[Version 2.9] - 24 March 2024
+
+* [x] Fix card filter specifications that affected several operations
+* [x] Fix WebSocket re-connection issue on page reload
+* [x] Fix sprints filtering query&#x20;
+
 ### \[Version 2.8] - 23 March 2024
 
 * [x] Add support to create and optionally start a **new sprint** when moving items from backlog
