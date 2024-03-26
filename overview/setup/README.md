@@ -13,6 +13,7 @@ Harmony at its core is a web application built with **.NET 8.0** which means it'
 * Automations are stored in a MongoDB database. Only the **Harmony.Automations** application has direct access to the MongoDB database. It provides gRPC services and runs automations upon message received via a RabbitMQ message.
 * **Harmony.Notifications** is responsible for sending email notifications to users & optionally sending indexing requests to an integrated search service _(if any)_.
 * **Harmony.ApiGateway** is the gateway used by Harmony.Client to get to either Harmony.Api or Harmony.Automations or Harmony.SignalR. The client uses the gateway's endpoint which is responsible to pass through the requests (HTTP or WebSocket) to internal microservices.
+* Elasticsearch & Kibana are used for distributed logging. Available using docker or/and Kubernetes
 
 {% hint style="info" %}
 Configure one by one the following components - Each link provides details about the role of the corresponding component and how to configure it. After finishing with the component's setup, follow with the individual web app configurations _(e.g. appsettings.json)_

@@ -56,6 +56,12 @@ Here are a few benefits you get via GitHub plan:
 Envato market
 {% endembed %}
 
+{% hint style="warning" %}
+Installing Harmony, requires some basic technical knowledge like installing SQL Server & configuring connection strings, but nothing more or difficult than this.
+
+There are detailed [guides](broken-reference) regarding all the prerequisites to configure before running Harmony. For each installation you might need to advice the official provider's documentation, e.g. to install _MongoDB_ server on Windows _(which simply requires to run an executable)_ you can visit MongoDB corresponding official [guide](https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-windows/#install-mongodb-community-edition).
+{% endhint %}
+
 #### Read next - Docs
 
 {% content-ref url="../guide/workspaces/" %}
