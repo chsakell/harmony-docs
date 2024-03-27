@@ -9,7 +9,8 @@ When you are ready to deploy Harmony to a different environment _(e.g. staging o
 * [x] RabbitMQ
 * [x] Redis instance _(optionally, required only if you run multiple instances of Harmony.SignalR)_
 
-The dependencies can be installed either on premise infrastructure or use cloud/managed providers. In either case, you will need to configure their connection strings in all corresponding settings files _(basically **appsettings.\<environment>.json**)_.
+The dependencies can be installed either on premise infrastructure or use cloud/managed providers. In either case, you will need to configure their connection strings in all corresponding settings files _(basically **appsettings.\<environment>.json**)_.\
+There isn't better documentation for installing them than their official pages.
 
 ### Applications to deploy
 
