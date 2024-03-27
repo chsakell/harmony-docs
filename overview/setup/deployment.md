@@ -1,53 +1,45 @@
 # 🚢 Deployment
 
-When you are ready to deploy Harmony to a production environment you need to setup the deployments for the following components & apps:
+When you are ready to deploy Harmony to a different environment _(e.g. staging or production)_, you need to setup the deployments for the following dependencies & apps:
 
-#### Components
+### Dependencies to be installed
 
 * [x] SQL Server
 * [x] MongoDB Server
 * [x] RabbitMQ
 * [x] Redis instance _(optionally, required only if you run multiple instances of Harmony.SignalR)_
 
-#### Applications
+The dependencies can be installed either on premise infrastructure or use cloud/managed providers. In either case, you will need to configure their connection strings in all corresponding settings files _(basically **appsettings.\<environment>.json**)_.
 
-* [x] Harmony.Client
+### Applications to deploy
+
 * [x] Harmony.Api
 * [x] Harmony.SignalR
-* [x] Harmony.Notifications
 * [x] Harmony.Automations
 * [x] Harmony.ApiGateway
+* [x] Harmony.Notifications
+* [x] Harmony.Client
 
-After installing the required components in the production environment, go ahead and configure all the **appsettings.Production.json** files in the applications to reflect your production setup.
+All the above applications have been built with .NET 8.0 so you can follow Microsoft's [documentation](https://learn.microsoft.com/en-us/aspnet/core/host-and-deploy/?view=aspnetcore-8.0) for thorough details on hosting and deployment.&#x20;
 
 {% hint style="warning" %}
-Don't forget to set:
+**Attention for **<mark style="color:orange;">**Harmony.Client**</mark>
 
-1. The _gatewayUrl_ property in the _**appsettings.Production.json**_ file existing in the <mark style="color:blue;">Harmony.Client</mark> project _(www folder)_ which configures the <mark style="color:blue;">**Harmony.ApiGateway**</mark> project's host URL
-2. The _AutomationEndpoint_ property in the _**appsettings.Production.json**_ file existing in the <mark style="color:blue;">Harmony.Api</mark> project which configures the communication with the <mark style="color:blue;">Harmony.Automations</mark> app
+The front end of Harmony is a **Standalone Blazor wasm** web app which means it doesn't have any dependency on .NET Core hosting. That's why you may have noticed that nginx is used to serve the app in the docker containers.&#x20;
+
+You are free to use any host of your preference such as nginx or IIS to host <mark style="color:orange;">Harmony.Client</mark>, but always treat it as a **static website**.
 {% endhint %}
 
-### Publishing the apps
+### Configurations - things to consider
 
-In case you build the artifacts manually, run the following command for all web applications after navigating at their root's folder.
+* **ApiGateway**: The first thing you need to configure is the **ocelot.json** _DownstreamHostAndPorts_ property to match your environment URLs. All you have to do is change _localhost_ & _port_ property to the ones that reflects your production environment. Things are easier if you use docker, since the **ocelot.docker.json** file is used instead, which uses the services names rather than fixed URLs. In any case, if you use docker for production, you may have to configure that file accordingly. \
+  Of course before configuring these settings you must have already configured & deploy Harmony.Api, Harmony.Automations & Harmony.Signalr applications.
+* **Services**: For all web apps existing in the _Services_ solution folder, configure all the properties in the _appsettings.\<environment>.json_ file. Each app may have different dependencies, e.g. RabbitMq, MongoDb or SQL Server. Fill the correct connection strings for all of them to match your environment.
+* **Harmony.Client**: The only property you need to configure is the _gatewayUrl_ property existing in the _**www/appsettings.\<environment>.json**_ file. This is the hosting URL for the <mark style="color:blue;">Harmony.ApiGateway</mark> application which should be publicly accessible.&#x20;
 
-**1st command:** Open a terminal and navigate at the root of a web app's project. Run the following command to create the release build:
-
-```
-dotnet publish -c Release
-```
-
-The produced build will be created inside a _**\<path-to-project>\bin\Release\net8.0\publish**_ folder.
-
-**2nd command:** Inside the _publish_ folder you can run the following command to start the app:
-
-```
-dotnet run <project-name>.dll
-```
-
-### Hosting Harmony
-
-There are many options to deploy a .NET Core web application in production. Please advice Microsoft's [documentation](https://learn.microsoft.com/en-us/aspnet/core/host-and-deploy/?view=aspnetcore-8.0) for thorough details on hosting and deployment.
+{% hint style="success" %}
+All these settings are already configured for **local** development & debugging either directly from code or using docker containers so feel free to fully understand them before proceeding to installing Harmony to a new environment.
+{% endhint %}
 
 #### Following next: Debugging and running Harmony locally
 
