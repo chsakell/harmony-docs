@@ -27,6 +27,7 @@ Other than new features, more UX improvements, bug fixes and performance improve
 * [x] Upgrade to **.NET 8.0**&#x20;
 * [x] Use **gRPC** for internal microservices communication
 * [x] **Dockerize** solution - add Kubernetes support :whale: _(new_ :rocket:_)_
+* [ ] Integrate retrospective boards _(_[_in progress_](changelog.md#version-3.0.0-in-progress)_)_
 * [ ] **Gmail & Facebook** login integration
 
 #### Read next - Changelog & Technology used

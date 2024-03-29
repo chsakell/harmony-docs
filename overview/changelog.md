@@ -6,6 +6,17 @@ description: Read the changelog every time a new update is released
 
 Change log contains all version updates, old, current and upcoming with all important additions, fixes or improvements. The **unchecked** items of the _work in progress_ version, are the items remained before this build is released.
 
+### \[Version 3.0.0] - _In progress_ <a href="#version-3.0.0" id="version-3.0.0"></a>
+
+{% hint style="info" %}
+Time to level up Harmony once more! :up: This version's goal is to bring the first **retrospective** implementation! :tada:  :rocket:\
+You will be able to create a retrospective for a specific sprint _(scrum projects)_ and optionally retrospective boards bound to a Kanban project :muscle:
+
+Sit tight, this might take a while.. In the meanwhile any hotfix will be released under **2.9.X** versions.
+{% endhint %}
+
+* [x] Fix card filter specifications that affected several operations
+
 ### \[Version 2.9] - 24 March 2024
 
 * [x] Fix card filter specifications that affected several operations
