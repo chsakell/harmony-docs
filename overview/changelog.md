@@ -9,7 +9,7 @@ Change log contains all version updates, old, current and upcoming with all impo
 ### \[Version 3.0.0] - _In progress_ <a href="#version-3.0.0" id="version-3.0.0"></a>
 
 {% hint style="info" %}
-Time to level up Harmony once more! :up: This version's goal is to bring the first **retrospective** implementation! :tada:  :rocket:\
+Time to level up Harmony once again! :up: This version's goal is to bring the first **retrospective** implementation! :tada:  :rocket:\
 You will be able to create a retrospective for a specific sprint _(scrum projects)_ and optionally retrospective boards bound to a Kanban project :muscle:
 
 Sit tight, this might take a while.. In the meanwhile any hotfix will be released under **2.9.X** versions.
