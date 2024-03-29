@@ -15,7 +15,8 @@ You will be able to create a retrospective for a specific sprint _(scrum project
 Sit tight, this might take a while.. In the meanwhile any hotfix will be released under **2.9.X** versions.
 {% endhint %}
 
-* [x] Fix card filter specifications that affected several operations
+* [ ] Create Retrospective entity, entity configurations & migrations
+* [ ] Create a retrospective for a sprint
 
 ### \[Version 2.9] - 24 March 2024
 
