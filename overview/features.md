@@ -24,6 +24,18 @@ Scrum projects allow you to plan your work in a **backlog** and organize cycles 
 
 <figure><img src="../.gitbook/assets/automations.png" alt=""><figcaption><p>Automations</p></figcaption></figure>
 
+### Retrospective boards
+
+A retrospective is an opportunity to learn and improve, in a fun environment. To break it down in the simplest way you should cover:
+
+* What worked well?
+* What didn't work well?
+* What actionable items can we do to improve the situation?
+
+These are generally quick sessions that are not only informative and contribute to the team's functionality and efficiency, but also do something most ‘Retrospectives’ forget to do: Engage the team.
+
+Starting from version 2.10, retrospective boards are available for scrum projects :rocket: :muscle:
+
 ### Docker ready :whale: :rocket:
 
 Built with best practices, latest technologies and most popular tools and frameworks, broken in isolated and scalable microservices, Harmony can be served via [docker](setup/docker/) containers. [Kubernetes ](setup/docker/kubernetes.md)deployment is also available! :muscle:
