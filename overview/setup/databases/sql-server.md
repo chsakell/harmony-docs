@@ -24,7 +24,7 @@ You can run the database migrations either manually or **let the projects run th
 
 #### Run migrations through <mark style="color:blue;">Visual Studio</mark>
 
-When running migrations through Visual Studio, open the `Package Manager Console` and set the `Default project` to **src\Infrastructure\Harmony.Persistence**.
+When running migrations through Visual Studio, open the `Package Manager Console` and set the `Default project` to **src\Infrastructure\Harmony.Persistence**. This should be the default project when running other migrations as well _(NotificationContext & AutomationContext examples following)_
 
 Run the following command to create the database:
 
@@ -109,17 +109,17 @@ Configure the SQL Server's _HarmonyJobsConnection_ connection strings existing i
 
 Use the same process & commands you used for Harmony database and Harmony.Api projects except that you have to change the following two parameters:
 
-* \-**Context**: NotificationContext
+* \-**Context**: NotificationContext or AutomationContext
 * \-**StartUpProject**: Harmony.Notifications or Harmony.Automations&#x20;
 
 Examples:
 
 ```powershell
-Update-Database -Context NotificationContext -StartUpProject Harmony.Notifications -v
+Update-Database -Context NotificationContext -StartUpProject Harmony.Notifications
 ```
 
 ```powershell
-Update-Database -Context NotificationContext -StartUpProject Harmony.Automations -v
+Update-Database -Context AutomationContext -StartUpProject Harmony.Automations
 ```
 
 #### Read next - configure the MongoDB Server
