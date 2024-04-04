@@ -68,6 +68,7 @@ All board updates are smoothly synced via WebSocket connection across all connec
 * [x] Move issues between backlog & sprints
 * [x] Start & complete sprints - move pending items to backlog or new sprint upon completion
 * [x] Display **burndown** chart (new) :rocket: :chart\_with\_upwards\_trend:
+* [x] Create retrospective for sprints
 
 #### Board features
 
@@ -92,7 +93,7 @@ All board updates are smoothly synced via WebSocket connection across all connec
 * [x] [Sync parent and child tasks](../guide/automations/sync-parent-and-child-tasks.md)
 * [x] [Smart auto-assign](../guide/automations/smart-auto-assign.md)
 * [ ] Auto-create sub-tasks
-* [ ] Sum up story points
+* [x] Sum up story points
 
 More automations to be added soon..
 
