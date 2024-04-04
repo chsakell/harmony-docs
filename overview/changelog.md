@@ -6,13 +6,13 @@ description: Read the changelog every time a new update is released
 
 Change log contains all version updates, old, current and upcoming with all important additions, fixes or improvements. The **unchecked** items of the _work in progress_ version, are the items remained before this build is released.
 
-### \[Version 3.0.0] - _In progress, already available on GitHub_ <a href="#version-3.0.0" id="version-3.0.0"></a>
+### \[Version 2.10] - 4 April 2024 <a href="#version-2.10" id="version-2.10"></a>
 
 {% hint style="info" %}
 Time to level up Harmony once again! :up: This version's goal is to bring the first **retrospective** implementation! :tada:  :rocket:\
 You will be able to create a retrospective for a specific sprint _(scrum projects)_  :muscle:
 
-Sit tight, this might take a while.. In the meanwhile any hotfix will be released under **2.9.X** versions.
+:bangbang: Please delete the harmony databases from your local environment to be recreated. There are some breaking changes.
 {% endhint %}
 
 * [x] Create Retrospective entity, entity configurations & migrations <mark style="color:red;">(</mark>_<mark style="color:red;">breaking</mark>_<mark style="color:red;">)</mark>
