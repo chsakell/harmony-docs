@@ -6,6 +6,19 @@ description: Read the changelog every time a new update is released
 
 Change log contains all version updates, old, current and upcoming with all important additions, fixes or improvements. The **unchecked** items of the _work in progress_ version, are the items remained before this build is released.
 
+### \[Version 2.11] - _In progress_
+
+{% hint style="info" %}
+This version's goal is to support **issue linking** :link: between issues.&#x20;
+
+The following link types will be supported:
+
+* is blocked by / blocks
+* is cloned by / clones
+* is duplicated by / duplicates
+* relates to
+{% endhint %}
+
 ### \[Version 2.10] - 4 April 2024 <a href="#version-2.10" id="version-2.10"></a>
 
 {% hint style="info" %}
