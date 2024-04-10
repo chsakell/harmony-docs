@@ -19,6 +19,12 @@ The following link types will be supported:
 * relates to
 {% endhint %}
 
+* [x] Add link entity migration :link:
+* [x] Add link to an issue :heavy\_plus\_sign:
+* [x] Open linked issue to new tab
+* [x] Remove a link from an issue :heavy\_minus\_sign:
+* [x] Auto-sync linked cards upon linking/unlinking
+
 ### \[Version 2.10] - 4 April 2024 <a href="#version-2.10" id="version-2.10"></a>
 
 {% hint style="info" %}
