@@ -6,6 +6,17 @@ description: Read the changelog every time a new update is released
 
 Change log contains all version updates, old, current and upcoming with all important additions, fixes or improvements. The **unchecked** items of the _work in progress_ version, are the items remained before this build is released.
 
+### \[Version 2.12] - _Brainstorming.._
+
+{% hint style="info" %}
+How about leveling up Harmony once again! :muscle::up:
+
+This version's goal is to integrate **GitHub** directly to Harmony boards! :rocket:\
+It would be great if you could link GitHub issues, branches, pull requests, etc.. with board items. GitHub will be the first source control integration, others will follow next. \
+\
+Sit tight.. this might take a while :seat:
+{% endhint %}
+
 ### \[Version 2.11] - 11 April 2024
 
 {% hint style="info" %}
