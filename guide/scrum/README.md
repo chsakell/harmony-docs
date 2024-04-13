@@ -10,20 +10,9 @@ In Harmony you can plan upcoming work in a **backlog** and organize cycles of wo
 * [x] Move issues from sprints back to backlog
 * [x] **Start a sprint** - support for more than one active sprints
 * [x] **Complete a sprint** and move pending items to either backlog, existing or a new sprint
+* [x] Create a retrospective for a sprint
 
-<div>
-
-<figure><img src="../../.gitbook/assets/backlog-create-issue (1).png" alt=""><figcaption><p>Create backlog item</p></figcaption></figure>
-
- 
-
-<figure><img src="../../.gitbook/assets/backlog-move-items-to-sprint (1).png" alt=""><figcaption><p>Move backlog to sprints</p></figcaption></figure>
-
- 
-
-<figure><img src="../../.gitbook/assets/sprints.png" alt=""><figcaption><p>Sprints</p></figcaption></figure>
-
-</div>
+{% embed url="https://www.youtube.com/watch?v=x7jENI0hwnw" %}
 
 #### Read next - Create a scrum project
 
