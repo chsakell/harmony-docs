@@ -19,8 +19,6 @@ Before starting Harmony, complete all the following required steps:
 
 ### Required steps before running Harmony
 
-
-
 * [x] For local development, you have installed all the required software and configured the connection strings as described in the [installations.md](dependencies/installations.md "mention")guide.
 * [x] You have an SQL Server instance and you have configured **HarmonyConnection** connection string in <mark style="color:blue;">Harmony.Api</mark> and **HarmonyJobsConnection** connection string in <mark style="color:blue;">Harmony.Notifications</mark> & <mark style="color:blue;">Harmony.Automations</mark> respectively. Migrations can be run either manually or let the projects create the databases on start.
 * [x] You have a **MongoDB Server** instance running and you have configured the MongoDB:ConnectionUI property in the **appsettings.json** for <mark style="color:blue;">Harmony.Automations</mark> project.
@@ -30,8 +28,8 @@ Before starting Harmony, complete all the following required steps:
 * [x] **Important!** You have set the **gatewayUrl** property in the <mark style="color:blue;">**Harmony.Client**</mark> project's **www** folder, in the appsettings.json file, equal to <mark style="color:blue;">Harmony.ApiGateway</mark> host URL
 * [x] You have set the _AppEndpointConfiguration:FrontendUrl_ in Harmony.Api. This will be used for email templates in order to configure any links to the front.
 
-{% content-ref url="../overview/pricing.md" %}
-[pricing.md](../overview/pricing.md)
+{% content-ref url="docker/" %}
+[docker](docker/)
 {% endcontent-ref %}
 
 {% content-ref url="../guide/workspaces/" %}
