@@ -31,7 +31,7 @@ Install .NET 8
 
 ### SQL Server
 
-Install either the **Developer** or **Express** edition of SQL Server 2022 from the [official](https://www.microsoft.com/en-us/sql-server/sql-server-downloads) page. When following the instructions of the video tutorial, take a good look at the **connection string** property because you are going to use in your application settings! You are also advised to install **SSMS** as well in order to test your connection string and be able to access harmony's databases.
+Install either the **Developer** or **Express** edition of SQL Server 2022 from the [official](https://www.microsoft.com/en-us/sql-server/sql-server-downloads) page. When following the instructions of the video tutorial, take a good look at the **connection string** property because you are going to use it in your application settings! You are also advised to install **SSMS** as well in order to test your connection string and be able to access harmony's databases.
 
 <figure><img src="../../.gitbook/assets/Screenshot 2024-04-18 154250.png" alt=""><figcaption><p>Connection string</p></figcaption></figure>
 
@@ -41,7 +41,7 @@ SQL Server & SSMS installation
 
 #### SQL Server connection strings configuration
 
-First of all make sure you have the correct connection string. Here are few examples that explain how a connection string looks like:
+First of all ensure that you have the correct connection string. Here are few examples that explain how a connection string looks like:
 
 ```json
   "ConnectionStrings": {
@@ -51,7 +51,7 @@ First of all make sure you have the correct connection string. Here are few exam
 
 The above connection string is probably the most used one for local development. **Server=.;** will connect to the [default](https://learn.microsoft.com/en-us/sql/sql-server/connect-to-database-engine?view=sql-server-ver16\&tabs=sqldb#connect-to-a-default-sql-server-instance-on-the-same-machine) SQL Server instance that is installed on your machine and **Integrated Security=True;TrustServerCertificate=True** means Windows authentication will be used.
 
-This is different though in case you have a **named** instance, e.g. SQLEXPRESS _(used on the video)._ The part that you need to change is the **Server=.\SQLEXPRESS;** rather than **Server=.;**
+This is different though in case you have a **named** instance, e.g. SQLEXPRESS _(used in the video)._ In this case use **Server=.\\\<instance name>;** rather than **Server=.;** where SQLEXPRESS is the name of your instance _(yours might be different)._ Example:
 
 ```json
   "ConnectionStrings": {
@@ -59,7 +59,7 @@ This is different though in case you have a **named** instance, e.g. SQLEXPRESS 
   },
 ```
 
-Instead of . you can use localhost or your PC name as well. For example:
+Instead of the dot ("**.**") you can use **localhost** or your PC name as well. For example:
 
 ```json
   "ConnectionStrings": {
@@ -67,7 +67,7 @@ Instead of . you can use localhost or your PC name as well. For example:
   },
 ```
 
-The previous connection strings, use **Integrated Security=True** the current Windows account credentials are used for authentication _(Windows authentication)._ \
+The previous connection strings, use **Integrated Security=True** so the current Windows account credentials are used for authentication _(Windows authentication)._ \
 _You can also use **SQL Server Authentication**_ by passing a User Id & Password instead like the following example:
 
 ```
@@ -76,15 +76,16 @@ _You can also use **SQL Server Authentication**_ by passing a User Id & Password
   },
 ```
 
+This login must exist on your SQL Server & have access to harmony databases.\
 The previous example, uses an SQL Server login `harmony_user` & password `%MySuperPass12345`instead of **Integrated Security=True.**&#x20;
 
 In case you need to know more about SQL Server connection strings, check [this](https://www.connectionstrings.com/sql-server/) page.
 
 {% hint style="warning" %}
-In all the SQL Server connection strings that you are going to configure, you will only change the **Server** part and optionally replace the **Integrated security** with _User Id & Password_ as described above. The **Database** part must not change!
+In all the SQL Server connection strings that you are going to configure, only change the **Server** part and optionally replace the **Integrated security** with _User Id & Password_ as described above. The **Database** part must not change!
 {% endhint %}
 
-Now that you have your SQL Server connection string, configure the following 3 properties in the corresponding **appsettings.json** files:
+Now that you have your SQL Server connection strings, configure the following 3 properties in the corresponding **appsettings.json** files:
 
 * **Harmony.Api**: The _appsettings.json_ file contains a `ConnectionStrings:HarmonyConnection` property that holds the connection string your SQL Server <mark style="color:orange;">harmony</mark> database.
 * **Harmony.Automations**: The _appsettings.json_ file contains a `ConnectionStrings:HarmonyJobsConnection`  property that holds the connection string your SQL Server <mark style="color:orange;">Harmony.Automations.Jobs</mark> database.
