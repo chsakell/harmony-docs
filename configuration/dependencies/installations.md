@@ -6,6 +6,7 @@ description: Install and configure all the required dependencies for your local 
 
 As you can see in the architecture diagram, Harmony has a few dependencies that need to be installed and configured before running. These are the followings:
 
+* .NET 8
 * SQL Server
 * MongoDB
 * RabbitMQ
@@ -148,21 +149,21 @@ On production environments, you usually create logins with custom username & pas
 
 ### Redis
 
-Redis installation is completely optional and required only in production environment and only when you have run more than 1 Harmony.SignalR instances.
+Redis installation is completely optional and required only in production environment and only when you have more than one **Harmony.SignalR** instances.
 
-In you want to install and configure it on your local machine, the easiest way is to install via a GitHub package which you can find [here](https://github.com/tporadowski/redis/releases).
+In you want to install and configure it on your local machine, the easiest way is to do it is via a GitHub package which you can find [here](https://github.com/tporadowski/redis/releases).
 
 {% embed url="https://www.youtube.com/watch?v=DLKzd3bvgt8" %}
 Installing Redis on Windows
 {% endembed %}
 
-Redis is being used on on Harmony.SignalR project so there's only one place to configure it in case you want to use it. Check the **RedisConnectionString** file, inside its appsettings.json file.
+Redis is being used on on <mark style="color:blue;">Harmony.SignalR</mark> project so there's only one place to configure it in case you want to use it. Check the **RedisConnectionString** property, inside its **appsettings.json** file.
 
 ```json
 "RedisConnectionString": ""
 ```
 
-By default it's empty string, whichi mean Redis is not required. In case you install redis, by default it runs on port 6379 so the connection would look like this:
+By default it's an empty string, which means Redis will not be used. In case you install Redis, by default it runs on port **6379** so the connection for your local environment would look like this:
 
 ```json
 "RedisConnectionString": "127.0.0.1:6379",
@@ -177,5 +178,5 @@ By default it's empty string, whichi mean Redis is not required. In case you ins
 * Harmony is an amazing project in many aspects and will keep growing at a fast pace. It's not a simple web app that you can click **F5** and run it. \
   It requires some basic understanding of installing software like all these you read on this page and configuring their connection strings.
 * Production, [Docker](../docker/) & [Kubernetes](../docker/kubernetes.md) is a different story. It requires that you understand their concepts and you have experience of deploying solutions based on a microservice architecture.
-* You have a lot to learn from a project like this, either by studing the codebase as a software engineer/architect or using it as a project management tool for your projects. Enjoy! :rocket:
+* You have a lot to learn from a project like this, either by studding the codebase as a software engineer/architect or using it as a project management tool for your projects. Enjoy! :rocket:
 {% endhint %}
