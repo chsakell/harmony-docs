@@ -64,6 +64,6 @@ builder.Services.AddSingleton<IEmailService, BrevoEmailService>();
 
 #### Read next - Deploy Harmony
 
-{% content-ref url="deployment.md" %}
-[deployment.md](deployment.md)
+{% content-ref url="../deployment.md" %}
+[deployment.md](../deployment.md)
 {% endcontent-ref %}

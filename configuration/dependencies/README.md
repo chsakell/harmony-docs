@@ -1,4 +1,4 @@
-# ⚙️ Setup
+# ⚙️ Dependencies
 
 Harmony at its core is a web application built with **.NET 8.0** which means it's a cross platform app and can be deployed anywhere _(Windows, Linux, Mac)_. On the other hand, it can be seen as a large scalable system consisting by several .NET Core applications and other components, each one having a specific responsibility. Because of this, it's highly advised that you have understood its architecture and carefully follow and configure one by one the required dependencies before running Harmony.
 
@@ -19,7 +19,7 @@ Harmony at its core is a web application built with **.NET 8.0** which means it'
 Configure one by one the following components - Each link provides details about the role of the corresponding component and how to configure it. After finishing with the component's setup, follow with the individual web app configurations _(e.g. appsettings.json)_
 
 \
-Maybe you want to fast-forward? :man\_running: That's ok, you can fire up the entire infrastructure via [docker](docker/) commands!
+Maybe you want to fast-forward? :man\_running: That's ok, you can fire up the entire infrastructure via [docker](../docker/) commands!
 {% endhint %}
 
 Harmony dependencies are:
@@ -39,7 +39,7 @@ Don't get overwhelmed by the number of things you need to setup before firing up
 1. Database migrations & seeding can run automatically during startup which means you don't have to manually run them.
 2. &#x20;RabbitMQ exchanges/queues are being created for you.&#x20;
 
-This means that if you want to start Harmony from Visual Studio, the only thing required is to install the required infrastructure on your machine, SQL Server, MongoDB, RabbitMQ, Redis _(optional for localhost)_, place the correct connection strings  & just setup the [startup projects](before-running.md) on Visual Studio.
+This means that if you want to start Harmony from Visual Studio, the only thing required is to install the required infrastructure on your machine, SQL Server, MongoDB, RabbitMQ, Redis _(optional for localhost)_, place the correct connection strings  & just setup the [startup projects](../before-running.md) on Visual Studio.
 
 Also you need to configure the correct **AppEndpointConfiguration** settings in all application.settings.json files.\
 
@@ -61,12 +61,12 @@ Also you need to configure the correct **AppEndpointConfiguration** settings in 
 [email-provider.md](email-provider.md)
 {% endcontent-ref %}
 
-{% content-ref url="deployment.md" %}
-[deployment.md](deployment.md)
+{% content-ref url="../deployment.md" %}
+[deployment.md](../deployment.md)
 {% endcontent-ref %}
 
 #### Make Harmony yours - Buy once, get updates for ever :rocket:
 
-{% content-ref url="../pricing.md" %}
-[pricing.md](../pricing.md)
+{% content-ref url="../../overview/pricing.md" %}
+[pricing.md](../../overview/pricing.md)
 {% endcontent-ref %}

@@ -48,10 +48,10 @@ All these settings are already configured for **local** development & debugging 
 [before-running.md](before-running.md)
 {% endcontent-ref %}
 
-{% content-ref url="../pricing.md" %}
-[pricing.md](../pricing.md)
+{% content-ref url="../overview/pricing.md" %}
+[pricing.md](../overview/pricing.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../guide/workspaces/" %}
-[workspaces](../../guide/workspaces/)
+{% content-ref url="../guide/workspaces/" %}
+[workspaces](../guide/workspaces/)
 {% endcontent-ref %}

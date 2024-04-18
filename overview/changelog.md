@@ -83,7 +83,7 @@ As a bonus :sparkles:,  the **Sum up story points** automation will be implement
 
 ### \[Version 2.6] - 28 February 2024 <a href="#version-2.6" id="version-2.6"></a>
 
-Added [Kubernetes](setup/docker/kubernetes.md) support :rocket:
+Added [Kubernetes](../configuration/docker/kubernetes.md) support :rocket:
 
 ### \[Version 2.5] - 25 February 2024 <a href="#version-2.5" id="version-2.5"></a>
 
@@ -196,7 +196,7 @@ Version 2.0 will set things up towards a [**dockerized**](https://www.docker.com
 * [x] Create [**Harmony.Automations**](../guide/automations/) project for handling automations.
 * [x] Create Automations settings page.
 * [x] Create, enable, disable and remove an automation.
-* [x] Create [**Harmony.Server.SignalR**](setup/databases/redis.md) project for handling SignalR messages.
+* [x] Create [**Harmony.Server.SignalR**](../configuration/dependencies/databases/redis.md) project for handling SignalR messages.
 
 ### \[Version 1.5] - 2 January 2024 <a href="#version-1.5" id="version-1.5"></a>
 
@@ -217,7 +217,7 @@ Here are some of the features to be implemented in this release:
 * [x] Create search modal option for advanced searching scenarios _(based on several criteria, e.g. issue status,  members assigned, board etc.)_&#x20;
 * [x] Add **caching** to database operations
 
-For more info on how to setup the search engine read the [search-engine.md](setup/search-engine.md "mention") docs.
+For more info on how to setup the search engine read the [search-engine.md](../configuration/dependencies/search-engine.md "mention") docs.
 
 {% hint style="info" %}
 **Why Algolia & not Elastic Search?**\

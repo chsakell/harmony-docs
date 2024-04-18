@@ -1,6 +1,6 @@
 # 🔥 Technology
 
-Harmony's **codebase** is a state of the art & [_dockerized_](setup/docker/) :whale: solution, built with best practices, patterns and a clean microservice architecture. You will be impressed by how easily can be scaled and maintained on a codebase level by adding new features or on infrastructure level by scaling horizontally.&#x20;
+Harmony's **codebase** is a state of the art & [_dockerized_](../configuration/docker/) :whale: solution, built with best practices, patterns and a clean microservice architecture. You will be impressed by how easily can be scaled and maintained on a codebase level by adding new features or on infrastructure level by scaling horizontally.&#x20;
 
 {% hint style="success" %}
 If you are an engineer or developer, you will be certainly benefit just by studying its codebase.
@@ -24,7 +24,7 @@ The stack, tools, frameworks used in Harmony are the following:
 
 #### Docker containers
 
-Harmony is entirely dockerized with [Kubernetes](setup/docker/kubernetes.md) support.
+Harmony is entirely dockerized with [Kubernetes](../configuration/docker/kubernetes.md) support.
 
 <figure><img src="../.gitbook/assets/harmony-containers.png" alt="" width="563"><figcaption></figcaption></figure>
 
@@ -34,6 +34,6 @@ Harmony is entirely dockerized with [Kubernetes](setup/docker/kubernetes.md) sup
 
 #### Read next - Configure Harmony
 
-{% content-ref url="setup/" %}
-[setup](setup/)
+{% content-ref url="../configuration/dependencies/" %}
+[dependencies](../configuration/dependencies/)
 {% endcontent-ref %}

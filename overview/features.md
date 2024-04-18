@@ -38,7 +38,7 @@ Starting from version 2.10, retrospective boards are available for scrum project
 
 ### Docker ready :whale: :rocket:
 
-Built with best practices, latest technologies and most popular tools and frameworks, broken in isolated and scalable microservices, Harmony can be served via [docker](setup/docker/) containers. [Kubernetes ](setup/docker/kubernetes.md)deployment is also available! :muscle:
+Built with best practices, latest technologies and most popular tools and frameworks, broken in isolated and scalable microservices, Harmony can be served via [docker](../configuration/docker/) containers. [Kubernetes ](../configuration/docker/kubernetes.md)deployment is also available! :muscle:
 
 <figure><img src="../.gitbook/assets/harmony-containers.png" alt="" width="563"><figcaption><p>Harmony docker containers</p></figcaption></figure>
 

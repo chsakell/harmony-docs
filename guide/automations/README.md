@@ -17,7 +17,7 @@ Currently there are 3 automations supported, more to come soon!
 * [x] [Sum up story points](sum-up-story-points.md)
 
 {% hint style="warning" %}
-Automations are stored in a **MongoDB** database so ensure you have [setup](../../overview/setup/databases/mongodb-server.md) all the required dependencies before trying to configure them.
+Automations are stored in a **MongoDB** database so ensure you have [setup](../../configuration/dependencies/databases/mongodb-server.md) all the required dependencies before trying to configure them.
 {% endhint %}
 
 {% content-ref url="sync-parent-and-child-tasks.md" %}

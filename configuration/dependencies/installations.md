@@ -171,11 +171,11 @@ By default it's empty string, whichi mean Redis is not required. In case you ins
 ### Notes
 
 {% hint style="warning" %}
-* In the future, all connection strings might be included inside the "**ConnectionStrings**" property so always keep an eye on the [changelog.md](../changelog.md "mention")when new builds are released.
+* In the future, all connection strings might be included inside the "**ConnectionStrings**" property so always keep an eye on the [changelog.md](../../overview/changelog.md "mention")when new builds are released.
 * Lots of efforts have been made so far and will continue to do so, to keep docs up to date, either for describing the tool's features _(e.g. gifs, YouTube videos)_ or explaining the architecture & how to guides.&#x20;
 * <mark style="background-color:red;">**You are responsible**</mark> <mark style="background-color:red;"></mark><mark style="background-color:red;">to install & configure Harmony regardless the environment.</mark>&#x20;
 * Harmony is an amazing project in many aspects and will keep growing at a fast pace. It's not a simple web app that you can click **F5** and run it. \
   It requires some basic understanding of installing software like all these you read on this page and configuring their connection strings.
-* Production, [Docker](docker/) & [Kubernetes](docker/kubernetes.md) is a different story. It requires that you understand their concepts and you have experience of deploying solutions based on a microservice architecture.
+* Production, [Docker](../docker/) & [Kubernetes](../docker/kubernetes.md) is a different story. It requires that you understand their concepts and you have experience of deploying solutions based on a microservice architecture.
 * You have a lot to learn from a project like this, either by studing the codebase as a software engineer/architect or using it as a project management tool for your projects. Enjoy! :rocket:
 {% endhint %}

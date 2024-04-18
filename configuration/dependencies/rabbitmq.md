@@ -30,6 +30,6 @@ Set the **BrokerConfiguration** setting in the _**appsettings.json**_ files in a
 [email-provider.md](email-provider.md)
 {% endcontent-ref %}
 
-{% content-ref url="deployment.md" %}
-[deployment.md](deployment.md)
+{% content-ref url="../deployment.md" %}
+[deployment.md](../deployment.md)
 {% endcontent-ref %}
