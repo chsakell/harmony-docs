@@ -19,6 +19,7 @@
   * [🔎 Search Engine](overview/setup/search-engine.md)
   * [📧 Email provider](overview/setup/email-provider.md)
   * [🚢 Deployment](overview/setup/deployment.md)
+  * [📀 Installations](overview/setup/installations.md)
   * [🏃‍♂️ Before running](overview/setup/before-running.md)
   * [🐳 Docker](overview/setup/docker/README.md)
     * [☸️ Kubernetes](overview/setup/docker/kubernetes.md)
