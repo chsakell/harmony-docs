@@ -70,7 +70,7 @@ Instead of the dot ("**.**") you can use **localhost** or your PC name as well. 
 The previous connection strings, use **Integrated Security=True** so the current Windows account credentials are used for authentication _(Windows authentication)._ \
 _You can also use **SQL Server Authentication**_ by passing a User Id & Password instead like the following example:
 
-```
+```json
   "ConnectionStrings": {
     "HarmonyConnection": "Server=localhost\SQLEXPRESS;Database=Harmony;User Id=harmony_user;Password=%MySuperPass12345;TrustServerCertificate=True"
   },
@@ -90,5 +90,31 @@ Now that you have your SQL Server connection strings, configure the following 3 
 * **Harmony.Api**: The _appsettings.json_ file contains a `ConnectionStrings:HarmonyConnection` property that holds the connection string your SQL Server <mark style="color:orange;">harmony</mark> database.
 * **Harmony.Automations**: The _appsettings.json_ file contains a `ConnectionStrings:HarmonyJobsConnection`  property that holds the connection string your SQL Server <mark style="color:orange;">Harmony.Automations.Jobs</mark> database.
 * **Harmony.Notifications**: The _appsettings.json_ file contains a `ConnectionStrings:HarmonyJobsConnection`  property that holds the connection string your SQL Server <mark style="color:orange;">Harmony.Notifications.Jobs</mark> database.
+
+### MongoDB
+
+MongoDB is very easy to install. Just navigate to the official [page](https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-windows/), download the installer and run it.
+
+{% embed url="https://www.youtube.com/watch?v=gB6WLkSrtJk" %}
+Installing MongoDB on windows
+{% endembed %}
+
+The default port the MongoDB server listens to is the 27017 and it's already configured for you in the **Harmony.Automations** appsettings.json file.
+
+```json
+"MongoDB": {
+  "ConnectionURI": "mongodb://localhost:27017"
+},
+```
+
+Unless you have configured your MongoDB server to run on a different port, you don't have to do anything else.
+
+
+
+
+
+
+
+
 
 ..to be continued for the rest of the installations
