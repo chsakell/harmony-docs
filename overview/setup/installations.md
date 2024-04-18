@@ -99,7 +99,7 @@ MongoDB is very easy to install. Just navigate to the official [page](https://ww
 Installing MongoDB on windows
 {% endembed %}
 
-The default port the MongoDB server listens to is the 27017 and it's already configured for you in the **Harmony.Automations** appsettings.json file.
+The default port the MongoDB server listens to is the **27017** and it's already configured for you in the **Harmony.Automations** appsettings.json file.
 
 ```json
 "MongoDB": {
@@ -109,12 +109,41 @@ The default port the MongoDB server listens to is the 27017 and it's already con
 
 Unless you have configured your MongoDB server to run on a different port, you don't have to do anything else.
 
+{% hint style="info" %}
+You can use [MongoDB Compass](https://www.mongodb.com/products/tools/compass) to ensure you have installed MongoDB properly.
+{% endhint %}
 
+### RabbitMQ
 
+[RabbitMQ](https://www.rabbitmq.com/) is on of the most important components in Harmony's architecture as it's responsible for asynchronously exchanging messages between applications. There are two steps for installing RabbitMQ, first install the [Erlang](https://www.erlang.org/) dependency & then the actual RabbitMQ. Follow the instructions of the YouTube video to install RabbitMQ on your machine.
 
+{% embed url="https://www.youtube.com/watch?v=KhYiaEOrw7Q" %}
+Installing RabbitMQ
+{% endembed %}
 
+{% hint style="info" %}
+Notice that in the video also the management plugin is installed, which let's you see all the exchanges, queues & messages on your RabbitMQ server. It is recommended to enabled it as well.
+{% endhint %}
 
+By default RabbitMQ listens to **5672** port which is already been configured for you in all required apps, so unless you have configured the server to listen on a different port, once again you don't have to change anything. The configuration is defined in the following services in their corresponding **appsetting.json** files:
 
+* **Harmony.Api**
+* **Harmony.Automations**
+* **Harmony.Notifications**
+* **Harmony.SignalR**
 
+```json
+"BrokerConfiguration": {
+  "Host": "localhost",
+  "Port": 5672,
+  "Username": "",
+  "Password": "",
+  "VirtualHost": ""
+},
+```
+
+{% hint style="info" %}
+On production environments, you usually create logins with custom username & password but for your local installation you can leave it as it is.
+{% endhint %}
 
 ..to be continued for the rest of the installations
