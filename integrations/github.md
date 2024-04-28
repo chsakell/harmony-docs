@@ -75,7 +75,7 @@ Organizations are free to create by the way but aren't required to configure the
 * Pull requests
 * Pushes
 
-3. Save the webhook and make sure it's active.
+3. Activate the Webhook and save it.
 
 ### Card Git Activity
 
@@ -108,5 +108,16 @@ After creating a branch and as soon as it's being pushed to GitHub, this informa
 Clicking the VIEW DETAILS button will show you even more detailed information for the git activity related to this issue.
 
 <figure><img src="../.gitbook/assets/git-activity.png" alt=""><figcaption><p>Git activity</p></figcaption></figure>
+
+### Notes
+
+<mark style="color:blue;">Harmony.Integrations.SourceControl</mark> is exposed to the client via the Gateway. \
+In a local dockerized environment you should run **ngrok** to expose the gateway's endpoint rather than the actual <mark style="color:blue;">Harmony.Integrations.SourceControl</mark>. Assuming the gateway runs on port **7108**, then the ngrok command should change to:
+
+```
+.\ngrok.exe http https://localhost:7108
+```
+
+Next the Webhook URL on GitHub will have the generated ngrokk URL plus the **/sourcecontrol/github** segment. Notice the extra **/sourcecontrol** part added here. This is required because now the application is exposed through the Gateway app.
 
 Pending a YouTube video tutorial to show all these in action...

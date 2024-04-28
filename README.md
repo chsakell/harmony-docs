@@ -34,7 +34,7 @@ It can be used by large organizations to manage projects across their teams or b
 
 You can create workspaces, **Kanban** boards, **Scrum** projects with sprints & retrospectives :tada:, lists, cards, add members, attachments, labels, check lists/items, due dates, comments and many more.
 
-:battery: Batteries included! Harmony supports **automations**! :rocket:
+:battery: Batteries included! Harmony supports [automations](guide/automations/ "mention") & [github.md](integrations/github.md "mention") integration!! :rocket:
 
 The source code is fully available after [purchase](overview/pricing.md) and of course you get updates every time a new release is available! :tada: This means you can host your own instance of **Harmony** rather than paying paid services.
 
