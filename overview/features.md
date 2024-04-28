@@ -36,6 +36,10 @@ These are generally quick sessions that are not only informative and contribute 
 
 Starting from version 2.10, retrospective boards are available for scrum projects :rocket: :muscle:
 
+### GitHub integration
+
+Integrate GitHub using Webhooks and display Git activity directly to your board cards! Branch creation, pushed commits, pull requests, assignees & reviewers are directly available to your board! Read more in the [github.md](../integrations/github.md "mention")guide.
+
 ### Docker ready :whale: :rocket:
 
 Built with best practices, latest technologies and most popular tools and frameworks, broken in isolated and scalable microservices, Harmony can be served via [docker](../configuration/docker/) containers. [Kubernetes ](../configuration/docker/kubernetes.md)deployment is also available! :muscle:

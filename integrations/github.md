@@ -94,3 +94,5 @@ After creating a branch and as soon as it's being pushed to GitHub, this informa
 Clicking the VIEW DETAILS button will show you even more detailed information for the git activity related to this issue.
 
 <figure><img src="../.gitbook/assets/git-activity.png" alt=""><figcaption><p>Git activity</p></figcaption></figure>
+
+Pending a YouTube video tutorial to show all these in action...
