@@ -100,7 +100,7 @@ MongoDB is very easy to install. Just navigate to the official [page](https://ww
 Installing MongoDB on windows
 {% endembed %}
 
-The default port the MongoDB server listens to is the **27017** and it's already configured for you in the **Harmony.Automations** appsettings.json file.
+The default port the MongoDB server listens to is the **27017** and it's already configured for you in the **Harmony.Automations** & **Harmony.Integrations.SourceControl** appsettings.json files.
 
 ```json
 "MongoDB": {
@@ -132,6 +132,7 @@ By default RabbitMQ listens to **5672** port which is already been configured fo
 * **Harmony.Automations**
 * **Harmony.Notifications**
 * **Harmony.SignalR**
+* **Harmony.Integrations.SourceControl**
 
 ```json
 "BrokerConfiguration": {

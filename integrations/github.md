@@ -82,7 +82,21 @@ Organizations are free to create by the way but aren't required to configure the
 When you open a board's card, you will find git activity information on the right sidebar. If there isn't any branch created for this item, then a suggested git command will help you to create one.&#x20;
 
 {% hint style="warning" %}
-Branch names should contain the serial key of each item so that harmony can match all the git activity. The serial key consists of the board's KEY configured when you created and the item's number. You can find this information either directly from the board or by opening any card.
+Branch names should contain the serial key of each item so that harmony can match all the git activity. The serial key consists of the board's KEY configured when you created and the item's number. You can find this information either directly from the board or by opening any card.\
+\
+**Valid branch names examples:**\
+Assuming you have a card item with serial key equal to **HARM-10** and title **Support GitHub integration**, here are a few suggested branch names that will work as expected.
+
+* [x] harm-10-support-github-integration
+* [x] feature/harm-10-support-github-integration
+* [x] support-github-integration-harm-10
+* [x] harm-10
+
+You don't have to use the card's title in your branch's name, the critical part that creates the bonding is the serial key, which in the previous case is the **harm-10**.\
+
+
+* Harmony controller will try to figure out the serial key by running the **`([a-zA-Z]{3,5})-(\d+)`**regex on your branch name.&#x20;
+* Avoid adding other numbers in your branch name
 {% endhint %}
 
 <figure><img src="../.gitbook/assets/git-create-branch-command.png" alt="" width="563"><figcaption><p>Suggested git command to create a branch</p></figcaption></figure>

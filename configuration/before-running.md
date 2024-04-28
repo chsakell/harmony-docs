@@ -4,16 +4,17 @@
 
 In case you want to run or debug <mark style="color:blue;">**Harmony**</mark> from Visual Studio, add all the web application projects to the **startup projects** list by right clicking the solution and selecting **Configure Startup Projects..**
 
-<figure><img src="../.gitbook/assets/startup-projects.png" alt=""><figcaption><p>Startup projects</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/startup-projects.png" alt=""><figcaption></figcaption></figure>
 
 Set the Action to Start for the following projects:
 
-* [x] Harmony.Api
 * [x] Harmony.ApiGateway
+* [x] Harmony.Api
 * [x] Harmony.SignalR
+* [x] Harmony.Client
 * [x] Harmony.Automations
 * [x] Harmony.Notifications
-* [x] Harmony.Client
+* [x] Harmony.Integrations.SourceControl
 
 Before starting Harmony, complete all the following required steps:
 

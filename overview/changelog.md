@@ -14,7 +14,7 @@ How about leveling up Harmony once again! :muscle::up:
 This version's goal is to integrate **GitHub** directly to Harmony boards! :rocket:\
 It would be great if you could link GitHub issues, branches, pull requests, etc.. with board items. GitHub will be the first source control integration, others will follow next. \
 \
-Sit tight.. this might take a while :seat:
+Read the [github.md](../integrations/github.md "mention")integration guide to configure your source control settings.
 {% endhint %}
 
 * [x] Create new project **Harmony.Integrations.SourceControl** for handling GitHub webhooks
