@@ -29,6 +29,10 @@
   * [📝 Distributed logging](configuration/docker/distributed-logging.md)
 * [🚢 Deployment](configuration/deployment.md)
 
+## Integrations
+
+* [GitHub](integrations/github.md)
+
 ## Guide
 
 * [🌐 Workspaces](guide/workspaces/README.md)

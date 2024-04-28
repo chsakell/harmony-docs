@@ -6,7 +6,7 @@ description: Read the changelog every time a new update is released
 
 Change log contains all version updates, old, current and upcoming with all important additions, fixes or improvements. The **unchecked** items of the _work in progress_ version, are the items remained before this build is released.
 
-### \[Version 2.12] - _GitHub integration coming soon!_
+### \[Version 2.12] - 28 April 2024
 
 {% hint style="info" %}
 How about leveling up Harmony once again! :muscle::up:
@@ -23,7 +23,7 @@ Sit tight.. this might take a while :seat:
 * [x] Handle **pull request** _(created, closed, merged)_ webhooks
 * [x] Display card's repository activity on edit card modal
 * [x] Create detailed card's repository activity view
-* [ ] Automatically sync card's repository activity when a GitHub webhook is triggered (no refresh is required) :rocket:
+* [x] Automatically sync card's repository activity when a GitHub webhook is triggered (no refresh is required) :rocket:
 * [x] Add docker & Kubernetes support for the new project created
 
 ### \[Version 2.11] - 11 April 2024
