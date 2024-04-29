@@ -10,18 +10,20 @@ Harmony is currently available to buy via two channels, [**GitHub**](https://git
 
 <figure><img src="../.gitbook/assets/harmony-sponsor-link.png" alt="" width="563"><figcaption><p>GitHub Harmony one-time sponsor tier</p></figcaption></figure>
 
-In order to get direct access to Harmony's **private** repository, navigate to its creator's sponsorship [page](https://github.com/sponsors/chsakell) and select one of the Harmony's tiers.&#x20;
+In order to get direct access to Harmony's **private** repository, navigate to its creator's sponsorship [page](https://github.com/sponsors/chsakell) and select one of the Harmony's tiers (_currently only one-time is available_).&#x20;
 
-* **Monthly**: Get access to Harmony's repository for only **10$** per month. Your access is remained as long as you are subscribed to the tier. \
-  Choose this tier, if you want to take a look at how an amazing project management tool can be implemented using the latest [technologies](technology.md) and best practices existing for building microservices _(best suitable for developers/engineers/architects)_<mark style="color:blue;">.</mark>
-* **One-time**: Pay once and get a **life-time** access to the repository.  \
-  Choose this tier, if you are interested in both technical and product features in a **long term**.  Harmony will continue to evolve for a long time so with this plan you gain life-time access to code changes, architectural improvements, product additions, bug fixes, etc.\
-  There are two one-time plans, <mark style="color:blue;">69$</mark> & <mark style="color:blue;">99$</mark> which work the same _(the latter can be used as a sign of appreciation for this state of the art solution which requires hard work and effort to maintain)._
+*   **One-time**: Pay once and get a **life-time** access to the repository.  \
+    Choose this tier, if you are interested in both technical and product features in a **long term**.  Suitable for:
+
+    * Developers/engineers/architects who want to study a fully scalable solution built with latest [technologies](technology.md) and best practices
+    * Anyone who wants to use a fully featured project management tool&#x20;
+
+    Harmony will continue to evolve for a long time so with this plan you gain life-time access to code changes, architectural improvements, product additions, bug fixes, etc.
 
 <figure><img src="../.gitbook/assets/harmony-monthly-tier.png" alt="" width="375"><figcaption><p>Harmony tier</p></figcaption></figure>
 
 1. You need to sign in with your **GitHub** account. In case you don't already have you can create one for free.
-2. Select either a **monthly** or an **one-time** Harmony tier & complete the purchase.
+2. Select the **one-time** Harmony tier & complete the purchase.
 
 <figure><img src="../.gitbook/assets/github-sponsors-billing.png" alt="" width="563"><figcaption></figcaption></figure>
 
