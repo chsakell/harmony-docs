@@ -6,6 +6,12 @@ description: Read the changelog every time a new update is released
 
 Change log contains all version updates, old, current and upcoming with all important additions, fixes or improvements. The **unchecked** items of the _work in progress_ version, are the items remained before this build is released.
 
+### \[Version 2.13] - Work in progress
+
+* [ ] Add a powerful **work-items** page for searching/filtering board's items
+* [ ] Handle Git **tag** Webhook requests
+* [ ] Display only one active sprint at a time with the option to change selected active sprints
+
 ### \[Version 2.12] - 28 April 2024
 
 {% hint style="info" %}
