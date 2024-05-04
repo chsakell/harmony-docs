@@ -9,7 +9,12 @@ Change log contains all version updates, old, current and upcoming with all impo
 ### \[Version 2.13] - Work in progress
 
 * [ ] Add a powerful **work-items** page for searching/filtering board's items
-* [ ] Handle Git **tag** Webhook requests
+  * [ ] Create new work-items page
+  * [x] Filter items by list type (e.g. in progress, done, etc..)
+  * [ ] Filter items by status (_active, archived_)
+  * [ ] Filter items by active sprint (_scrum projects only_)
+  * [ ] Order items by date created, list type, status
+* [x] Handle Git **tag** Webhook requests
 * [ ] Display only one active sprint at a time with the option to change selected active sprints
 
 ### \[Version 2.12] - 28 April 2024
