@@ -6,16 +6,16 @@ description: Read the changelog every time a new update is released
 
 Change log contains all version updates, old, current and upcoming with all important additions, fixes or improvements. The **unchecked** items of the _work in progress_ version, are the items remained before this build is released.
 
-### \[Version 2.13] - Work in progress
+### \[Version 2.13] - 5 May 2024
 
-* [ ] Add a powerful **work-items** page for searching/filtering board's items
-  * [ ] Create new work-items page
-  * [x] Filter items by list type (e.g. in progress, done, etc..)
-  * [ ] Filter items by status (_active, archived_)
-  * [ ] Filter items by active sprint (_scrum projects only_)
-  * [ ] Order items by date created, list type, status
+* [x] Add a powerful **work-items** page for searching/filtering board's items
+  * [x] Create new work-items page
+  * [x] Filter items by list type (e.g. task, bug, etc..)
+  * [x] Filter items by status (in progress, done, etc..)
+  * [x] Filter items by active sprint (_scrum projects only_)
+  * [x] Order items by date created, list type, status
 * [x] Handle Git **tag** Webhook requests
-* [ ] Display only one active sprint at a time with the option to change selected active sprints
+* [x] Display only one active sprint at a time with the option to change selected active sprints
 
 ### \[Version 2.12] - 28 April 2024
 
