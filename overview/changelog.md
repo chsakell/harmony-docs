@@ -6,6 +6,20 @@ description: Read the changelog every time a new update is released
 
 Change log contains all version updates, old, current and upcoming with all important additions, fixes or improvements. The **unchecked** items of the _work in progress_ version, are the items remained before this build is released.
 
+### \[Version 2.14] - In progress
+
+{% hint style="info" %}
+This version's goal is to enhance board's operations performance :rocket: and more specifically loading a board & opening a card's view.&#x20;
+
+Several caching options _(in memory, Redis, distributed, etc..)_ will be supported using the [EasyCachin](https://github.com/dotnetcore/EasyCaching)[g](https://github.com/dotnetcore/EasyCaching) library.
+
+Also, the dependency in the two stored procedures existing will be removed in order to add an option for [PostgreSQL](https://www.postgresql.org/) database. This way you will be able to use **PostgreSQL** instead of **SQL Server** :tada:
+{% endhint %}
+
+* [ ] Remove <mark style="color:red;">\[dbo].\[LoadBoard]</mark> & <mark style="color:red;">\[dbo].\[LoadBoardListCards]</mark> stored procedure dependencies.
+* [ ] Add PostgresSQL support to be used optionally instead of SQL Server.
+* [ ] Integrate EasyCaching library
+
 ### \[Version 2.13] - 5 May 2024
 
 * [x] Add a powerful **work-items** page for searching/filtering board's items
