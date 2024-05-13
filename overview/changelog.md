@@ -16,9 +16,23 @@ Several caching options _(in memory, Redis, distributed, etc..)_ will be support
 Also, the dependency in the two stored procedures existing will be removed in order to add an option for [PostgreSQL](https://www.postgresql.org/) database. This way you will be able to use **PostgreSQL** instead of **SQL Server** :tada:
 {% endhint %}
 
-* [ ] Remove <mark style="color:red;">\[dbo].\[LoadBoard]</mark> & <mark style="color:red;">\[dbo].\[LoadBoardListCards]</mark> stored procedure dependencies.
-* [ ] Add PostgresSQL support to be used optionally instead of SQL Server.
-* [ ] Integrate EasyCaching library
+*   [x] Fix a bug **(Null reference exception)** occurring rarely in AutoMapper :warning:\
+    In case you get this exception, remove the following lines from the **ManagementProfile.cs** class until this version is released.\
+
+
+    ```csharp
+    .ForMember(dto => dto.IssueType, opt =>
+         opt.MapFrom(c => new IssueTypeDto()
+           {
+                Id = c.IssueType.Id,
+                Summary = c.IssueType.Summary,
+           }))
+    ```
+* [x] Remove <mark style="color:red;">\[dbo].\[LoadBoard]</mark> & <mark style="color:red;">\[dbo].\[LoadBoardListCards]</mark> stored procedure dependencies.
+* [ ] Add **PostgresSQL** support to be used optionally instead of SQL Server.
+* [x] Integrate EasyCaching library
+  * [x] Implement **distributed caching** using **Redis** provider for board cards
+  * [ ] Implement local **in memory** caching for board cards
 
 ### \[Version 2.13] - 5 May 2024
 
