@@ -6,9 +6,11 @@ description: Read the changelog every time a new update is released
 
 Change log contains all version updates, old, current and upcoming with all important additions, fixes or improvements. The **unchecked** items of the _work in progress_ version, are the items remained before this build is released.
 
-### \[Version 2.14] - In progress
+### \[Version 2.14] - 19 May 2024
 
 {% hint style="info" %}
+**Harmony is now a public** [**repository**](https://github.com/chsakell/Harmony) **available for everyone** :tada:
+
 This version's goal is to enhance board's operations performance :rocket: and more specifically loading a board & opening a card's view.&#x20;
 
 Several caching options _(in memory, Redis, distributed, etc..)_ will be supported using the [EasyCachin](https://github.com/dotnetcore/EasyCaching)[g](https://github.com/dotnetcore/EasyCaching) library.
