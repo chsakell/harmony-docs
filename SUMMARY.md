@@ -21,6 +21,7 @@
   * [🚀 gRPC](configuration/dependencies/grpc.md)
   * [🔎 Search Engine](configuration/dependencies/search-engine.md)
   * [📧 Email provider](configuration/dependencies/email-provider.md)
+  * [🗃️ Caching](configuration/dependencies/caching.md)
   * [📀 Installations](configuration/dependencies/installations.md)
 * [🏃‍♂️ Before running](configuration/before-running.md)
 * [🐳 Docker](configuration/docker/README.md)
