@@ -68,6 +68,6 @@ Also you need to configure the correct **AppEndpointConfiguration** settings in 
 
 #### Make Harmony yours - Buy once, get updates for ever :rocket:
 
-{% content-ref url="../../overview/pricing.md" %}
-[pricing.md](../../overview/pricing.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}

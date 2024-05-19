@@ -9,7 +9,6 @@
 * [🛣️ Roadmap](overview/roadmap.md)
 * [🔃 Changelog](overview/changelog.md)
 * [🔥 Technology](overview/technology.md)
-* [💳 Pricing](overview/pricing.md)
 
 ## Configuration
 
