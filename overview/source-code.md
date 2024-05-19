@@ -1,6 +1,10 @@
+---
+description: Download or clone Harmony's source code from its GitHub repository
+---
+
 # ⬇️ Source code
 
-Download or clone Harmony's source code from its GitHub [repository](https://github.com/chsakell/Harmony).
+Harmony's source code is available for download or cloning on its GitHub [repository](https://github.com/chsakell/Harmony).
 
 #### When creating an issue, follow the rules:
 

@@ -133,7 +133,3 @@ For a complete list of features, fixes, enhanced being added to Harmony on every
 {% content-ref url="roadmap.md" %}
 [roadmap.md](roadmap.md)
 {% endcontent-ref %}
-
-{% content-ref url="pricing.md" %}
-[pricing.md](pricing.md)
-{% endcontent-ref %}

@@ -36,7 +36,7 @@ You can create workspaces, **Kanban** boards, **Scrum** projects with sprints & 
 
 :battery: Batteries included! Harmony supports [automations](guide/automations/ "mention") & [github.md](integrations/github.md "mention") integration!! :rocket:
 
-The source code is fully available after [purchase](overview/pricing.md) and of course you get updates every time a new release is available! :tada: This means you can host your own instance of **Harmony** rather than paying paid services.
+The [source code](https://github.com/chsakell/Harmony) is fully available :tada: This means you can host your own instance of **Harmony** rather than paying paid services.
 
 Built using .NET 8.0, latest technologies, best patterns and practices for microservices architecture, [Docker](configuration/docker/) & [Kubernetes](configuration/docker/kubernetes.md) support comes out of the box :whale: :ship::muscle:
 
