@@ -29,7 +29,7 @@ Harmony's source code is available for download or cloning on its GitHub [reposi
 >
 > Any other information you want to share that is relevant to the issue being reported. This might include the lines of code that you have identified as causing the bug, and potential solutions (and your opinions on their merits).
 
-### Support Harmony
+### Support Harmony :clap:
 
 Show your support to the project using a GitHub [sponsorship](https://github.com/sponsors/chsakell) or via [buy me a coffee](https://www.buymeacoffee.com/chsakell). :pray:
 

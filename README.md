@@ -44,6 +44,6 @@ Built using .NET 8.0, latest technologies, best patterns and practices for micro
 [features.md](overview/features.md)
 {% endcontent-ref %}
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+{% content-ref url="overview/source-code.md" %}
+[source-code.md](overview/source-code.md)
 {% endcontent-ref %}
