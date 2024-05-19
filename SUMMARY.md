@@ -6,7 +6,7 @@
 
 * [✨ Features](overview/features.md)
 * [🛣️ Roadmap](overview/roadmap.md)
-* [🐛 Issue tracking](overview/issue-tracking.md)
+* [⬇️ Source code](overview/source-code.md)
 * [🔃 Changelog](overview/changelog.md)
 * [🔥 Technology](overview/technology.md)
 * [💳 Pricing](overview/pricing.md)

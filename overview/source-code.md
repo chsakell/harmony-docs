@@ -1,6 +1,6 @@
-# 🐛 Issue tracking
+# ⬇️ Source code
 
-You can use Harmony's GitHub [repositor](https://github.com/chsakell/harmony-docs/issues)[y](../) for creating issues for Harmony.
+Download or clone Harmony's source code from its GitHub [repository](https://github.com/chsakell/Harmony).
 
 #### When creating an issue, follow the rules:
 
@@ -24,6 +24,10 @@ You can use Harmony's GitHub [repositor](https://github.com/chsakell/harmony-doc
 > `<url>` - a link to the reduced test case
 >
 > Any other information you want to share that is relevant to the issue being reported. This might include the lines of code that you have identified as causing the bug, and potential solutions (and your opinions on their merits).
+
+### Support Harmony
+
+Show your support to the project using a GitHub [sponsorship](https://github.com/sponsors/chsakell) or via [buy me a coffee](https://www.buymeacoffee.com/chsakell). :pray:
 
 #### Read next - Change log
 
