@@ -13,6 +13,10 @@ Harmony uses the following database providers:
 [sql-server.md](sql-server.md)
 {% endcontent-ref %}
 
+{% content-ref url="postgresql.md" %}
+[postgresql.md](postgresql.md)
+{% endcontent-ref %}
+
 {% content-ref url="mongodb-server.md" %}
 [mongodb-server.md](mongodb-server.md)
 {% endcontent-ref %}
