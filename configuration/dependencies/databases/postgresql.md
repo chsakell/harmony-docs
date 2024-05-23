@@ -1,14 +1,14 @@
 ---
-description: Configure SQL Server databases
+description: Configure PostgreSQL databases
 ---
 
-# SQL Server
+# PostgreSQL
 
 {% hint style="info" %}
-SQL Server is optional and can be replaced by **PostgreSQL** instead. By default the repository is configured to run using SQL Server. In case you want to use PostgreSQL instead, skip this guide and read [postgresql.md](postgresql.md "mention").
+PostgreSQL is optional and can be replaced by **SQL Server** instead. By default the repository is configured to run using SQL Server. In case you want to use SQL Server read [sql-server.md](sql-server.md "mention")
 {% endhint %}
 
-Harmony has an dependency to **SQL Server** databases which can be installed on Windows or [Linux](https://learn.microsoft.com/en-us/sql/linux/sql-server-linux-setup?view=sql-server-ver16#supportedplatforms). After installing an SQL Server instance, proceed by creating the required databases and configuring the connection strings for the following three databases:
+Harmony has an dependency to **PostgreSQL** databases which can be installed on Windows or [Linux](https://learn.microsoft.com/en-us/sql/linux/sql-server-linux-setup?view=sql-server-ver16#supportedplatforms). After installing an PostgreSQL instance, proceed by creating the required databases and configuring the connection strings for the following three databases:
 
 1. **Harmony**: The core database used by the <mark style="color:blue;">Harmony.Api</mark> server app, containing all the core tables and their relationships, e.g. Workspaces, Boards or Cards.
 2. **Harmony.Notifications.Jobs**: The database used by the <mark style="color:blue;">Harmony.Notifications</mark> web app, containing all the HangFire required tables and one more.
@@ -18,12 +18,12 @@ Harmony has an dependency to **SQL Server** databases which can be installed on 
 
 #### Database connection string
 
-Configure the <mark style="color:orange;">HarmonyConnection</mark> SQL Server's connection string existing in the <mark style="color:blue;">**appsettings.json**</mark> file at the root of the **Harmony.Api** project to point to your SQL Server instance. By default it uses windows authentication and tries to connect to a local SQL Server instance. Feel free to change the connection string to match your environment.
+Configure the <mark style="color:orange;">HarmonyConnection</mark> SQL Server's connection string existing in the <mark style="color:blue;">**appsettings.json**</mark> file at the root of the **Harmony.Api** project to point to your SQL Server instance. By default it tries to connect to a local PostgreSQL instance. Change the connection string to match your environment.
 
 ```json
-  "DatabaseProvider": "SqlServer",
-  "ConnectionStrings": {
-    "HarmonyConnection": "Server=.;Database=Harmony;Integrated Security=True;TrustServerCertificate=True"
+  "DatabaseProvider": "PostgreSQL",
+  "ConnectionStrings": { 
+     "HarmonyConnection": "Host=localhost;Database=Harmony;Username=postgres;Password=MySecretPassword"
   }
 ```
 
@@ -144,7 +144,3 @@ Update-Database -Context AutomationContext -StartUpProject Harmony.Automations
 ```
 
 #### Read next - configure the MongoDB Server
-
-{% content-ref url="mongodb-server.md" %}
-[mongodb-server.md](mongodb-server.md)
-{% endcontent-ref %}

@@ -15,6 +15,7 @@
 * [⚙️ Dependencies](configuration/dependencies/README.md)
   * [💾 Databases](configuration/dependencies/databases/README.md)
     * [SQL Server](configuration/dependencies/databases/sql-server.md)
+    * [PostgreSQL](configuration/dependencies/databases/postgresql.md)
     * [MongoDB Server](configuration/dependencies/databases/mongodb-server.md)
     * [Redis](configuration/dependencies/databases/redis.md)
   * [📬 RabbitMQ](configuration/dependencies/rabbitmq.md)
