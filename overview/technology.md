@@ -10,7 +10,7 @@ The stack, tools, frameworks used in Harmony are the following:
 
 | Databases                           | Server                                                                                   | Front                                                                    |
 | ----------------------------------- | ---------------------------------------------------------------------------------------- | ------------------------------------------------------------------------ |
-| SQL Server                          | .NET Core                                                                                | [Blazor](https://dotnet.microsoft.com/en-us/apps/aspnet/web-apps/blazor) |
+| SQL Server or PostgreSQL            | .NET Core                                                                                | [Blazor](https://dotnet.microsoft.com/en-us/apps/aspnet/web-apps/blazor) |
 | [MongoDB](https://www.mongodb.com/) | SignalR                                                                                  | [MudBlazor](https://mudblazor.com/)                                      |
 | Redis                               | [gRPC](https://learn.microsoft.com/en-us/aspnet/core/grpc/?view=aspnetcore-8.0) :rocket: |                                                                          |
 
@@ -24,13 +24,9 @@ The stack, tools, frameworks used in Harmony are the following:
 
 #### Docker containers
 
-Harmony is entirely dockerized with [Kubernetes](../configuration/docker/kubernetes.md) support.
+Harmony is entirely dockerised with [Kubernetes](../configuration/docker/kubernetes.md) support.
 
 <figure><img src="../.gitbook/assets/harmony-containers.png" alt="" width="563"><figcaption></figcaption></figure>
-
-#### Database diagram
-
-<figure><img src="../.gitbook/assets/database-diagram.png" alt=""><figcaption><p>Harmony's domain entities</p></figcaption></figure>
 
 #### Read next - Configure Harmony
 

@@ -29,6 +29,15 @@ Configure the <mark style="color:orange;">HarmonyConnection</mark> SQL Server's 
 
 #### Database migrations
 
+{% hint style="warning" %}
+Since Harmony can be run either using **SQL Server** or **PostgreSQL**, there are two separate class library projects for the respective migrations:
+
+* Harmony.Persistence.Migrations.SqlServer
+* Harmony.Persistence.Migrations.PostgreSql
+
+In case you want to contribute and you want to add a new migration, you need to create the migration for both database providers. There are detailed instructions on how to apply or add migrations for each provider in the respective guides.
+{% endhint %}
+
 You can run the database migrations either manually or **let the projects run them for you** during startup.
 
 #### Run migrations through <mark style="color:blue;">Visual Studio</mark>
