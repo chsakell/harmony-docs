@@ -6,6 +6,18 @@ description: Read the changelog every time a new update is released
 
 Change log contains all version updates, old, current and upcoming with all important additions, fixes or improvements. The **unchecked** items of the _work in progress_ version, are the items remained before this build is released.
 
+### \[Version 2.15] - 23 May 2024
+
+{% hint style="info" %}
+This version adds **PostgreSQL** support. You can now use **PostgreSQL** instead of **SQL Server.**\
+Read release [2.15.0](https://github.com/chsakell/Harmony/releases/tag/v2.15.0) changes for more details on how to configure PostgreSQL.
+
+[postgresql.md](../configuration/dependencies/databases/postgresql.md "mention") guide explains what to do in order to use PostgreSQL as your main database provider.
+{% endhint %}
+
+* [x] Separate migrations projects per database provider
+* [ ] Add [PostgreSQL](../configuration/dependencies/databases/postgresql.md) guide.
+
 ### \[Version 2.14] - 19 May 2024
 
 {% hint style="info" %}
