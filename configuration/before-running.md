@@ -20,8 +20,8 @@ Before starting Harmony, complete all the following required steps:
 
 ### Required steps before running Harmony
 
-* [x] For local development, you have installed all the required software and configured the connection strings as described in the [installations.md](dependencies/installations.md "mention")guide.
-* [x] You have an SQL Server instance and you have configured **HarmonyConnection** connection string in <mark style="color:blue;">Harmony.Api</mark> and **HarmonyJobsConnection** connection string in <mark style="color:blue;">Harmony.Notifications</mark> & <mark style="color:blue;">Harmony.Automations</mark> respectively. Migrations can be run either manually or let the projects create the databases on start.
+* [x] For local development, you have installed all the required software and configured the connection strings as described in the [installations.md](dependencies/installations.md "mention") guide.
+* [x] You have an SQL Server or a PostgreSQL instance and you have configured **HarmonyConnection** connection string in <mark style="color:blue;">Harmony.Api</mark> and **HarmonyJobsConnection** connection string in <mark style="color:blue;">Harmony.Notifications</mark> & <mark style="color:blue;">Harmony.Automations</mark> respectively. Migrations can be run either manually or let the projects create the databases on start. Read the [sql-server.md](dependencies/databases/sql-server.md "mention") or the [postgresql.md](dependencies/databases/postgresql.md "mention") guides for more details.
 * [x] You have a **MongoDB Server** instance running and you have configured the MongoDB:ConnectionUI property in the **appsettings.json** for <mark style="color:blue;">Harmony.Automations</mark> project.
 * [x] You have configured the **gRPC** communication between the microservices as described in the [gRPC](dependencies/grpc.md) section.
 * [x] You have a RabbitMQ instance running and you have configured the **BrokerConfiguration** setting in all required projects in their **appsettings.json** file.
