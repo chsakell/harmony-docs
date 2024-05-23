@@ -7,7 +7,8 @@ description: Install and configure all the required dependencies for your local 
 As you can see in the architecture diagram, Harmony has a few dependencies that need to be installed and configured before running. These are the followings:
 
 * .NET 8
-* SQL Server
+* SQL Server _(optional)_
+* PostgreSQL _(optional)_
 * MongoDB
 * RabbitMQ
 * Redis _(optional, only install it on a production environment if you have more than 1 **Harmony.SignalR** instances)_
@@ -34,6 +35,10 @@ Install .NET 8
 
 Install either the **Developer** or **Express** edition of SQL Server 2022 from the [official](https://www.microsoft.com/en-us/sql-server/sql-server-downloads) page. When following the instructions of the video tutorial, take a good look at the **connection string** property because you are going to use it in your application settings! You are also advised to install **SSMS** as well in order to test your connection string and be able to access harmony's databases.
 
+{% hint style="info" %}
+In case you want to use **PostgreSQL** instead of SQL Server, skip this installation and proceed with the PostgreSQL installation.
+{% endhint %}
+
 <figure><img src="../../.gitbook/assets/Screenshot 2024-04-18 154250.png" alt=""><figcaption><p>Connection string</p></figcaption></figure>
 
 {% embed url="https://www.youtube.com/watch?v=FFp5BLoQLAA" %}
@@ -45,6 +50,7 @@ SQL Server & SSMS installation
 First of all ensure that you have the correct connection string. Here are few examples that explain how a connection string looks like:
 
 ```json
+  "DatabaseProvider": "SqlServer",
   "ConnectionStrings": {
     "HarmonyConnection": "Server=.;Database=Harmony;Integrated Security=True;TrustServerCertificate=True"
   },
@@ -55,6 +61,7 @@ The above connection string is probably the most used one for local development.
 This is different though in case you have a **named** instance, e.g. SQLEXPRESS _(used in the video)._ In this case use **Server=.\\\<instance name>;** rather than **Server=.;** where SQLEXPRESS is the name of your instance _(yours might be different)._ Example:
 
 ```json
+  "DatabaseProvider": "SqlServer",
   "ConnectionStrings": {
     "HarmonyConnection": "Server=.\SQLEXPRESS;Database=Harmony;Integrated Security=True;TrustServerCertificate=True"
   },
@@ -63,6 +70,7 @@ This is different though in case you have a **named** instance, e.g. SQLEXPRESS 
 Instead of the dot ("**.**") you can use **localhost** or your PC name as well. For example:
 
 ```json
+  "DatabaseProvider": "SqlServer",
   "ConnectionStrings": {
     "HarmonyConnection": "Server=localhost\SQLEXPRESS;Database=Harmony;Integrated Security=True;TrustServerCertificate=True"
   },
@@ -72,6 +80,7 @@ The previous connection strings, use **Integrated Security=True** so the current
 _You can also use **SQL Server Authentication**_ by passing a User Id & Password instead like the following example:
 
 ```json
+  "DatabaseProvider": "SqlServer",
   "ConnectionStrings": {
     "HarmonyConnection": "Server=localhost\SQLEXPRESS;Database=Harmony;User Id=harmony_user;Password=%MySuperPass12345;TrustServerCertificate=True"
   },
@@ -91,6 +100,14 @@ Now that you have your SQL Server connection strings, configure the following 3 
 * **Harmony.Api**: The _appsettings.json_ file contains a `ConnectionStrings:HarmonyConnection` property that holds the connection string your SQL Server <mark style="color:orange;">harmony</mark> database.
 * **Harmony.Automations**: The _appsettings.json_ file contains a `ConnectionStrings:HarmonyJobsConnection`  property that holds the connection string your SQL Server <mark style="color:orange;">Harmony.Automations.Jobs</mark> database.
 * **Harmony.Notifications**: The _appsettings.json_ file contains a `ConnectionStrings:HarmonyJobsConnection`  property that holds the connection string your SQL Server <mark style="color:orange;">Harmony.Notifications.Jobs</mark> database.
+
+### PostgreSQL
+
+Installing PostgreSQL is straight forward. Follow the instructions on the following YouTube video to install it on Windows. Follow a respective guide for Linux installation. After installing, configure the required connection strings / migrations as described on the [#postgresql](installations.md#postgresql "mention") guide.
+
+{% embed url="https://www.youtube.com/watch?v=uN0AfifH1TA" %}
+Installing PostgreSQL on Windows
+{% endembed %}
 
 ### MongoDB
 
