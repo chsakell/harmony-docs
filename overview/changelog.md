@@ -15,8 +15,8 @@ Read release [2.15.0](https://github.com/chsakell/Harmony/releases/tag/v2.15.0) 
 [postgresql.md](../configuration/dependencies/databases/postgresql.md "mention") guide explains what to do in order to use PostgreSQL as your main database provider.
 {% endhint %}
 
-* [x] Separate migrations projects per database provider
-* [ ] Add [PostgreSQL](../configuration/dependencies/databases/postgresql.md) guide.
+* [x] Separate migrations projects per database provider.
+* [x] Add [PostgreSQL](../configuration/dependencies/databases/postgresql.md) guide.
 
 ### \[Version 2.14] - 19 May 2024
 
