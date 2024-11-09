@@ -6,6 +6,14 @@ description: Read the changelog every time a new update is released
 
 Change log contains all version updates, old, current and upcoming with all important additions, fixes or improvements. The **unchecked** items of the _work in progress_ version, are the items remained before this build is released.
 
+### \[Version 2.16] - 09 November 2024
+
+{% hint style="info" %}
+This version upgrades **MudBlazor** library version to the latest one, using the v7.0.0 migration [guide](https://github.com/MudBlazor/MudBlazor/issues/8447) which has multiple breaking changes.&#x20;
+{% endhint %}
+
+
+
 ### \[Version 2.15] - 23 May 2024
 
 {% hint style="info" %}
