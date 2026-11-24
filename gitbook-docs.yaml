@@ -1,0 +1,12 @@
+$schema: https://api.gitbook.com/gitbook-docs.yaml
+version: 1
+site:
+  title: Harmony
+  structure:
+    - type: space
+      key: space-harmony-docs
+      title: Harmony Docs
+      path: docs
+      default: true
+      content:
+        directory: ./
