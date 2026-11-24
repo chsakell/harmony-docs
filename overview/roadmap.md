@@ -14,12 +14,13 @@ The main goal is to add most if not all of the basic features someone can find o
 
 * [x] **Search Engine integration**: A powerful and super fast search text box will be added to the top bar - Also an advanced search modal will also be implemented for advanced searching scenarios with many criteria
 * [x] **Automation**: an automation engine allows users to _automate_ tasks and processes in just a few clicks
-* [x] Upgrade to **.NET 8.0**&#x20;
+* [x] Upgrade to **.NET 10**&#x20;
+* [x] **.NET Aspire** orchestration & **OpenTelemetry** distributed tracing ([new](changelog.md) :rocket:)
 * [x] Use **gRPC** for internal microservices communication
 * [x] **Dockerize** solution - add **Kubernetes** support :whale:&#x20;
 * [x] Integrate retrospective boards&#x20;
 * [x] **GitHub** integration ([new ](changelog.md#version-2.10):rocket:)
-* [ ] Add option to use [PostgreSQL](https://www.postgresql.org/) instead of SQL Server for the core API
+* [x] Add option to use [PostgreSQL](https://www.postgresql.org/) instead of SQL Server for the core API
 * [ ] Create a Search Engine microservice backed by ElasticSearch
 * [ ] **Gmail & Facebook** login integration
 

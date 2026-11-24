@@ -4,9 +4,13 @@ description: Install and configure all the required dependencies for your local 
 
 # 📀 Installations
 
+{% hint style="success" %}
+Using [.NET Aspire](../aspire.md)? Then you only need the **.NET 10 SDK** and **Docker Desktop**. Aspire runs SQL Server / PostgreSQL, MongoDB, RabbitMQ and Redis as containers and configures every connection string for you. The manual installations below are optional.
+{% endhint %}
+
 As you can see in the architecture diagram, Harmony has a few dependencies that need to be installed and configured before running. These are the followings:
 
-* .NET 8
+* .NET 10
 * SQL Server _(optional)_
 * PostgreSQL _(optional)_
 * MongoDB
@@ -17,18 +21,18 @@ As you can see in the architecture diagram, Harmony has a few dependencies that 
 
 In case you don't have any experience with installing/running and configuring this kind of software, the following sections will guide you through installing and configuring all these dependencies on your local machine.
 
-### Install .NET 8.0
+### Install .NET 10.0
 
-If you are going to use Visual Studio for development then the only thing you need to do is to install [Visual Studio 2022](https://learn.microsoft.com/en-us/visualstudio/install/install-visual-studio?view=vs-2022). Only the **ASP.NET and web development** workload is needed.
+If you are going to use Visual Studio for development then the only thing you need to do is to install [Visual Studio 2026](https://learn.microsoft.com/en-us/visualstudio/install/install-visual-studio) _(required for .NET 10; the video below shows Visual Studio 2022, the steps are the same)_. Only the **ASP.NET and web development** workload is needed.
 
 {% embed url="https://www.youtube.com/watch?v=SViilF85ues" %}
 Install Visual Studio 2022
 {% endembed %}
 
-In case you don't want to use Visual Studio for development, you can manual install [.NET 8.0 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/8.0) as shown on the following video.
+In case you don't want to use Visual Studio for development, you can manual install [.NET 10.0 SDK](https://dotnet.microsoft.com/download/dotnet/10.0) as shown on the following video.
 
 {% embed url="https://www.youtube.com/watch?v=0YvfENERfPw" %}
-Install .NET 8
+Install the .NET SDK (the video shows .NET 8, the steps are the same for .NET 10)
 {% endembed %}
 
 ### SQL Server
@@ -63,7 +67,7 @@ This is different though in case you have a **named** instance, e.g. SQLEXPRESS 
 ```json
   "DatabaseProvider": "SqlServer",
   "ConnectionStrings": {
-    "HarmonyConnection": "Server=.\SQLEXPRESS;Database=Harmony;Integrated Security=True;TrustServerCertificate=True"
+    "HarmonyConnection": "Server=.\\SQLEXPRESS;Database=Harmony;Integrated Security=True;TrustServerCertificate=True"
   },
 ```
 
@@ -72,7 +76,7 @@ Instead of the dot ("**.**") you can use **localhost** or your PC name as well. 
 ```json
   "DatabaseProvider": "SqlServer",
   "ConnectionStrings": {
-    "HarmonyConnection": "Server=localhost\SQLEXPRESS;Database=Harmony;Integrated Security=True;TrustServerCertificate=True"
+    "HarmonyConnection": "Server=localhost\\SQLEXPRESS;Database=Harmony;Integrated Security=True;TrustServerCertificate=True"
   },
 ```
 
@@ -82,7 +86,7 @@ _You can also use **SQL Server Authentication**_ by passing a User Id & Password
 ```json
   "DatabaseProvider": "SqlServer",
   "ConnectionStrings": {
-    "HarmonyConnection": "Server=localhost\SQLEXPRESS;Database=Harmony;User Id=harmony_user;Password=%MySuperPass12345;TrustServerCertificate=True"
+    "HarmonyConnection": "Server=localhost\\SQLEXPRESS;Database=Harmony;User Id=harmony_user;Password=%MySuperPass12345;TrustServerCertificate=True"
   },
 ```
 
@@ -103,7 +107,7 @@ Now that you have your SQL Server connection strings, configure the following 3 
 
 ### PostgreSQL
 
-Installing PostgreSQL is straight forward. Follow the instructions on the following YouTube video to install it on Windows. Follow a respective guide for Linux installation. After installing, configure the required connection strings / migrations as described on the [#postgresql](installations.md#postgresql "mention") guide.
+Installing PostgreSQL is straight forward. Follow the instructions on the following YouTube video to install it on Windows. Follow a respective guide for Linux installation. After installing, configure the required connection strings / migrations as described on the [postgresql.md](databases/postgresql.md "mention") guide.
 
 {% embed url="https://www.youtube.com/watch?v=uN0AfifH1TA" %}
 Installing PostgreSQL on Windows
@@ -186,6 +190,8 @@ By default it's an empty string, which means Redis will not be used. In case you
 ```json
 "RedisConnectionString": "127.0.0.1:6379",
 ```
+
+Any [StackExchange.Redis connection string](https://stackexchange.github.io/StackExchange.Redis/Configuration.html) works, e.g. `localhost:6379,password=MyPassword`.
 
 ### Notes
 

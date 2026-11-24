@@ -4,7 +4,7 @@ When you are ready to deploy Harmony to a different environment _(e.g. staging o
 
 ### Dependencies to be installed
 
-* [x] SQL Server
+* [x] SQL Server _(or PostgreSQL)_
 * [x] MongoDB Server
 * [x] RabbitMQ
 * [x] Redis instance _(optionally, required only if you run multiple instances of Harmony.SignalR)_
@@ -19,9 +19,14 @@ There isn't better documentation for installing them than their official pages.
 * [x] Harmony.Automations
 * [x] Harmony.ApiGateway
 * [x] Harmony.Notifications
+* [x] Harmony.Integrations.SourceControl
 * [x] Harmony.Client
 
-All the above applications have been built with .NET 8.0 so you can follow Microsoft's [documentation](https://learn.microsoft.com/en-us/aspnet/core/host-and-deploy/?view=aspnetcore-8.0) for thorough details on hosting and deployment.&#x20;
+All the above applications have been built with .NET 10 so you can follow Microsoft's [documentation](https://learn.microsoft.com/en-us/aspnet/core/host-and-deploy/?view=aspnetcore-10.0) for thorough details on hosting and deployment.&#x20;
+
+{% hint style="info" %}
+**Observability**: every service exports OpenTelemetry traces, metrics and logs when `OTEL_EXPORTER_OTLP_ENDPOINT` is set (and optionally `OTEL_SERVICE_NAME`). Point it to any OTLP-compatible backend, e.g. the standalone Aspire dashboard, Jaeger, Grafana or Azure Monitor. The docker compose and Kubernetes files in the repository are a good starting point: they include persistent volumes, health checks and secrets.
+{% endhint %}
 
 {% hint style="warning" %}
 **Attention for **<mark style="color:orange;">**Harmony.Client**</mark>
@@ -48,8 +53,8 @@ All these settings are already configured for **local** development & debugging 
 [before-running.md](before-running.md)
 {% endcontent-ref %}
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+{% content-ref url="aspire.md" %}
+[aspire.md](aspire.md)
 {% endcontent-ref %}
 
 {% content-ref url="../guide/workspaces/" %}

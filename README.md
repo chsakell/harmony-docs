@@ -38,7 +38,7 @@ You can create workspaces, **Kanban** boards, **Scrum** projects with sprints & 
 
 The [source code](overview/source-code.md) is fully available :tada: This means you can host your own instance of **Harmony** rather than paying paid services.
 
-Built using .NET 8.0, latest technologies, best patterns and practices for microservices architecture, [Docker](configuration/docker/) & [Kubernetes](configuration/docker/kubernetes.md) support comes out of the box :whale: :ship::muscle:
+Built using .NET 10, latest technologies, best patterns and practices for microservices architecture. [.NET Aspire](configuration/aspire.md), [Docker](configuration/docker/) & [Kubernetes](configuration/docker/kubernetes.md) support comes out of the box :whale: :ship::muscle:
 
 {% content-ref url="overview/features.md" %}
 [features.md](overview/features.md)

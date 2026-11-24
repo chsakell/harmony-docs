@@ -4,6 +4,7 @@ gRPC is a high-performance Remote Procedure Call (RPC) framework and it's being 
 
 * Harmony.Api exposes gRPC to other services in order to access the harmony database
 * Harmony.Automations exposes gRPC to Harmony.Api in order to access the MongoDB automations database.
+* Harmony.Integrations.SourceControl exposes gRPC to Harmony.Api for source control data (`AppEndpointConfiguration:SourceControlEndpoint`, e.g. `https://localhost:7113/`).
 
 ### Configurations
 
@@ -31,6 +32,10 @@ Both of <mark style="color:blue;">Harmony.Automations</mark> & <mark style="colo
     "HarmonyApiEndpoint": "https://localhost:7097/"
   },
 ```
+
+{% hint style="info" %}
+With [.NET Aspire](../aspire.md) you don't configure these values. The AppHost injects `AppEndpointConfiguration__AutomationEndpoint`, `__SourceControlEndpoint`, `__HarmonyApiEndpoint` and `__FrontendUrl` from the actual endpoints of the running services. gRPC calls show up as spans in the distributed traces of the Aspire dashboard.
+{% endhint %}
 
 {% hint style="warning" %}
 ### Production

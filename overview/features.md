@@ -1,6 +1,6 @@
 ---
 description: >-
-  Built with .NET 8.0, Harmony is a state of the art project management tool
+  Built with .NET 10, Harmony is a state of the art project management tool
   with tons of features already implemented and more being added every day.
 ---
 
@@ -42,7 +42,7 @@ Integrate GitHub using Webhooks and display Git activity directly to your board 
 
 ### Docker ready :whale: :rocket:
 
-Built with best practices, latest technologies and most popular tools and frameworks, broken in isolated and scalable microservices, Harmony can be served via [docker](../configuration/docker/) containers. [Kubernetes ](../configuration/docker/kubernetes.md)deployment is also available! :muscle:
+Built with best practices, latest technologies and most popular tools and frameworks, broken in isolated and scalable microservices, Harmony can be served via [docker](../configuration/docker/) containers. [Kubernetes ](../configuration/docker/kubernetes.md)deployment is also available! :muscle: For local development, [.NET Aspire](../configuration/aspire.md) runs the whole stack with one command and gives you distributed tracing out of the box.
 
 <figure><img src="../.gitbook/assets/harmony-containers.png" alt="" width="563"><figcaption><p>Harmony docker containers</p></figcaption></figure>
 

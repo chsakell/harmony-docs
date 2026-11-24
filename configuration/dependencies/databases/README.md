@@ -7,7 +7,11 @@ Harmony uses the following database providers:
   <mark style="color:blue;">**Harmony.Notifications**</mark> & <mark style="color:blue;">**Harmony.Automations**</mark> services, use their own databases, _Harmony.Notifications.Jobs_ & _Harmony.Automations.Jobs_ respectively for HangFire jobs.&#x20;
 * **PostgreSQL** _(optional):_ Same as above. You can use either SQL Server or PostgreSQL for the core databases.
 * **MongoDB Server**: MongoDB schema-less database named <mark style="color:orange;">harmony\_automation</mark> is used for implementing flexible automations. The database contains the available automation template & the per board automation configurations. The only application than can directly access the MongoDB database is the <mark style="color:blue;">**Harmony.Automations**</mark>.
-* **Redis**: Harmony is a scalable system and one of its main features is that syncs all updates across all connected clients. In order to support this <mark style="color:blue;">**Harmony.SignalR**</mark>, the web application responsible to read messages from RabbitMQ and push them to all connected clients via WebSocket, uses [Redis Backplane](https://learn.microsoft.com/en-us/aspnet/core/signalr/redis-backplane?view=aspnetcore-8.0) for scaling out.
+* **Redis**: Harmony is a scalable system and one of its main features is that syncs all updates across all connected clients. In order to support this <mark style="color:blue;">**Harmony.SignalR**</mark>, the web application responsible to read messages from RabbitMQ and push them to all connected clients via WebSocket, uses [Redis Backplane](https://learn.microsoft.com/en-us/aspnet/core/signalr/redis-backplane?view=aspnetcore-10.0) for scaling out. Redis can also be used as the distributed [cache](../caching.md) of Harmony.Api & Harmony.Automations.
+
+{% hint style="info" %}
+With [.NET Aspire](../../aspire.md), all these databases run as containers with persistent Docker volumes. The AppHost injects the connection strings into each service, so there's nothing to install or configure. The same applies to [docker compose](../../docker/) and [Kubernetes](../../docker/kubernetes.md), where data is persisted in named volumes / persistent volume claims.
+{% endhint %}
 
 {% content-ref url="sql-server.md" %}
 [sql-server.md](sql-server.md)

@@ -6,6 +6,21 @@ description: Read the changelog every time a new update is released
 
 Change log contains all version updates, old, current and upcoming with all important additions, fixes or improvements. The **unchecked** items of the _work in progress_ version, are the items remained before this build is released.
 
+### \[Version 2.17] - 24 November 2026
+
+{% hint style="info" %}
+This version upgrades Harmony to **.NET 10** and adds **.NET Aspire** for local development. A single <mark style="color:blue;">Harmony.AppHost</mark> project now starts all the infrastructure and services, and every service exports **OpenTelemetry** traces, metrics and logs. Read the [aspire.md](../configuration/aspire.md "mention") guide to get started.
+{% endhint %}
+
+* [x] Upgrade all projects to **.NET 10** and the latest packages.
+* [x] Move to the **slnx** solution format and **Central Package Management** (`Directory.Packages.props`).
+* [x] Add the **Harmony.AppHost** & **Harmony.ServiceDefaults** Aspire projects. SQL Server or PostgreSQL, MongoDB, RabbitMQ and Redis run as persistent containers with named volumes.
+* [x] **OpenTelemetry** distributed tracing across HTTP, gRPC, EF Core, RabbitMQ (publish → consume), MongoDB and SignalR. Serilog logs flow to the Aspire dashboard.
+* [x] docker compose: persistent named volumes, health checks, Redis, a standalone Aspire dashboard, `.env` based credentials and a PostgreSQL overlay (`docker-compose.postgres.yml`).
+* [x] Kubernetes: kustomize base + `sqlserver` / `postgres` overlays, `harmony` namespace, Secrets, StatefulSets with persistent volume claims, Redis and the Aspire dashboard.
+* [x] Redis connection strings accept any StackExchange.Redis format (e.g. with password).
+* [x] Fix the Harmony.Api endpoint of Harmony.Notifications and the Elasticsearch setting in docker compose.
+
 ### \[Version 2.16] - 09 November 2024
 
 {% hint style="info" %}

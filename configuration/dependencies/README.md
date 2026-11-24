@@ -4,7 +4,7 @@ description: Understand harmony's architecture and required dependencies
 
 # ⚙️ Dependencies
 
-Harmony at its core is a web application built with **.NET 8.0** which means it's a cross platform app and can be deployed anywhere _(Windows, Linux, Mac)_. On the other hand, it can be seen as a large scalable system consisting by several .NET Core applications and other components, each one having a specific responsibility. Because of this, it's highly advised that you have understood its architecture and carefully follow and configure one by one the required dependencies before running Harmony.
+Harmony at its core is a web application built with **.NET 10** which means it's a cross platform app and can be deployed anywhere _(Windows, Linux, Mac)_. On the other hand, it can be seen as a large scalable system consisting by several .NET Core applications and other components, each one having a specific responsibility. Because of this, it's highly advised that you have understood its architecture and carefully follow and configure one by one the required dependencies before running Harmony.
 
 <figure><img src="../../.gitbook/assets/harmony-architecture.gif" alt="" width="563"><figcaption></figcaption></figure>
 
@@ -19,13 +19,14 @@ Harmony at its core is a web application built with **.NET 8.0** which means it'
 * Automations are stored in a MongoDB database. Only the **Harmony.Automations** application has direct access to the MongoDB database. It provides gRPC services and runs automations upon message received via a RabbitMQ message.
 * **Harmony.Notifications** is responsible for sending email notifications to users & optionally sending indexing requests to an integrated search service _(if any)_.
 * **Harmony.ApiGateway** is the gateway used by Harmony.Client to access Harmony.Api, Harmony.Automations or Harmony.Integrations.SourceControl via HTTP and Harmony.SignalR via Websocket. The client uses the gateway's endpoint which is responsible to pass through the requests (HTTP or WebSocket) to internal microservices.
-* Elasticsearch & Kibana are used for distributed logging. Available using docker or/and Kubernetes
+* Every service exports **OpenTelemetry** traces, metrics & logs. They are visible in the Aspire dashboard, whether you run with [aspire.md](../aspire.md "mention"), docker or Kubernetes.
+* Elasticsearch & Kibana are optionally used for distributed logging (Serilog Elasticsearch sink). Available with docker, Kubernetes or Aspire.
 
 {% hint style="info" %}
 Configure one by one the following components - Each link provides details about the role of the corresponding component and how to configure it. After finishing with the component's setup, follow with the individual web app configurations _(e.g. appsettings.json)_
 
 \
-Maybe you want to fast-forward? :man\_running: That's ok, you can fire up the entire infrastructure via [docker](../docker/) commands!
+Maybe you want to fast-forward? :man\_running: That's ok. Run the <mark style="color:blue;">**Harmony.AppHost**</mark> project with [.NET Aspire](../aspire.md) and the entire infrastructure starts and gets configured for you. You can also use the [docker](../docker/) commands.
 {% endhint %}
 
 Harmony dependencies are:
@@ -45,7 +46,9 @@ Don't get overwhelmed by the number of things you need to setup before firing up
 1. Database migrations & seeding can run automatically during startup which means you don't have to manually run them.
 2. &#x20;RabbitMQ exchanges/queues are being created for you.&#x20;
 
-This means that if you want to start Harmony from Visual Studio, the only thing required is to install the required infrastructure on your machine, SQL Server or PostgreSQL, MongoDB, RabbitMQ, Redis _(optional for localhost)_, place the correct connection strings  & just setup the [startup projects](../before-running.md) on Visual Studio.
+With [.NET Aspire](../aspire.md) you only need Docker Desktop: set **Harmony.AppHost** as the startup project and press F5.
+
+Without Aspire, if you want to start Harmony from Visual Studio, the only thing required is to install the required infrastructure on your machine, SQL Server or PostgreSQL, MongoDB, RabbitMQ, Redis _(optional for localhost)_, place the correct connection strings  & just setup the [startup projects](../before-running.md) on Visual Studio.
 
 Also you need to configure the correct **AppEndpointConfiguration** settings in all application.settings.json files.\
 
@@ -73,6 +76,6 @@ Also you need to configure the correct **AppEndpointConfiguration** settings in 
 
 #### Make Harmony yours - Buy once, get updates for ever :rocket:
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+{% content-ref url="../../overview/source-code.md" %}
+[source-code.md](../../overview/source-code.md)
 {% endcontent-ref %}

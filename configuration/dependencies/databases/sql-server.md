@@ -8,6 +8,10 @@ description: Configure SQL Server databases
 SQL Server is optional and can be replaced by **PostgreSQL** instead. By default the repository is configured to run using SQL Server. In case you want to use PostgreSQL instead, skip this guide and read [postgresql.md](postgresql.md "mention").
 {% endhint %}
 
+{% hint style="success" %}
+**Running with .NET Aspire?** The AppHost starts a SQL Server 2022 container (host port **14333**, persistent volume `harmony-sqlserver-data`). It creates the three databases and passes `ConnectionStrings__HarmonyConnection` / `ConnectionStrings__HarmonyJobsConnection` and `DatabaseProvider` to the services, so there's nothing to configure in this guide. To use your own SQL Server instance with Aspire instead, run the `https-local-sqlserver` launch profile. See [aspire.md](../../aspire.md "mention").
+{% endhint %}
+
 Harmony has an dependency to **SQL Server** databases which can be installed on Windows or [Linux](https://learn.microsoft.com/en-us/sql/linux/sql-server-linux-setup?view=sql-server-ver16#supportedplatforms). After installing an SQL Server instance, proceed by creating the required databases and configuring the connection strings for the following three databases:
 
 1. **Harmony**: The core database used by the <mark style="color:blue;">Harmony.Api</mark> server app, containing all the core tables and their relationships, e.g. Workspaces, Boards or Cards.

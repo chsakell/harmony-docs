@@ -1,8 +1,16 @@
 # 🏃‍♂️ Before running
 
-### Running the apps through Visual Studio
+{% hint style="success" %}
+**The easiest way to run Harmony locally is .NET Aspire.** Set <mark style="color:blue;">**Harmony.AppHost**</mark> as the only startup project, or run `aspire run`. It starts SQL Server (or PostgreSQL), MongoDB, RabbitMQ, Redis and all Harmony services, and configures them for you. None of the steps below are needed in that case.
+{% endhint %}
 
-In case you want to run or debug <mark style="color:blue;">**Harmony**</mark> from Visual Studio, add all the web application projects to the **startup projects** list by right clicking the solution and selecting **Configure Startup Projects..**
+{% content-ref url="aspire.md" %}
+[aspire.md](aspire.md)
+{% endcontent-ref %}
+
+### Running the apps through Visual Studio without Aspire
+
+If you'd rather run the services against dependencies that you installed yourself, add all the web application projects to the **startup projects** list. Right click the solution and select **Configure Startup Projects..**
 
 <figure><img src="../.gitbook/assets/startup-projects.png" alt=""><figcaption></figcaption></figure>
 
@@ -16,13 +24,13 @@ Set the Action to Start for the following projects:
 * [x] Harmony.Notifications
 * [x] Harmony.Integrations.SourceControl
 
-Before starting Harmony, complete all the following required steps:
+Before starting Harmony this way, complete all the following required steps:
 
-### Required steps before running Harmony
+### Required steps before running Harmony (without Aspire)
 
 * [x] For local development, you have installed all the required software and configured the connection strings as described in the [installations.md](dependencies/installations.md "mention") guide.
 * [x] You have an SQL Server or a PostgreSQL instance and you have configured **HarmonyConnection** connection string in <mark style="color:blue;">Harmony.Api</mark> and **HarmonyJobsConnection** connection string in <mark style="color:blue;">Harmony.Notifications</mark> & <mark style="color:blue;">Harmony.Automations</mark> respectively. Migrations can be run either manually or let the projects create the databases on start. Read the [sql-server.md](dependencies/databases/sql-server.md "mention") or the [postgresql.md](dependencies/databases/postgresql.md "mention") guides for more details.
-* [x] You have a **MongoDB Server** instance running and you have configured the MongoDB:ConnectionUI property in the **appsettings.json** for <mark style="color:blue;">Harmony.Automations</mark> project.
+* [x] You have a **MongoDB Server** instance running and you have configured the MongoDB:ConnectionURI property in the **appsettings.json** for <mark style="color:blue;">Harmony.Automations</mark> & <mark style="color:blue;">Harmony.Integrations.SourceControl</mark> projects.
 * [x] You have configured the **gRPC** communication between the microservices as described in the [gRPC](dependencies/grpc.md) section.
 * [x] You have a RabbitMQ instance running and you have configured the **BrokerConfiguration** setting in all required projects in their **appsettings.json** file.
 * [x] **Optional**: You have a Redis instance up and running and you have configured the **RedisConnectionString** property in the <mark style="color:blue;">Harmony.SignalR</mark> project's appsettings.json file.&#x20;
